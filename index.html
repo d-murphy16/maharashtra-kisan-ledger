@@ -1,0 +1,1005 @@
+<meta charset="UTF-8">
+<title>Maharashtra Kisan Ledger</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Domine:wght@500;600;700&family=Karla:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* ============== TOKENS ============== */
+  :root{
+    color-scheme: light;
+    --bg:            #F2F5EA;
+    --page-plane:    #ECF0E2;
+    --surface:       #FFFFFF;
+    --surface-alt:   #E8EFDE;
+    --ink:           #1C2A1B;
+    --ink-2:         #4A5A45;
+    --ink-muted:     #7C8877;
+    --hairline:      #D9DFC9;
+    --border:        rgba(28,42,27,0.12);
+    --accent-monsoon:      #1F5C73;
+    --accent-monsoon-soft: #E1EDEF;
+    --accent-turmeric:     #A96B15;
+    --accent-turmeric-soft:#F4E7CB;
+    --chart-surface: #fcfcfb;
+    --grid:  #e1e0d9;
+    --axis:  #c3c2b7;
+    /* categorical (documented default, fixed order) */
+    --c1: #2a78d6; /* blue */
+    --c2: #eb6834; /* orange */
+    --c3: #1baf7a; /* aqua */
+    --c4: #eda100; /* yellow */
+    --c5: #e87ba4; /* magenta */
+    --c6: #008300; /* green */
+    --c7: #4a3aa7; /* violet */
+    --c8: #e34948; /* red */
+    /* status (fixed, never themed) */
+    --good:     #0ca30c;
+    --warning:  #fab219;
+    --serious:  #ec835a;
+    --critical: #d03b3b;
+    /* sequential blue, light->dark, low->high value */
+    --seq-1: #cde2fb;
+    --seq-2: #9ec5f4;
+    --seq-3: #6da7ec;
+    --seq-4: #2a78d6;
+    --seq-5: #1c5cab;
+    --seq-6: #0d366b;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      color-scheme: dark;
+      --bg:            #10160D;
+      --page-plane:    #0C1109;
+      --surface:       #171F13;
+      --surface-alt:   #1D2818;
+      --ink:           #ECEFE2;
+      --ink-2:         #C2CBB4;
+      --ink-muted:     #8B9682;
+      --hairline:      #2A3524;
+      --border:        rgba(236,239,226,0.12);
+      --accent-monsoon:      #6BB2CE;
+      --accent-monsoon-soft: #17323A;
+      --accent-turmeric:     #E3AC55;
+      --accent-turmeric-soft:#3A2C13;
+      --chart-surface: #171F13;
+      --grid:  #2c2c2a;
+      --axis:  #454f40;
+      --c1: #3987e5; --c2: #d95926; --c3: #199e70; --c4: #c98500;
+      --c5: #d55181; --c6: #22a022; --c7: #9085e9; --c8: #e66767;
+      --good:#0ca30c; --warning:#fab219; --serious:#ec835a; --critical:#e0645b;
+      --seq-1:#12283f; --seq-2:#184f95; --seq-3:#256abf; --seq-4:#3987e5; --seq-5:#86b6ef; --seq-6:#cde2fb;
+    }
+  }
+  :root[data-theme="dark"]{
+    color-scheme: dark;
+    --bg:            #10160D;
+    --page-plane:    #0C1109;
+    --surface:       #171F13;
+    --surface-alt:   #1D2818;
+    --ink:           #ECEFE2;
+    --ink-2:         #C2CBB4;
+    --ink-muted:     #8B9682;
+    --hairline:      #2A3524;
+    --border:        rgba(236,239,226,0.12);
+    --accent-monsoon:      #6BB2CE;
+    --accent-monsoon-soft: #17323A;
+    --accent-turmeric:     #E3AC55;
+    --accent-turmeric-soft:#3A2C13;
+    --chart-surface: #171F13;
+    --grid:  #2c2c2a;
+    --axis:  #454f40;
+    --c1: #3987e5; --c2: #d95926; --c3: #199e70; --c4: #c98500;
+    --c5: #d55181; --c6: #22a022; --c7: #9085e9; --c8: #e66767;
+    --good:#0ca30c; --warning:#fab219; --serious:#ec835a; --critical:#e0645b;
+    --seq-1:#12283f; --seq-2:#184f95; --seq-3:#256abf; --seq-4:#3987e5; --seq-5:#86b6ef; --seq-6:#cde2fb;
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:'Karla',-apple-system,BlinkMacSystemFont,sans-serif;
+    padding-inline:20px; padding-block:0 48px;
+  }
+  h1,h2,h3{font-family:'Domine',Georgia,'Times New Roman',serif; font-weight:600; text-wrap:balance; margin:0;}
+  .mono{font-family:'IBM Plex Mono','SFMono-Regular',monospace;}
+  .tnum{font-variant-numeric:tabular-nums;}
+  a{color:var(--accent-monsoon);}
+
+  .wrap{max-width:1180px; margin:0 auto;}
+
+  /* ---------- Masthead ---------- */
+  .masthead{padding-block:34px 22px; border-bottom:3px double var(--ink); }
+  .masthead .eyebrow{
+    font-family:'IBM Plex Mono',monospace; font-size:11.5px; letter-spacing:.12em; text-transform:uppercase;
+    color:var(--accent-monsoon); margin-bottom:10px; display:flex; gap:10px; align-items:center; flex-wrap:wrap;
+  }
+  .masthead .eyebrow .dot{width:5px;height:5px;border-radius:50%;background:var(--accent-monsoon);display:inline-block;}
+  .masthead h1{font-size:clamp(28px,4.2vw,44px); line-height:1.05;}
+  .masthead .sub{color:var(--ink-2); font-size:15px; max-width:64ch; margin-top:10px; line-height:1.55;}
+  .masthead .stamp{
+    margin-top:16px; font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--ink-muted);
+    display:flex; gap:18px; flex-wrap:wrap;
+  }
+
+  /* ---------- KPI strip ---------- */
+  .kpis{
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(148px,1fr)); gap:1px;
+    background:var(--hairline); border:1px solid var(--hairline); margin-block:0;
+  }
+  .kpi{background:var(--surface); padding:16px 16px 14px;}
+  .kpi .label{font-size:10.5px; letter-spacing:.09em; text-transform:uppercase; color:var(--ink-muted); font-weight:600;}
+  .kpi .value{font-family:'IBM Plex Mono',monospace; font-size:26px; font-weight:600; margin-top:6px; line-height:1;}
+  .kpi .value small{font-size:13px; font-weight:500; color:var(--ink-2);}
+  .kpi .sub{font-size:11.5px; color:var(--ink-muted); margin-top:4px;}
+
+  /* ---------- Section index (ledger tabs) ---------- */
+  .toc{
+    display:flex; gap:2px; overflow-x:auto; margin-block:26px; padding-bottom:2px;
+    scrollbar-width:thin;
+  }
+  .toc a{
+    flex:0 0 auto; font-family:'IBM Plex Mono',monospace; font-size:11px; text-decoration:none;
+    color:var(--ink-2); background:var(--surface-alt); border:1px solid var(--hairline);
+    padding:7px 12px; white-space:nowrap; letter-spacing:.03em;
+  }
+  .toc a b{color:var(--accent-monsoon); margin-right:6px;}
+  .toc a:hover{background:var(--accent-monsoon-soft); color:var(--ink);}
+
+  /* ---------- Sections ---------- */
+  section{margin-block:46px;}
+  .sec-head{margin-bottom:18px;}
+  .sec-head .roman{
+    font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--accent-monsoon);
+    letter-spacing:.14em; text-transform:uppercase; display:block; margin-bottom:6px;
+  }
+  .sec-head h2{font-size:clamp(20px,2.6vw,27px);}
+  .sec-head p{color:var(--ink-2); font-size:14.5px; max-width:72ch; margin-top:8px; line-height:1.6;}
+
+  .panel{
+    background:var(--surface); border:1px solid var(--hairline); padding:20px;
+  }
+  .grid-2{display:grid; grid-template-columns:1.5fr 1fr; gap:1px; background:var(--hairline); border:1px solid var(--hairline);}
+  .grid-2 > div{background:var(--surface); padding:20px;}
+  @media (max-width:860px){.grid-2{grid-template-columns:1fr;}}
+
+  /* map */
+  .map-toggle{display:flex; gap:6px; flex-wrap:wrap; margin-bottom:14px;}
+  .map-toggle button{
+    font-family:'IBM Plex Mono',monospace; font-size:11px; padding:6px 11px; border:1px solid var(--hairline);
+    background:var(--surface-alt); color:var(--ink-2); cursor:pointer; letter-spacing:.02em;
+  }
+  .map-toggle button.active{background:var(--accent-monsoon); color:#fff; border-color:var(--accent-monsoon);}
+  #mapSvg{width:100%; height:auto; display:block;}
+  .legend-row{display:flex; align-items:center; gap:10px; margin-top:10px; font-size:11px; color:var(--ink-muted); font-family:'IBM Plex Mono',monospace;}
+  .legend-swatch-row{display:flex;}
+  .legend-swatch-row span{width:26px;height:10px;display:inline-block;}
+  .maptip{
+    position:absolute; pointer-events:none; background:var(--ink); color:var(--bg); font-size:12px;
+    padding:9px 11px; border-radius:2px; max-width:230px; line-height:1.5; z-index:5; display:none;
+    font-family:'Karla',sans-serif;
+  }
+  .maptip b{font-family:'IBM Plex Mono',monospace;}
+  .map-wrap{position:relative;}
+
+  /* ledger lists (top districts/blocks) */
+  .ledger-list{list-style:none; margin:0; padding:0;}
+  .ledger-list li{
+    display:grid; grid-template-columns:22px 1fr auto; gap:10px; align-items:center;
+    padding:7px 0; border-bottom:1px solid var(--hairline); font-size:13.5px;
+  }
+  .ledger-list li:last-child{border-bottom:none;}
+  .ledger-list .rank{font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--ink-muted);}
+  .ledger-list .bar-track{grid-column:1/-1; height:5px; background:var(--surface-alt); margin-top:2px;}
+  .ledger-list .bar-fill{height:100%; background:var(--accent-monsoon);}
+  .ledger-list .val{font-family:'IBM Plex Mono',monospace; font-size:12.5px; color:var(--ink-2);}
+  .ledger-block h4{font-size:12.5px; text-transform:uppercase; letter-spacing:.08em; color:var(--ink-muted); margin:0 0 10px; font-family:'Karla',sans-serif; font-weight:700;}
+
+  /* crop bar ledger */
+  .crop-rows{display:flex; flex-direction:column; gap:9px;}
+  .crop-row{display:grid; grid-template-columns:24px 190px 1fr 92px; align-items:center; gap:12px; font-size:13px;}
+  .crop-row .rk{font-family:'IBM Plex Mono',monospace; color:var(--ink-muted); font-size:11px;}
+  .crop-row .nm{font-weight:600;}
+  .crop-row .tr{background:var(--surface-alt); height:16px; position:relative;}
+  .crop-row .fl{background:var(--accent-turmeric); height:100%;}
+  .crop-row .vv{font-family:'IBM Plex Mono',monospace; font-size:12px; text-align:right; color:var(--ink-2);}
+  @media (max-width:640px){.crop-row{grid-template-columns:20px 110px 1fr 70px; font-size:11.5px;}}
+
+  /* line chart */
+  .chart-box{position:relative;}
+  svg text{font-family:'IBM Plex Mono',monospace; fill:var(--ink-muted);}
+  .legend{display:flex; flex-wrap:wrap; gap:14px; margin-top:14px;}
+  .legend .item{display:flex; align-items:center; gap:6px; font-size:12px; color:var(--ink-2); font-family:'IBM Plex Mono',monospace;}
+  .legend .sw{width:13px;height:13px; border-radius:3px; flex:none;}
+  .linetip{
+    position:absolute; pointer-events:none; background:var(--ink); color:var(--bg); font-size:11.5px;
+    padding:8px 10px; border-radius:2px; display:none; font-family:'IBM Plex Mono',monospace; line-height:1.5; z-index:4;
+  }
+
+  /* season stacked bars */
+  .season-legend{display:flex; gap:16px; margin-bottom:14px; font-family:'IBM Plex Mono',monospace; font-size:12px;}
+  .season-legend .item{display:flex; align-items:center; gap:6px; color:var(--ink-2);}
+  .season-legend .sw{width:13px;height:13px;}
+  .srow{display:grid; grid-template-columns:180px 1fr; align-items:center; gap:12px; margin-bottom:10px; font-size:13px;}
+  .srow .nm{font-weight:600;}
+  .sbar{display:flex; height:20px; overflow:hidden; background:var(--surface-alt);}
+  .sbar div{height:100%;}
+  @media (max-width:640px){.srow{grid-template-columns:1fr; gap:4px;}}
+
+  /* concern overall stacked */
+  .stackbar{display:flex; height:34px; width:100%; overflow:hidden; margin-bottom:10px;}
+  .stackbar div{height:100%; position:relative;}
+  .concern-legend{display:flex; flex-wrap:wrap; gap:12px 18px; margin-top:6px;}
+  .concern-legend .item{display:flex; align-items:center; gap:7px; font-size:12px; color:var(--ink-2);}
+  .concern-legend .sw{width:12px;height:12px; flex:none;}
+  .concern-legend b{font-family:'IBM Plex Mono',monospace; color:var(--ink); font-weight:600;}
+
+  .district-stack-row{display:grid; grid-template-columns:130px 1fr; gap:12px; align-items:center; margin-bottom:9px;}
+  .district-stack-row .nm{font-size:12.5px; font-weight:600;}
+  @media (max-width:640px){.district-stack-row{grid-template-columns:1fr; gap:3px;}}
+
+  /* callout */
+  .callout{
+    background:var(--accent-monsoon-soft); border:1px solid var(--accent-monsoon); border-left-width:4px;
+    padding:16px 18px; display:flex; gap:14px; align-items:flex-start; margin-top:22px;
+  }
+  .callout .ico{font-size:20px; line-height:1;}
+  .callout .txt{font-size:13.5px; line-height:1.6; color:var(--ink);}
+  .callout .txt b{font-family:'IBM Plex Mono',monospace;}
+
+  /* policy table */
+  table.ledger{width:100%; border-collapse:collapse; font-size:13px;}
+  table.ledger thead th{
+    text-align:left; font-family:'IBM Plex Mono',monospace; font-size:10.5px; text-transform:uppercase;
+    letter-spacing:.06em; color:var(--ink-muted); border-bottom:2px solid var(--ink); padding:8px 10px; font-weight:600;
+  }
+  table.ledger td{padding:11px 10px; border-bottom:1px solid var(--hairline); vertical-align:top;}
+  table.ledger tbody tr:hover{background:var(--surface-alt);}
+  table.ledger .num{font-family:'IBM Plex Mono',monospace; text-align:right; white-space:nowrap;}
+  table.ledger .action-col{min-width:220px;}
+  .pill{
+    display:inline-flex; align-items:center; gap:5px; font-size:10.5px; font-family:'IBM Plex Mono',monospace;
+    padding:3px 8px; border-radius:20px; white-space:nowrap; font-weight:600;
+  }
+  .pill .dot{width:6px;height:6px;border-radius:50%;}
+  .pill.crit{background:rgba(208,59,59,0.13); color:var(--critical);}
+  .pill.crit .dot{background:var(--critical);}
+  .pill.ser{background:rgba(236,131,90,0.15); color:#a35226;}
+  .pill.ser .dot{background:var(--serious);}
+  .pill.warn{background:rgba(250,178,25,0.18); color:#8a6407;}
+  .pill.warn .dot{background:var(--warning);}
+  :root[data-theme="dark"] .pill.ser, :root:not([data-theme="light"]) .pill.ser{color:var(--serious);}
+  :root[data-theme="dark"] .pill.warn, :root:not([data-theme="light"]) .pill.warn{color:var(--warning);}
+  .tblwrap{overflow-x:auto;}
+  .note-txt{font-size:12px; color:var(--ink-2); line-height:1.5;}
+
+  /* notes */
+  .notes{columns:2; column-gap:36px; font-size:13px; line-height:1.7; color:var(--ink-2);}
+  .notes li{margin-bottom:10px; break-inside:avoid;}
+  @media (max-width:760px){.notes{columns:1;}}
+
+  footer{margin-top:52px; padding-top:18px; border-top:1px solid var(--hairline); font-size:11.5px; color:var(--ink-muted); font-family:'IBM Plex Mono',monospace;}
+
+  /* ---------- Print / PDF export ---------- */
+  @media print{
+    *{ -webkit-print-color-adjust:exact !important; print-color-adjust:exact !important; color-adjust:exact !important; }
+    body{ padding-inline:0; background:var(--bg); font-size:12px; }
+    .wrap{ max-width:100%; }
+    .toc{ display:none; }
+    .map-toggle button{ display:none; }
+    .map-toggle button.active{ display:inline-block; }
+    section{ margin-block:24px; page-break-inside:avoid; }
+    .panel, .grid-2{ page-break-inside:avoid; }
+    .kpis{ page-break-inside:avoid; }
+    table.ledger tr{ page-break-inside:avoid; }
+    table.ledger{ font-size:9.5px; table-layout:fixed; width:100%; }
+    table.ledger .action-col{ min-width:0; }
+    table.ledger td{ padding:7px 6px; overflow-wrap:break-word; }
+    table.ledger th{ padding:6px; font-size:8.5px; }
+    .pill{ font-size:8px; padding:2px 6px; white-space:normal; display:inline-block; }
+    .masthead{ page-break-after:avoid; }
+    .sec-head{ page-break-after:avoid; }
+    a[href]:after{ content:""; }
+    .maptip, .linetip{ display:none !important; }
+    @page{ size:A4; margin:14mm 12mm; }
+  }
+</style>
+
+<div class="wrap">
+
+  <div class="masthead">
+    <div class="eyebrow"><span class="dot"></span>KISAN CALL CENTRE &middot; MAHARASHTRA CIRCLE &middot; DATA.GOV.IN</div>
+    <h1>The Maharashtra Kisan Ledger</h1>
+    <div class="sub">A full census of every farmer call logged for Maharashtra in the Kisan Call Centre (KCC) transcripts dataset &mdash; where the calls originate, which crops drive them, what farmers are actually asking about, and where that points for policy.</div>
+    <div class="stamp">
+      <span>SOURCE: api.data.gov.in / resource cef25fe2&hellip;5645</span>
+      <span>RECORDS READ: 5,167,913 of 5,167,913 (100%)</span>
+      <span>COVERAGE: Jan 2009 &ndash; Jul 2025</span>
+    </div>
+  </div>
+
+  <div class="kpis" id="kpiStrip"></div>
+
+  <div class="toc">
+    <a href="#map"><b>I</b>Hotspot Map</a>
+    <a href="#crops"><b>II</b>Crop Ledger</a>
+    <a href="#season"><b>III</b>Seasonal Rhythm</a>
+    <a href="#concern"><b>IV</b>Concerns Raised</a>
+    <a href="#policy"><b>V</b>Policy Targeting</a>
+    <a href="#notes"><b>VI</b>Methodology</a>
+  </div>
+
+  <!-- ============ SECTION I : MAP ============ -->
+  <section id="map">
+    <div class="sec-head">
+      <span class="roman">Section I</span>
+      <h2>Where the calls come from</h2>
+      <p>Every district plotted at its approximate location, sized and shaded by call volume. Switch the layer to see which districts lead on a specific concern rather than raw volume.</p>
+    </div>
+    <div class="grid-2">
+      <div>
+        <div class="map-toggle" id="mapToggle"></div>
+        <div class="map-wrap">
+          <svg id="mapSvg" viewBox="0 0 640 580" xmlns="http://www.w3.org/2000/svg"></svg>
+          <div class="maptip" id="mapTip"></div>
+        </div>
+        <div class="legend-row">
+          <span id="legendLabel">Total calls</span>
+          <div class="legend-swatch-row" id="legendSwatches"></div>
+          <span id="legendMinMax"></span>
+        </div>
+      </div>
+      <div>
+        <div class="ledger-block" style="margin-bottom:24px;">
+          <h4>Top 8 Hotspot Districts</h4>
+          <ul class="ledger-list" id="topDistrictList"></ul>
+        </div>
+        <div class="ledger-block">
+          <h4>Top 8 Hotspot Blocks (Taluka)</h4>
+          <ul class="ledger-list" id="topBlockList"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SECTION II : CROPS ============ -->
+  <section id="crops">
+    <div class="sec-head">
+      <span class="roman">Section II</span>
+      <h2>The crop ledger</h2>
+      <p>Ranked by call volume, generic/non-crop-specific queries ("Others") excluded. Cotton alone generates more named-crop queries than the next two crops combined.</p>
+    </div>
+    <div class="panel">
+      <div class="crop-rows" id="cropRows"></div>
+    </div>
+  </section>
+
+  <!-- ============ SECTION III : SEASONALITY ============ -->
+  <section id="season">
+    <div class="sec-head">
+      <span class="roman">Section II</span>
+      <h2>Do queries follow the crop calendar?</h2>
+      <p>Yes &mdash; sharply. Each crop's calls cluster around its own sowing/growth window. The line chart below sums all years by calendar month; the bars below split each crop's total by Kharif (Jun&ndash;Oct), Rabi (Nov&ndash;Mar) and Zaid (Apr&ndash;May).</p>
+    </div>
+    <div class="panel">
+      <h3 style="font-size:14px;margin-bottom:4px;">Monthly call volume by crop <span style="color:var(--ink-muted);font-weight:400;font-size:12px;">&middot; all years combined, top 8 crops</span></h3>
+      <div class="chart-box">
+        <svg id="lineChart" viewBox="0 0 1000 380" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;"></svg>
+        <div class="linetip" id="lineTip"></div>
+      </div>
+      <div class="legend" id="lineLegend"></div>
+    </div>
+
+    <div class="panel" style="margin-top:1px;">
+      <h3 style="font-size:14px;margin-bottom:14px;">Season split by crop <span style="color:var(--ink-muted);font-weight:400;font-size:12px;">&middot; share of Kharif / Rabi / Zaid</span></h3>
+      <div class="season-legend">
+        <div class="item"><span class="sw" style="background:var(--c3)"></span>Kharif (Jun&ndash;Oct)</div>
+        <div class="item"><span class="sw" style="background:var(--c4)"></span>Rabi (Nov&ndash;Mar)</div>
+        <div class="item"><span class="sw" style="background:var(--c2)"></span>Zaid (Apr&ndash;May)</div>
+      </div>
+      <div id="seasonRows"></div>
+    </div>
+
+    <div class="panel" style="margin-top:1px;">
+      <h3 style="font-size:14px;margin-bottom:4px;">Long-run trend, 2013&ndash;2024 <span style="color:var(--ink-muted);font-weight:400;font-size:12px;">&middot; top 5 crops, yearly totals</span></h3>
+      <div class="chart-box">
+        <svg id="yearChart" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;"></svg>
+        <div class="linetip" id="yearTip"></div>
+      </div>
+      <div class="legend" id="yearLegend"></div>
+      <p class="note-txt" style="margin-top:12px;">All crops show a marked decline from ~2016 and a near-total collapse in the Apr&ndash;Jul 2020 COVID lockdown window (not visible at yearly resolution, see monthly totals in the methodology notes), followed by only partial recovery.</p>
+    </div>
+  </section>
+
+  <!-- ============ SECTION IV : CONCERNS ============ -->
+  <section id="concern">
+    <div class="sec-head">
+      <span class="roman">Section IV</span>
+      <h2>What farmers are actually asking about</h2>
+      <p>Every call's <span class="mono" style="font-size:12.5px;">QueryType</span> field, grouped into eight concern buckets. Weather advisory dominates everywhere &mdash; the second-order signal is in how the remaining share splits between agronomic help (pest/nutrient) and policy-facing help (schemes/insurance/credit).</p>
+    </div>
+    <div class="panel">
+      <h3 style="font-size:14px;margin-bottom:12px;">Overall mix &middot; all 5,167,913 Maharashtra calls</h3>
+      <div class="stackbar" id="overallStack"></div>
+      <div class="concern-legend" id="overallLegend"></div>
+      <div class="callout">
+        <div class="ico">💧</div>
+        <div class="txt"><b>27,899 calls (0.54%)</b> are explicitly tagged Water Management / Irrigation &mdash; a strikingly small share given how drought-prone Marathwada and Vidarbha are. Most water-scarcity concern almost certainly surfaces indirectly, folded into the 1.90M Weather &amp; Climate Advisory calls (36.8% of all queries) rather than logged as an irrigation query. Treat "Weather" volume as an upper bound on water-related concern, not "Water Management" alone.</div>
+      </div>
+    </div>
+    <div class="panel" style="margin-top:1px;">
+      <h3 style="font-size:14px;margin-bottom:14px;">Concern mix by district <span style="color:var(--ink-muted);font-weight:400;font-size:12px;">&middot; top 10 hotspot districts</span></h3>
+      <div id="districtStackRows"></div>
+    </div>
+  </section>
+
+  <!-- ============ SECTION V : POLICY ============ -->
+  <section id="policy">
+    <div class="sec-head">
+      <span class="roman">Section V</span>
+      <h2>Where to target an intervention</h2>
+      <p>For each actionable concern (weather advisory and unclassified calls excluded, since neither points to a specific fix), the district &middot; block &middot; crop combination generating the most calls in the entire dataset. Priority is call volume relative to the other rows in this table.</p>
+    </div>
+    <div class="panel tblwrap">
+      <table class="ledger" id="policyTable">
+        <colgroup>
+          <col style="width:14%"><col style="width:10%"><col style="width:9%"><col style="width:11%">
+          <col style="width:8%"><col style="width:13%"><col style="width:35%">
+        </colgroup>
+        <thead><tr>
+          <th>Concern</th><th>District</th><th>Block</th><th>Crop</th><th class="num">Calls</th><th>Priority</th><th class="action-col">Suggested action</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ============ SECTION VI : NOTES ============ -->
+  <section id="notes">
+    <div class="sec-head">
+      <span class="roman">Section VI</span>
+      <h2>Methodology &amp; data notes</h2>
+    </div>
+    <div class="panel">
+      <ul class="notes" id="notesList"></ul>
+    </div>
+  </section>
+
+  <footer>
+    Built from the live Kisan Call Centre API (api.data.gov.in, resource cef25fe2-9231-4128-8aec-2c948fedd43f) &middot; full census of Maharashtra records, no sampling &middot; generated by Claude
+  </footer>
+
+</div>
+
+<script>
+/* ============================================================
+   DATA
+   ============================================================ */
+const META = {
+  total: 5167913, districts: 36, blocks: 657, crops: 683,
+  dateRange: "2009–2025"
+};
+
+// [lat, lon, total, topCropName, topCropCalls, topConcern, topConcernCalls]
+const DISTRICTS = {
+  "Ahmadnagar":     [19.09,74.74,371435,"Onion",43077,"Weather & Climate Advisory",104506],
+  "Buldana":        [20.53,76.18,349766,"Cotton (Kapas)",40680,"Weather & Climate Advisory",159042],
+  "Nanded":         [19.16,77.32,345259,"Cotton (Kapas)",44797,"Weather & Climate Advisory",145346],
+  "Solapur":        [17.66,75.90,337549,"Onion",20881,"Weather & Climate Advisory",111222],
+  "Nasik":          [20.00,73.78,307223,"Onion",38142,"Weather & Climate Advisory",115567],
+  "Aurangabad":     [19.88,75.34,292995,"Cotton (Kapas)",40088,"Weather & Climate Advisory",95609],
+  "Yevatmal":       [20.39,78.13,272298,"Cotton (Kapas)",40530,"Weather & Climate Advisory",119749],
+  "Jalna":          [19.84,75.88,252945,"Cotton (Kapas)",44729,"Weather & Climate Advisory",83108],
+  "Beed":           [18.99,75.76,252482,"Cotton (Kapas)",38382,"Weather & Climate Advisory",80762],
+  "Parbhani":       [19.27,76.77,248061,"Cotton (Kapas)",38610,"Weather & Climate Advisory",96843],
+  "Washim":         [20.11,77.15,219244,"Soybean (bhat)",20682,"Weather & Climate Advisory",108678],
+  "Jalgaon":        [21.00,75.57,202426,"Cotton (Kapas)",34519,"Weather & Climate Advisory",74066],
+  "Akola":          [20.71,77.00,190473,"Cotton (Kapas)",23553,"Weather & Climate Advisory",78163],
+  "Amravati":       [20.93,77.75,183524,"Cotton (Kapas)",24126,"Weather & Climate Advisory",67477],
+  "Hingoli":        [19.72,77.15,178612,"Cotton (Kapas)",16766,"Weather & Climate Advisory",68974],
+  "Osmanabad":      [18.18,76.04,161203,"Onion",9055,"Weather & Climate Advisory",57711],
+  "Latur":          [18.40,76.58,158651,"Soybean (bhat)",13822,"Weather & Climate Advisory",66155],
+  "Pune":           [18.52,73.85,146517,"Onion",11568,"Weather & Climate Advisory",36908],
+  "Sangli":         [16.85,74.57,105849,"Sugarcane (Noble Cane)",9366,"Weather & Climate Advisory",35441],
+  "Nagpur":         [21.15,79.09,92291,"Cotton (Kapas)",12715,"Weather & Climate Advisory",36878],
+  "Satara":         [17.68,73.99,86409,"Sugarcane (Noble Cane)",8451,"Weather & Climate Advisory",19871],
+  "Dhule":          [20.90,74.78,81479,"Cotton (Kapas)",10609,"Weather & Climate Advisory",27489],
+  "Kolhapur":       [16.70,74.24,75115,"Sugarcane (Noble Cane)",12175,"Weather & Climate Advisory",21168],
+  "Wardha":         [20.75,78.60,70088,"Cotton (Kapas)",12609,"Weather & Climate Advisory",26439],
+  "Chandrapur":     [19.95,79.30,58028,"Cotton (Kapas)",8147,"Weather & Climate Advisory",24047],
+  "Bhandara":       [21.17,79.65,32894,"Paddy (Dhan)",3376,"Weather & Climate Advisory",13684],
+  "Gondiya":        [21.46,80.19,20891,"Paddy (Dhan)",3497,"Weather & Climate Advisory",7308],
+  "Nandurbar":      [21.37,74.24,15107,"Cotton (Kapas)",2141,"Weather & Climate Advisory",3358],
+  "Gadchiroli":     [20.19,80.00,11940,"Paddy (Dhan)",1331,"Weather & Climate Advisory",4789],
+  "Thane":          [19.20,73.00,11657,"Bhindi (Okra)",850,"Weather & Climate Advisory",2720],
+  "Raigad":         [18.50,73.18,6182,"Mango",440,"Govt Schemes, Insurance & Policy",1907],
+  "Ratnagiri":      [17.00,73.30,6112,"Mango",644,"Govt Schemes, Insurance & Policy",2451],
+  "Sindhudurg":     [16.00,73.60,5397,"Mango",351,"Govt Schemes, Insurance & Policy",2076],
+  "Mumbai City":    [18.94,72.83,4998,"Mango",112,"Govt Schemes, Insurance & Policy",1910],
+  "Palghar":        [19.70,72.77,1802,"Chillies",57,"Govt Schemes, Insurance & Policy",817],
+  "Mumbai Suburban":[19.09,72.87,347,"Cucumber",12,"Govt Schemes, Insurance & Policy",103]
+};
+
+// hull (approx border districts, clockwise from NW coast) for the state outline backdrop
+const HULL = ["Palghar","Nandurbar","Dhule","Jalgaon","Buldana","Amravati","Nagpur","Bhandara","Gondiya",
+  "Gadchiroli","Chandrapur","Yevatmal","Nanded","Latur","Osmanabad","Solapur","Sangli","Kolhapur",
+  "Sindhudurg","Ratnagiri","Raigad","Mumbai City","Thane","Palghar"];
+
+const TOP_DISTRICTS = Object.entries(DISTRICTS).sort((a,b)=>b[1][2]-a[1][2]).slice(0,8);
+
+const TOP_BLOCKS = [
+  ["Solapur / Barshi",56374],["Nanded / Hadgaon",53891],["Aurangabad / Vaijapur",53822],
+  ["Buldana / Khamgaon",51422],["Hingoli / Basmat",49249],["Washim / Mangrulpir",48253],
+  ["Parbhani / Jintur",47334],["Yevatmal / Mahagaon",44113]
+];
+
+// crop ledger (excludes "Others" / unspecified rollups per request)
+const CROPS = [
+  ["Cotton (Kapas)",495444],["Onion",208009],["Soybean (bhat)",199809],["Sugarcane (Noble Cane)",134029],
+  ["Bengal Gram (Chana)",123091],["Pigeon Pea (Tur)",117050],["Chillies",86749],["Pomegranate",85274],
+  ["Brinjal",81959],["Wheat",71366],["Tomato",66427],["Groundnut",59665],["Maize",51415],
+  ["Bhindi (Okra)",47876],["Turmeric",47317],["Mango",32002],["Sorghum (Jowar)",28790],["Watermelon",28117]
+];
+
+// top-8 crops, fixed color order (c1..c8) reused everywhere crops appear as multi-series
+const CROP8 = ["Cotton (Kapas)","Onion","Soybean (bhat)","Sugarcane (Noble Cane)","Bengal Gram (Chana)","Pigeon Pea (Tur)","Chillies","Pomegranate"];
+const CROP_COLOR = {"Cotton (Kapas)":"var(--c1)","Onion":"var(--c2)","Soybean (bhat)":"var(--c3)","Sugarcane (Noble Cane)":"var(--c4)",
+  "Bengal Gram (Chana)":"var(--c5)","Pigeon Pea (Tur)":"var(--c6)","Chillies":"var(--c7)","Pomegranate":"var(--c8)"};
+
+// month index 0=Jan..11=Dec, summed across all years
+const CROP_MONTH = {
+  "Cotton (Kapas)":[22823,15885,11669,14110,27206,42370,58562,94253,113515,44680,26594,23777],
+  "Onion":[31344,25628,18979,11581,8291,5321,5795,7848,15691,18932,25627,32972],
+  "Soybean (bhat)":[6072,5009,5102,7933,12667,27853,48187,42237,18897,11565,7668,6619],
+  "Sugarcane (Noble Cane)":[14823,14500,14982,15583,13605,8657,8210,6433,7077,6255,10266,13638],
+  "Bengal Gram (Chana)":[26654,11444,5602,3656,2044,865,970,857,2489,11944,21750,34816],
+  "Pigeon Pea (Tur)":[7466,5856,3517,3531,3045,4489,4362,4381,8406,21012,34718,16267],
+  "Chillies":[7676,8026,9170,9620,8044,5402,6015,6349,7200,6069,6369,6809],
+  "Pomegranate":[8034,7897,8816,10184,9324,6185,6224,4481,5004,5466,6158,7501]
+};
+
+const CROP_SEASON = {
+  "Cotton (Kapas)":{Kharif:353380,Rabi:100748,Zaid:41316},
+  "Onion":{Kharif:53587,Rabi:134550,Zaid:19872},
+  "Soybean (bhat)":{Kharif:148739,Rabi:30470,Zaid:20600},
+  "Sugarcane (Noble Cane)":{Kharif:36632,Rabi:68209,Zaid:29188},
+  "Bengal Gram (Chana)":{Kharif:17125,Rabi:100266,Zaid:5700},
+  "Pigeon Pea (Tur)":{Kharif:42650,Rabi:67824,Zaid:6576},
+  "Chillies":{Kharif:31035,Rabi:38050,Zaid:17664},
+  "Pomegranate":{Kharif:27360,Rabi:38406,Zaid:19508},
+  "Wheat":{Kharif:5499,Rabi:63814,Zaid:2053},
+  "Watermelon":{Kharif:1083,Rabi:22916,Zaid:4118}
+};
+
+const YEARS = [2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024];
+const CROP_YEAR = {
+  "Cotton (Kapas)":[66081,59094,44956,65800,59645,34675,46156,5844,6330,13040,13053,23003],
+  "Onion":[20815,21508,33989,28098,15859,14187,13480,10282,11692,7381,4707,8824],
+  "Soybean (bhat)":[28454,20672,16750,23619,13479,12265,13760,2109,3764,10302,8009,21385],
+  "Sugarcane (Noble Cane)":[16786,26106,22108,11598,15049,9791,6941,4800,4573,4279,3718,4386],
+  "Bengal Gram (Chana)":[9829,12081,13579,13646,18050,7951,8343,8983,8347,6822,4474,7919]
+};
+const YEAR5 = ["Cotton (Kapas)","Onion","Soybean (bhat)","Sugarcane (Noble Cane)","Bengal Gram (Chana)"];
+
+// concern buckets, fixed order (documented default hue order c1..c8)
+const CONCERN_ORDER = [
+  ["Weather & Climate Advisory","c1",1899839],
+  ["Pest, Disease & Weed Mgmt","c2",1082500],
+  ["Unspecified / Uncoded","c3",539063],
+  ["Nutrient & Soil Management","c4",479239],
+  ["Govt Schemes, Insurance & Policy","c5",444335],
+  ["Market & Price Information","c6",284921],
+  ["Other (Cultural, Water Mgmt, Animal)","c7",239310],
+  ["Seeds & Varieties","c8",198706]
+];
+
+const DISTRICT_CONCERN = {
+  "Ahmadnagar": {c1:104506,c2:90272,c3:49357,c4:41997,c5:31790,c6:16592,c7:18017,c8:17139},
+  "Buldana":    {c1:159042,c2:64974,c3:31699,c4:25507,c5:23500,c6:19930,c7:13635,c8:10601},
+  "Nanded":     {c1:145346,c2:65961,c3:29186,c4:28418,c5:25763,c6:22354,c7:12509,c8:13497},
+  "Solapur":    {c1:111222,c2:77542,c3:30242,c4:39370,c5:30088,c6:18053,c7:15129,c8:14370},
+  "Nasik":      {c1:115567,c2:64571,c3:38301,c4:25132,c5:23180,c6:18514,c7:11486,c8:9332},
+  "Aurangabad": {c1:95609, c2:66179,c3:31936,c4:27713,c5:32490,c6:15383,c7:11343,c8:11084},
+  "Yevatmal":   {c1:119749,c2:48204,c3:22421,c4:21556,c5:24182,c6:15116,c7:11479,c8:9171},
+  "Jalna":      {c1:83108, c2:60728,c3:26469,c4:23646,c5:20932,c6:16426,c7:10140,c8:10476},
+  "Beed":       {c1:80762, c2:62002,c3:26061,c4:24872,c5:21582,c6:13077,c7:11061,c8:12007},
+  "Parbhani":   {c1:96843, c2:52977,c3:23181,c4:20237,c5:19891,c6:14605,c7:10052,c8:9744}
+};
+
+const POLICY_ROWS = [
+  {concern:"Pest, Disease & Weed Mgmt", district:"Jalna", block:"Ambad", crop:"Cotton (Kapas)", calls:19329,
+   action:"Pre-season plant-protection camps &amp; subsidised pesticide/bio-pesticide access timed to the Jun&ndash;Sep cotton window."},
+  {concern:"Nutrient & Soil Management", district:"Ahmadnagar", block:"Nevasa", crop:"Onion", calls:9810,
+   action:"Soil-test-linked fertiliser advisories for onion clusters; Nevasa is the single largest nutrient-query block statewide."},
+  {concern:"Market & Price Information", district:"Nasik", block:"Yeola", crop:"Onion", calls:9651,
+   action:"Real-time mandi price push (SMS/app) for onion &mdash; Nasik onion belt is the most price-sensitive cluster in the state."},
+  {concern:"Govt Schemes, Insurance & Policy", district:"Aurangabad", block:"Vaijapur", crop:"Cotton (Kapas)", calls:6559,
+   action:"On-ground camps to raise PMFBY crop-insurance &amp; scheme awareness in Vaijapur's cotton belt before the enrolment deadline."},
+  {concern:"Seeds & Varieties", district:"Nanded", block:"Hadgaon", crop:"Cotton (Kapas)", calls:2527,
+   action:"Certified/BT cotton seed-variety demonstration plots and dealer verification drives around Hadgaon."},
+  {concern:"Cultural Practices & Mechanization", district:"Nanded", block:"Hadgaon", crop:"Cotton (Kapas)", calls:2016,
+   action:"Custom-hiring-centre (CHC) access for cotton sowing/inter-cultivation equipment in Hadgaon taluka."},
+  {concern:"Water Management/Irrigation", district:"Yevatmal", block:"Mahagaon", crop:"Cotton (Kapas)", calls:816,
+   action:"Micro-irrigation (drip) subsidy outreach for cotton in Mahagaon &mdash; small in count, but the leading irrigation-query cluster."}
+];
+
+/* ============================================================
+   HELPERS
+   ============================================================ */
+const fmt = n => n.toLocaleString('en-US');
+const pct = (n,d) => (100*n/d).toFixed(1)+'%';
+function cssVar(name){ return getComputedStyle(document.documentElement).getPropertyValue(name.replace('var(','').replace(')','')).trim() || name; }
+
+/* ============================================================
+   KPI STRIP
+   ============================================================ */
+(function(){
+  const kpis = [
+    {l:"Total Calls Read", v:fmt(META.total), s:"full census, zero sampling"},
+    {l:"Districts Covered", v:META.districts, s:"of 36 official districts"},
+    {l:"Blocks (Taluka)", v:fmt(META.blocks), s:"named blocks identified"},
+    {l:"Named Crops Tracked", v:META.crops, s:"“Others” excluded"},
+    {l:"Date Range", v:META.dateRange, s:"daily granularity"},
+    {l:"Dominant Concern", v:"36.8%", s:"Weather & Climate Advisory"},
+    {l:"Water-Mgmt Share", v:"0.54%", s:"27,899 explicit calls"},
+  ];
+  document.getElementById('kpiStrip').innerHTML = kpis.map(k=>`
+    <div class="kpi"><div class="label">${k.l}</div><div class="value tnum">${k.v}</div><div class="sub">${k.s}</div></div>
+  `).join('');
+})();
+
+/* ============================================================
+   MAP
+   ============================================================ */
+const MAP_LAYERS = {
+  total:   {label:"Total calls", get:(d)=>DISTRICTS[d][2]},
+  weather: {label:"Weather & Climate Advisory", get:(d)=>DISTRICT_CONCERN[nameToKey(d)]?.c1 ?? null},
+  pest:    {label:"Pest, Disease & Weed Mgmt", get:(d)=>DISTRICT_CONCERN[nameToKey(d)]?.c2 ?? null},
+  nutrient:{label:"Nutrient & Soil Management", get:(d)=>DISTRICT_CONCERN[nameToKey(d)]?.c4 ?? null},
+  schemes: {label:"Govt Schemes, Insurance & Policy", get:(d)=>DISTRICT_CONCERN[nameToKey(d)]?.c5 ?? null},
+};
+function nameToKey(d){ return d; } // DISTRICT_CONCERN already keyed by same display names
+
+let currentLayer = 'total';
+
+function project(lat, lon, W, H, pad){
+  const lons = Object.values(DISTRICTS).map(d=>d[1]);
+  const lats = Object.values(DISTRICTS).map(d=>d[0]);
+  const lonMin = Math.min(...lons), lonMax = Math.max(...lons);
+  const latMin = Math.min(...lats), latMax = Math.max(...lats);
+  const cosLat = Math.cos(19*Math.PI/180);
+  const plotW = W-2*pad, plotH = H-2*pad;
+  const effW = (lonMax-lonMin)*cosLat, effH = (latMax-latMin);
+  const scale = Math.min(plotW/effW, plotH/effH);
+  const offX = pad + (plotW - effW*scale)/2;
+  const offY = pad + (plotH - effH*scale)/2;
+  return { x: offX + (lon-lonMin)*cosLat*scale, y: offY + (latMax-lat)*scale };
+}
+
+const SEQ = ['var(--seq-1)','var(--seq-2)','var(--seq-3)','var(--seq-4)','var(--seq-5)','var(--seq-6)'];
+function seqColor(t){ // t in [0,1]
+  const idx = Math.min(SEQ.length-1, Math.floor(t*SEQ.length));
+  return SEQ[idx];
+}
+
+function renderMap(){
+  const svg = document.getElementById('mapSvg');
+  const W=640,H=580,pad=44;
+  const pts = {};
+  for (const name in DISTRICTS){
+    const [lat,lon] = DISTRICTS[name];
+    pts[name] = project(lat,lon,W,H,pad);
+  }
+  // hull path
+  const hullPts = HULL.map(n=>pts[n]);
+  const hullPath = 'M ' + hullPts.map(p=>`${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(' L ') + ' Z';
+
+  const layer = MAP_LAYERS[currentLayer];
+  const values = Object.keys(DISTRICTS).map(d=>layer.get(d)).filter(v=>v!=null);
+  const maxV = Math.max(...values), minV = Math.min(...values);
+
+  let bubbles = '';
+  const rMin=6, rMax=32;
+  const sortedNames = Object.keys(DISTRICTS).sort((a,b)=>(layer.get(a)||0)-(layer.get(b)||0)); // draw small first, big on top... but want big behind small labels; draw largest first actually for visibility of small ones on top
+  const drawOrder = Object.keys(DISTRICTS).sort((a,b)=>(layer.get(b)||0)-(layer.get(a)||0));
+  for (const name of drawOrder){
+    const v = layer.get(name);
+    const p = pts[name];
+    if (v==null){
+      bubbles += `<circle cx="${p.x}" cy="${p.y}" r="3" fill="var(--hairline)" stroke="var(--axis)" stroke-width="0.5" data-name="${name}" data-v="0" class="bub"></circle>`;
+      continue;
+    }
+    const t = maxV>minV ? (v-minV)/(maxV-minV) : 0.5;
+    const r = rMin + (rMax-rMin)*Math.sqrt(t);
+    const fill = seqColor(t);
+    bubbles += `<circle cx="${p.x}" cy="${p.y}" r="${r.toFixed(1)}" fill="${fill}" fill-opacity="0.86" stroke="var(--surface)" stroke-width="1.4" data-name="${name}" data-v="${v}" class="bub" style="cursor:pointer;"></circle>`;
+  }
+
+  svg.innerHTML = `
+    <path d="${hullPath}" fill="var(--surface-alt)" stroke="var(--hairline)" stroke-width="1.5" stroke-linejoin="round"></path>
+    ${bubbles}
+  `;
+
+  // tooltip interactions
+  const tip = document.getElementById('mapTip');
+  svg.querySelectorAll('.bub').forEach(c=>{
+    c.addEventListener('mousemove', (e)=>{
+      const name = c.getAttribute('data-name');
+      const d = DISTRICTS[name];
+      const rect = svg.parentElement.getBoundingClientRect();
+      tip.style.display='block';
+      tip.style.left = (e.clientX-rect.left+14)+'px';
+      tip.style.top = (e.clientY-rect.top+10)+'px';
+      const v = layer.get(name);
+      tip.innerHTML = `<b>${name}</b><br>${layer.label}: <b>${v!=null?fmt(v):'n/a'}</b><br>Total calls: ${fmt(d[2])}<br>Top crop: ${d[3]} (${fmt(d[4])})<br>Top concern: ${d[5]}`;
+    });
+    c.addEventListener('mouseleave', ()=>{ tip.style.display='none'; });
+  });
+
+  document.getElementById('legendLabel').textContent = layer.label;
+  document.getElementById('legendSwatches').innerHTML = SEQ.map(c=>`<span style="background:${c}"></span>`).join('');
+  document.getElementById('legendMinMax').textContent = `${fmt(minV)} → ${fmt(maxV)}`;
+}
+
+(function(){
+  const toggle = document.getElementById('mapToggle');
+  const layers = [['total','Total Calls'],['weather','Weather'],['pest','Pest/Disease'],['nutrient','Nutrient'],['schemes','Govt Schemes']];
+  toggle.innerHTML = layers.map(([k,l])=>`<button data-k="${k}" class="${k==='total'?'active':''}">${l}</button>`).join('');
+  toggle.querySelectorAll('button').forEach(b=>{
+    b.addEventListener('click', ()=>{
+      toggle.querySelectorAll('button').forEach(x=>x.classList.remove('active'));
+      b.classList.add('active');
+      currentLayer = b.getAttribute('data-k');
+      renderMap();
+    });
+  });
+  renderMap();
+})();
+
+// top district / block ledger lists
+(function(){
+  const maxD = TOP_DISTRICTS[0][1][2];
+  document.getElementById('topDistrictList').innerHTML = TOP_DISTRICTS.map(([name,d],i)=>`
+    <li>
+      <span class="rank">${i+1}</span><span>${name}</span><span class="val tnum">${fmt(d[2])}</span>
+      <div class="bar-track"><div class="bar-fill" style="width:${(d[2]/maxD*100).toFixed(1)}%"></div></div>
+    </li>`).join('');
+  const maxB = TOP_BLOCKS[0][1];
+  document.getElementById('topBlockList').innerHTML = TOP_BLOCKS.map(([name,v],i)=>`
+    <li>
+      <span class="rank">${i+1}</span><span>${name}</span><span class="val tnum">${fmt(v)}</span>
+      <div class="bar-track"><div class="bar-fill" style="width:${(v/maxB*100).toFixed(1)}%; background:var(--accent-turmeric);"></div></div>
+    </li>`).join('');
+})();
+
+/* ============================================================
+   CROP LEDGER BARS
+   ============================================================ */
+(function(){
+  const max = CROPS[0][1];
+  const total = CROPS.reduce((a,b)=>a+b[1],0);
+  document.getElementById('cropRows').innerHTML = CROPS.map(([name,v],i)=>`
+    <div class="crop-row">
+      <span class="rk">${i+1}</span><span class="nm">${name}</span>
+      <div class="tr"><div class="fl" style="width:${(v/max*100).toFixed(1)}%"></div></div>
+      <span class="vv tnum">${fmt(v)}</span>
+    </div>`).join('');
+})();
+
+/* ============================================================
+   LINE CHART (monthly seasonality)
+   ============================================================ */
+function drawLineChart(){
+  const svg = document.getElementById('lineChart');
+  const W=1000,H=380, padL=46,padR=110,padT=18,padB=34;
+  const plotW=W-padL-padR, plotH=H-padT-padB;
+  const months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  let maxV=0;
+  CROP8.forEach(c=>{ maxV=Math.max(maxV, ...CROP_MONTH[c]); });
+  maxV = Math.ceil(maxV/10000)*10000;
+
+  const x = i => padL + i*(plotW/11);
+  const y = v => padT + plotH - (v/maxV)*plotH;
+
+  let gridLines='', yTicks='';
+  for (let g=0; g<=4; g++){
+    const val = maxV*g/4;
+    const yy = y(val);
+    gridLines += `<line x1="${padL}" y1="${yy}" x2="${W-padR}" y2="${yy}" stroke="var(--grid)" stroke-width="1"></line>`;
+    yTicks += `<text x="${padL-8}" y="${yy+4}" font-size="11" text-anchor="end">${(val/1000).toFixed(0)}k</text>`;
+  }
+  let xTicks = months.map((m,i)=>`<text x="${x(i)}" y="${H-padB+18}" font-size="11" text-anchor="middle">${m}</text>`).join('');
+
+  let paths='', dots='';
+  const sortedByFinal = [...CROP8].sort((a,b)=> Math.max(...CROP_MONTH[b])-Math.max(...CROP_MONTH[a]));
+  const directLabelSet = new Set(sortedByFinal.slice(0,4));
+  const labelSpecs = [];
+
+  CROP8.forEach(crop=>{
+    const vals = CROP_MONTH[crop];
+    const pts = vals.map((v,i)=>`${x(i).toFixed(1)},${y(v).toFixed(1)}`).join(' L ');
+    const color = CROP_COLOR[crop];
+    paths += `<path d="M ${pts}" fill="none" stroke="${color}" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" data-crop="${crop}" class="lineseries"></path>`;
+    vals.forEach((v,i)=>{
+      dots += `<circle cx="${x(i)}" cy="${y(v)}" r="3.2" fill="${color}" data-crop="${crop}" data-month="${months[i]}" data-val="${v}" class="linedot" style="cursor:pointer;"></circle>`;
+    });
+    if (directLabelSet.has(crop)){
+      labelSpecs.push({ y: y(vals[11]), color, text: crop.split(' (')[0] });
+    }
+  });
+  labelSpecs.sort((a,b)=>a.y-b.y);
+  const minGap = 13;
+  for (let i=1;i<labelSpecs.length;i++){
+    if (labelSpecs[i].y - labelSpecs[i-1].y < minGap) labelSpecs[i].y = labelSpecs[i-1].y + minGap;
+  }
+  const endLabels = labelSpecs.map(l=>`<text x="${x(11)+10}" y="${(l.y+4).toFixed(1)}" font-size="11" fill="${l.color}" font-weight="600">${l.text}</text>`).join('');
+
+  svg.innerHTML = `${gridLines}${yTicks}${xTicks}${paths}${dots}${endLabels}
+    <line x1="${padL}" y1="${padT+plotH}" x2="${W-padR}" y2="${padT+plotH}" stroke="var(--axis)" stroke-width="1.2"></line>`;
+
+  const tip = document.getElementById('lineTip');
+  svg.querySelectorAll('.linedot').forEach(d=>{
+    d.addEventListener('mousemove',(e)=>{
+      const rect = svg.parentElement.getBoundingClientRect();
+      const scaleX = rect.width / W;
+      tip.style.display='block';
+      tip.style.left = (parseFloat(d.getAttribute('cx'))*scaleX+16)+'px';
+      tip.style.top = (parseFloat(d.getAttribute('cy'))*scaleX-4)+'px';
+      tip.innerHTML = `<b>${d.getAttribute('data-crop')}</b><br>${d.getAttribute('data-month')}: ${fmt(+d.getAttribute('data-val'))} calls`;
+    });
+    d.addEventListener('mouseleave', ()=>{ tip.style.display='none'; });
+  });
+
+  document.getElementById('lineLegend').innerHTML = CROP8.map(c=>`
+    <div class="item"><span class="sw" style="background:${CROP_COLOR[c]}"></span>${c}</div>`).join('');
+}
+drawLineChart();
+
+/* ============================================================
+   SEASON STACKED ROWS (Kharif/Rabi/Zaid)
+   ============================================================ */
+(function(){
+  const order = [...CROP8,"Wheat","Watermelon"];
+  const el = document.getElementById('seasonRows');
+  el.innerHTML = order.map(crop=>{
+    const s = CROP_SEASON[crop]; const total = s.Kharif+s.Rabi+s.Zaid;
+    return `<div class="srow">
+      <span class="nm">${crop}</span>
+      <div class="sbar">
+        <div style="width:${(s.Kharif/total*100).toFixed(1)}%; background:var(--c3);" title="Kharif ${fmt(s.Kharif)}"></div>
+        <div style="width:${(s.Rabi/total*100).toFixed(1)}%; background:var(--c4);" title="Rabi ${fmt(s.Rabi)}"></div>
+        <div style="width:${(s.Zaid/total*100).toFixed(1)}%; background:var(--c2);" title="Zaid ${fmt(s.Zaid)}"></div>
+      </div>
+    </div>`;
+  }).join('');
+})();
+
+/* ============================================================
+   YEAR TREND CHART
+   ============================================================ */
+(function(){
+  const svg = document.getElementById('yearChart');
+  const W=1000,H=300, padL=46,padR=140,padT=18,padB=30;
+  const plotW=W-padL-padR, plotH=H-padT-padB;
+  let maxV=0; YEAR5.forEach(c=>{maxV=Math.max(maxV,...CROP_YEAR[c]);});
+  maxV = Math.ceil(maxV/10000)*10000;
+  const x = i => padL + i*(plotW/(YEARS.length-1));
+  const y = v => padT + plotH - (v/maxV)*plotH;
+
+  let grid='', yTicks='';
+  for (let g=0; g<=3; g++){
+    const val = maxV*g/3, yy=y(val);
+    grid += `<line x1="${padL}" y1="${yy}" x2="${W-padR}" y2="${yy}" stroke="var(--grid)"></line>`;
+    yTicks += `<text x="${padL-8}" y="${yy+4}" font-size="11" text-anchor="end">${(val/1000).toFixed(0)}k</text>`;
+  }
+  let xTicks = YEARS.map((yr,i)=> i%2===0 ? `<text x="${x(i)}" y="${H-padB+18}" font-size="11" text-anchor="middle">${yr}</text>` : '').join('');
+
+  let paths='', dots='';
+  const labelSpecs = [];
+  YEAR5.forEach(crop=>{
+    const vals = CROP_YEAR[crop];
+    const pts = vals.map((v,i)=>`${x(i).toFixed(1)},${y(v).toFixed(1)}`).join(' L ');
+    const color = CROP_COLOR[crop];
+    paths += `<path d="M ${pts}" fill="none" stroke="${color}" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"></path>`;
+    vals.forEach((v,i)=>{ dots += `<circle cx="${x(i)}" cy="${y(v)}" r="3" fill="${color}" data-crop="${crop}" data-year="${YEARS[i]}" data-val="${v}" class="yeardot" style="cursor:pointer;"></circle>`; });
+    labelSpecs.push({ y: y(vals[vals.length-1]), color, text: crop.split(' (')[0] });
+  });
+  // de-collide end labels: sort by y, enforce minimum vertical gap
+  labelSpecs.sort((a,b)=>a.y-b.y);
+  const minGap = 13;
+  for (let i=1;i<labelSpecs.length;i++){
+    if (labelSpecs[i].y - labelSpecs[i-1].y < minGap) labelSpecs[i].y = labelSpecs[i-1].y + minGap;
+  }
+  const endLabels = labelSpecs.map(l=>`<text x="${x(YEARS.length-1)+10}" y="${(l.y+4).toFixed(1)}" font-size="11" fill="${l.color}" font-weight="600">${l.text}</text>`).join('');
+  svg.innerHTML = `${grid}${yTicks}${xTicks}${paths}${dots}${endLabels}
+    <line x1="${padL}" y1="${padT+plotH}" x2="${W-padR}" y2="${padT+plotH}" stroke="var(--axis)" stroke-width="1.2"></line>`;
+
+  const tip = document.getElementById('yearTip');
+  svg.querySelectorAll('.yeardot').forEach(d=>{
+    d.addEventListener('mousemove',(e)=>{
+      const rect = svg.parentElement.getBoundingClientRect();
+      const scaleX = rect.width / W;
+      tip.style.display='block';
+      tip.style.left = (parseFloat(d.getAttribute('cx'))*scaleX+16)+'px';
+      tip.style.top = (parseFloat(d.getAttribute('cy'))*scaleX-4)+'px';
+      tip.innerHTML = `<b>${d.getAttribute('data-crop')}</b><br>${d.getAttribute('data-year')}: ${fmt(+d.getAttribute('data-val'))} calls`;
+    });
+    d.addEventListener('mouseleave', ()=>{ tip.style.display='none'; });
+  });
+
+  document.getElementById('yearLegend').innerHTML = YEAR5.map(c=>`<div class="item"><span class="sw" style="background:${CROP_COLOR[c]}"></span>${c}</div>`).join('');
+})();
+
+/* ============================================================
+   CONCERN STACKED BAR (overall)
+   ============================================================ */
+(function(){
+  const total = CONCERN_ORDER.reduce((a,b)=>a+b[2],0);
+  document.getElementById('overallStack').innerHTML = CONCERN_ORDER.map(([name,slot,v])=>
+    `<div style="width:${(v/total*100).toFixed(2)}%; background:var(--${slot});" title="${name}: ${fmt(v)}"></div>`
+  ).join('');
+  document.getElementById('overallLegend').innerHTML = CONCERN_ORDER.map(([name,slot,v])=>
+    `<div class="item"><span class="sw" style="background:var(--${slot})"></span>${name} &middot; <b>${pct(v,total)}</b></div>`
+  ).join('');
+})();
+
+/* ============================================================
+   DISTRICT CONCERN STACKS
+   ============================================================ */
+(function(){
+  const el = document.getElementById('districtStackRows');
+  el.innerHTML = Object.entries(DISTRICT_CONCERN).map(([name,c])=>{
+    const total = Object.values(c).reduce((a,b)=>a+b,0);
+    const bar = CONCERN_ORDER.map(([label,slot])=>
+      `<div style="width:${(c[slot]/total*100).toFixed(2)}%; background:var(--${slot});" title="${label}: ${fmt(c[slot])}"></div>`
+    ).join('');
+    return `<div class="district-stack-row"><span class="nm">${name}</span><div class="stackbar" style="margin-bottom:0;">${bar}</div></div>`;
+  }).join('');
+})();
+
+/* ============================================================
+   POLICY TABLE
+   ============================================================ */
+(function(){
+  const maxC = Math.max(...POLICY_ROWS.map(r=>r.calls));
+  const tbody = document.querySelector('#policyTable tbody');
+  tbody.innerHTML = POLICY_ROWS.map(r=>{
+    let pillClass='warn', pillLabel='Watch';
+    const t = r.calls/maxC;
+    if (t>0.5){ pillClass='crit'; pillLabel='High Priority'; }
+    else if (t>0.15){ pillClass='ser'; pillLabel='Elevated'; }
+    return `<tr>
+      <td>${r.concern}</td>
+      <td>${r.district}</td>
+      <td>${r.block}</td>
+      <td>${r.crop}</td>
+      <td class="num tnum">${fmt(r.calls)}</td>
+      <td><span class="pill ${pillClass}"><span class="dot"></span>${pillLabel}</span></td>
+      <td class="note-txt">${r.action}</td>
+    </tr>`;
+  }).join('');
+})();
+
+/* ============================================================
+   NOTES
+   ============================================================ */
+(function(){
+  const notes = [
+    "Source: Kisan Call Centre (KCC) transcripts dataset, resource id <span class=\"mono\">cef25fe2-9231-4128-8aec-2c948fedd43f</span>, fetched live from <span class=\"mono\">api.data.gov.in</span> on 2026-09-15.",
+    "This is a full census, not a sample: all 5,167,913 records tagged <span class=\"mono\">StateName=MAHARASHTRA</span> were paged through in 100,000-row batches and aggregated client-side.",
+    "Season definitions follow the standard Indian cropping calendar mapped from calendar month: Kharif = Jun&ndash;Oct, Rabi = Nov&ndash;Mar, Zaid = Apr&ndash;May. The dataset's own <span class=\"mono\">Season</span> field is populated for only ~35% of rows (mostly “NA”), so month-derived season is used throughout for full coverage.",
+    "Concern buckets are our grouping of the raw <span class=\"mono\">QueryType</span> field (103 distinct values), collapsed to 8: Weather &amp; Climate Advisory, Pest/Disease/Weed Management, Nutrient &amp; Soil Management, Government Schemes/Insurance/Policy, Market &amp; Price Information, Seeds &amp; Varieties, and an “Other” bucket combining Cultural Practices, Water Management/Irrigation, Animal Husbandry and miscellaneous advisory. “Unspecified/Uncoded” covers blank values and raw numeric codes (e.g. “0”, “9999”, “76”) that don't map to a documented QueryType.",
+    "Water Management/Irrigation (27,899 calls) is reported as its own figure in the KPI strip and Section IV callout despite being folded into “Other” on the stacked charts, since at ~0.5% of volume it would be invisible there otherwise.",
+    "Crop ledger and seasonal charts exclude the generic “Others” crop value (2.54M calls, ~49% of all Maharashtra queries — non-crop-specific questions such as general weather or scheme queries) and the “9999” placeholder, per the brief. A further 631,613 calls naming a specific but lower-volume crop are omitted from the top-8/top-18 charts for legibility.",
+    "Block (taluka) figures exclude records with a blank/placeholder block name (“0”, ~394,370 records, 7.6% of Maharashtra calls) since that value carries no location information.",
+    "Block names are not unique across districts (e.g. “Malegaon” is a taluka in both Nasik and Washim) — all block rankings here are computed on the District+Block pair, never on block name alone.",
+    "The district list (36 entries) matches Maharashtra's official district count; a single stray record tagged to a Gujarat district (“BHAVNAGAR”, 1 call) was dropped as a data-entry error.",
+    "The spatial map is a schematic bubble map, not a boundary choropleth: districts are plotted at approximate centroid coordinates and the shaded backdrop is a simplified hull through the state's border districts, for orientation only — it is not a survey-accurate map.",
+    "Policy-targeting rows (Section V) show the single highest-volume District &times; Block &times; Crop combination per concern, found by full aggregation over all 5.17M records — not a sample or an estimate.",
+    "Call volume fell sharply during the Apr–Jul 2020 COVID-19 lockdown (July 2020: 26 calls statewide vs. a typical 50,000– 70,000) and has trended down since a 2016 peak (highest single month: August 2016, 78,962 calls)."
+  ];
+  document.getElementById('notesList').innerHTML = notes.map(n=>`<li>${n}</li>`).join('');
+})();
+
+window.addEventListener('resize', ()=>{}); // svg is viewBox-responsive; no-op kept for clarity
+</script>
