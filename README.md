@@ -1,6 +1,6 @@
 # Kisan Call Centre (KCC) Data Analysis – Maharashtra
 
-A full-census dashboard of Maharashtra's Kisan Call Centre (KCC) farmer helpline data — hotspot districts and blocks, crop and seasonal query patterns, concern breakdowns, and policy-targeting recommendations.
+A full-census dashboard of Maharashtra's Kisan Call Centre (KCC) farmer helpline data, hotspot districts and blocks, crop and seasonal query patterns, concern breakdowns, and policy-targeting recommendations.
 
 **[View the live dashboard →](https://d-murphy16.github.io/maharashtra-kisan-ledger/)**
 
