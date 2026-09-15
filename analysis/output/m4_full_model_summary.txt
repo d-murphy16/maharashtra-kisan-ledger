@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             pest_share   R-squared:                       0.082
+Model:                            OLS   Adj. R-squared:                  0.055
+Method:                 Least Squares   F-statistic:                     3.054
+Date:                Wed, 16 Sep 2026   Prob (F-statistic):             0.0896
+Time:                        00:00:30   Log-Likelihood:                 75.183
+No. Observations:                  36   AIC:                            -146.4
+Df Residuals:                      34   BIC:                            -143.2
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.1864      0.008     23.066      0.000       0.170       0.203
+cotton_share     0.0724      0.041      1.747      0.090      -0.012       0.157
+==============================================================================
+Omnibus:                        3.618   Durbin-Watson:                   1.395
+Prob(Omnibus):                  0.164   Jarque-Bera (JB):                2.695
+Skew:                          -0.665   Prob(JB):                        0.260
+Kurtosis:                       3.161   Cond. No.                         8.25
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

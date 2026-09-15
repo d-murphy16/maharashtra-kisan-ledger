@@ -18,6 +18,10 @@ Every farmer call logged for Maharashtra in India's Kisan Call Centre dataset â€
 
 Kisan Call Centre (KCC) transcripts dataset, Ministry of Agriculture and Farmers Welfare, via `api.data.gov.in` (resource `cef25fe2-9231-4128-8aec-2c948fedd43f`). Full methodology and data-quality notes are documented in the dashboard's own "Methodology & data notes" section.
 
+## Analysis pipeline
+
+The [`analysis/`](analysis/) directory has the Python code behind this dashboard, plus inferential statistics (chi-square, Kruskal-Wallis) and regression models (Poisson / Negative Binomial / OLS) that go beyond what the dashboard shows â€” see [`analysis/README.md`](analysis/README.md).
+
 ## Running locally
 
 This is a single self-contained HTML file with no build step or dependencies beyond Google Fonts (loaded via CDN). Just open `index.html` in a browser, or serve it:
@@ -28,4 +32,4 @@ python3 -m http.server 8000
 
 ## License
 
-The underlying data is published by the Government of India under the [National Data Sharing and Accessibility Policy](https://data.gov.in/government-open-data-license-india). This repository's code (`index.html`) is provided as-is for public, non-commercial use.
+Code in this repository is [MIT licensed](LICENSE). The underlying data is published by the Government of India under the [National Data Sharing and Accessibility Policy](https://data.gov.in/government-open-data-license-india) and is not covered by that license.

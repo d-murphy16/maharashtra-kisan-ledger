@@ -1,0 +1,728 @@
+district,crop,count
+AHMADNAGAR,Soybean (bhat),5894
+AHMADNAGAR,Onion,43077
+BULDANA,Other Named Crops,27750
+AHMADNAGAR,Other Named Crops,54858
+BULDANA,Onion,10423
+BEED,Other Named Crops,31553
+DHULE,Onion,7406
+YEVATMAL,Cotton (Kapas),40530
+WASHIM,Turmeric,3376
+AHMADNAGAR,Sugarcane (Noble Cane),12497
+PARBHANI,Other Named Crops,20939
+BEED,Cotton (Kapas),38382
+WASHIM,Other Named Crops,18319
+PARBHANI,Soybean (bhat),13284
+LATUR,Soybean (bhat),13822
+JALGAON,Cotton (Kapas),34519
+YEVATMAL,Pigeon pea (red gram/arhar/tur),9336
+AMRAVATI,Cotton (Kapas),24126
+SANGLI,Maize (Makka),1848
+YEVATMAL,Turmeric,2875
+YEVATMAL,Other Named Crops,19013
+AKOLA,Sugarcane (Noble Cane),1181
+DHULE,Cotton (Kapas),10609
+SOLAPUR,Other Named Crops,53825
+AKOLA,Other Named Crops,17370
+OSMANABAD,Chillies,3398
+AKOLA,Tomato,683
+SOLAPUR,Sorghum (Jowar/Great Millet),2507
+NASIK,Onion,38142
+JALGAON,Other Named Crops,25765
+OSMANABAD,Other Named Crops,22826
+SOLAPUR,Chillies,6889
+AKOLA,Onion,5889
+AURANGABAD,Bhindi(Okra/Ladysfinger),2295
+WASHIM,Cotton (Kapas),10434
+NANDED,Other Named Crops,27742
+SOLAPUR,Pomegranate,17583
+NASIK,Bhindi(Okra/Ladysfinger),2608
+NANDED,Cotton (Kapas),44797
+BEED,Bhindi(Okra/Ladysfinger),2531
+WASHIM,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),7968
+AURANGABAD,Cotton (Kapas),40088
+BEED,Sugarcane (Noble Cane),9205
+SINDHUDURG,Other Named Crops,1252
+SOLAPUR,Sugarcane (Noble Cane),20801
+LATUR,Sugarcane (Noble Cane),7009
+WASHIM,Onion,2373
+JALNA,Sugarcane (Noble Cane),5301
+HINGOLI,Groundnut (pea nut/mung phalli),2745
+OSMANABAD,Soybean (bhat),8875
+HINGOLI,Sugarcane (Noble Cane),2259
+WASHIM,Brinjal,2534
+PARBHANI,Sugarcane (Noble Cane),5517
+SOLAPUR,Cotton (Kapas),4368
+PARBHANI,Groundnut (pea nut/mung phalli),3229
+JALGAON,Chillies,2947
+THANE,Bhindi(Okra/Ladysfinger),850
+NASIK,Tomato,15666
+AHMADNAGAR,Sorghum (Jowar/Great Millet),1741
+BULDANA,Cotton (Kapas),40680
+NANDED,Turmeric,10530
+AURANGABAD,Onion,16805
+AURANGABAD,Pomegranate,4658
+YEVATMAL,Soybean (bhat),14515
+AURANGABAD,Mango,1336
+NANDED,Wheat,3176
+PUNE,Onion,11568
+SATARA,Other Named Crops,16607
+HINGOLI,Soybean (bhat),12042
+BEED,Soybean (bhat),8113
+NASIK,Cotton (Kapas),7101
+PARBHANI,Chillies,3811
+WASHIM,Soybean (bhat),20682
+RAIGARH,Other Named Crops,1631
+BEED,Wheat,3265
+AMRAVATI,Other Named Crops,23920
+AURANGABAD,Maize (Makka),6462
+PUNE,Other Named Crops,28190
+AURANGABAD,Other Named Crops,39092
+KOLHAPUR,Other Named Crops,14317
+KOLHAPUR,Sugarcane (Noble Cane),12175
+JALNA,Wheat,4382
+JALNA,Cotton (Kapas),44729
+SANGLI,Sugarcane (Noble Cane),9366
+NANDED,Soybean (bhat),20781
+JALNA,Soybean (bhat),9028
+GADCHIROLI,Chillies,530
+PARBHANI,Cotton (Kapas),38610
+AKOLA,Soybean (bhat),11566
+JALNA,Other Named Crops,30629
+HINGOLI,Chillies,2592
+GONDIYA,Other Named Crops,6011
+AKOLA,Cotton (Kapas),23553
+BULDANA,Maize (Makka),3604
+KOLHAPUR,Mango,967
+AMRAVATI,Pigeon pea (red gram/arhar/tur),8893
+AKOLA,Wheat,2914
+DHULE,Other Named Crops,9618
+BEED,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),4900
+HINGOLI,Turmeric,14615
+SATARA,Brinjal,1698
+LATUR,Chillies,2713
+SOLAPUR,Soybean (bhat),4199
+NANDURBAR,Groundnut (pea nut/mung phalli),263
+NAGPUR,Other Named Crops,13719
+SOLAPUR,Brinjal,7590
+PUNE,Groundnut (pea nut/mung phalli),2083
+NASIK,Pomegranate,15204
+PUNE,Pomegranate,8582
+BEED,Brinjal,4258
+AHMADNAGAR,Cotton (Kapas),23091
+SANGLI,Groundnut (pea nut/mung phalli),1229
+AURANGABAD,Soybean (bhat),3327
+NAGPUR,Cotton (Kapas),12715
+WARDHA,Soybean (bhat),3115
+WASHIM,Pigeon pea (red gram/arhar/tur),11404
+OSMANABAD,Sugarcane (Noble Cane),7588
+BEED,Chillies,5199
+WASHIM,Wheat,3407
+AHMADNAGAR,Groundnut (pea nut/mung phalli),4218
+JALNA,Tomato,2079
+BEED,Tomato,2750
+SOLAPUR,Groundnut (pea nut/mung phalli),4032
+BEED,Onion,9517
+AKOLA,Groundnut (pea nut/mung phalli),4098
+YEVATMAL,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),9679
+LATUR,Maize (Makka),550
+AKOLA,Bhindi(Okra/Ladysfinger),1526
+HINGOLI,Cotton (Kapas),16766
+SANGLI,Brinjal,2452
+PUNE,Sugarcane (Noble Cane),7390
+NANDED,Brinjal,4476
+JALNA,Chillies,7826
+BULDANA,Soybean (bhat),20786
+SANGLI,Other Named Crops,17848
+BHANDARA,Other Named Crops,7543
+WASHIM,Watermelon,639
+LATUR,Tomato,2123
+BULDANA,Groundnut (pea nut/mung phalli),3121
+NASIK,Other Named Crops,41064
+WASHIM,Mango,596
+KOLHAPUR,Tomato,563
+SOLAPUR,Onion,20881
+JALGAON,Onion,6300
+SINDHUDURG,Pigeon pea (red gram/arhar/tur),19
+PUNE,Brinjal,3600
+HINGOLI,Other Named Crops,14719
+AMRAVATI,Wheat,2722
+AMRAVATI,Chillies,1920
+YEVATMAL,Wheat,3625
+CHANDRAPUR,Other Named Crops,8192
+NANDED,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),12665
+JALNA,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),5089
+NANDED,Groundnut (pea nut/mung phalli),3797
+BHANDARA,Sugarcane (Noble Cane),475
+YEVATMAL,Maize (Makka),492
+NANDED,Bhindi(Okra/Ladysfinger),1919
+PARBHANI,Watermelon,1855
+SANGLI,Pomegranate,4453
+JALNA,Onion,4710
+SATARA,Sugarcane (Noble Cane),8451
+NANDED,Watermelon,1215
+NANDED,Sugarcane (Noble Cane),5765
+NAGPUR,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),1943
+NANDURBAR,Other Named Crops,2376
+AHMADNAGAR,Wheat,7630
+PUNE,Maize (Makka),1960
+AURANGABAD,Chillies,6884
+SOLAPUR,Tomato,5329
+JALNA,Mango,1263
+NANDURBAR,Mango,106
+DHULE,Watermelon,844
+NANDED,Sorghum (Jowar/Great Millet),2858
+WARDHA,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),2815
+WARDHA,Pigeon pea (red gram/arhar/tur),2657
+AHMADNAGAR,Mango,3182
+JALNA,Groundnut (pea nut/mung phalli),1381
+KOLHAPUR,Groundnut (pea nut/mung phalli),1613
+DHULE,Maize (Makka),1855
+WARDHA,Onion,600
+NASIK,Mango,1471
+KOLHAPUR,Soybean (bhat),2103
+SOLAPUR,Maize (Makka),5934
+NANDURBAR,Cotton (Kapas),2141
+AHMADNAGAR,Maize (Makka),4938
+AHMADNAGAR,Watermelon,2531
+BEED,Watermelon,1924
+NANDURBAR,Onion,856
+JALGAON,Maize (Makka),6104
+HINGOLI,Sorghum (Jowar/Great Millet),712
+BHANDARA,Tomato,242
+LATUR,Other Named Crops,17488
+HINGOLI,Pigeon pea (red gram/arhar/tur),5534
+AKOLA,Mango,478
+SOLAPUR,Pigeon pea (red gram/arhar/tur),5879
+PUNE,Watermelon,960
+OSMANABAD,Onion,9055
+AMRAVATI,Sugarcane (Noble Cane),1206
+LATUR,Onion,2087
+SOLAPUR,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),4535
+JALGAON,Groundnut (pea nut/mung phalli),1780
+OSMANABAD,Watermelon,1277
+AURANGABAD,Wheat,5044
+BULDANA,Pigeon pea (red gram/arhar/tur),12224
+WASHIM,Tomato,1205
+BHANDARA,Chillies,925
+DHULE,Groundnut (pea nut/mung phalli),1234
+PARBHANI,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),5480
+LATUR,Pigeon pea (red gram/arhar/tur),5185
+BEED,Maize (Makka),1502
+YEVATMAL,Brinjal,2708
+SATARA,Chillies,1421
+JALNA,Bhindi(Okra/Ladysfinger),1900
+JALNA,Sorghum (Jowar/Great Millet),1599
+BEED,Pomegranate,2883
+LATUR,Brinjal,2411
+AHMADNAGAR,Chillies,5499
+PARBHANI,Pigeon pea (red gram/arhar/tur),5659
+DHULE,Sugarcane (Noble Cane),765
+OSMANABAD,Pigeon pea (red gram/arhar/tur),3482
+AMRAVATI,Soybean (bhat),10327
+AURANGABAD,Tomato,5021
+SANGLI,Soybean (bhat),1776
+WASHIM,Chillies,2068
+JALGAON,Pigeon pea (red gram/arhar/tur),2212
+WARDHA,Other Named Crops,7912
+CHANDRAPUR,Soybean (bhat),1469
+SOLAPUR,Watermelon,3538
+SATARA,Pomegranate,1865
+CHANDRAPUR,Cotton (Kapas),8147
+BULDANA,Mango,886
+DHULE,Soybean (bhat),697
+DHULE,Tomato,678
+PUNE,Wheat,2083
+AHMADNAGAR,Brinjal,7075
+YEVATMAL,Sugarcane (Noble Cane),1959
+NANDED,Onion,2039
+SOLAPUR,Bhindi(Okra/Ladysfinger),5099
+JALGAON,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),3742
+AMRAVATI,Groundnut (pea nut/mung phalli),2200
+LATUR,Watermelon,621
+BULDANA,Turmeric,1615
+BEED,Sorghum (Jowar/Great Millet),2374
+AHMADNAGAR,Pomegranate,16534
+NAGPUR,Sugarcane (Noble Cane),543
+CHANDRAPUR,Brinjal,1451
+BEED,Pigeon pea (red gram/arhar/tur),4257
+WARDHA,Cotton (Kapas),12609
+NAGPUR,Soybean (bhat),2608
+BULDANA,Chillies,4223
+NASIK,Soybean (bhat),3662
+BULDANA,Sorghum (Jowar/Great Millet),1125
+BULDANA,Bhindi(Okra/Ladysfinger),2472
+AKOLA,Pigeon pea (red gram/arhar/tur),8531
+KOLHAPUR,Brinjal,1783
+NASIK,Pigeon pea (red gram/arhar/tur),1162
+NASIK,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),2049
+AURANGABAD,Pigeon pea (red gram/arhar/tur),3356
+JALNA,Brinjal,3198
+PARBHANI,Onion,2173
+KOLHAPUR,Sorghum (Jowar/Great Millet),638
+PARBHANI,Wheat,3127
+NAGPUR,Chillies,2299
+BULDANA,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),10667
+YEVATMAL,Chillies,2448
+SATARA,Groundnut (pea nut/mung phalli),1961
+JALGAON,Brinjal,3571
+NASIK,Chillies,4993
+AMRAVATI,Bhindi(Okra/Ladysfinger),1373
+SOLAPUR,Wheat,3982
+OSMANABAD,Sorghum (Jowar/Great Millet),1830
+HINGOLI,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),6648
+KOLHAPUR,Chillies,1686
+WARDHA,Wheat,1216
+BEED,Mango,2841
+SANGLI,Bhindi(Okra/Ladysfinger),925
+NANDED,Pomegranate,387
+HINGOLI,Brinjal,1864
+GADCHIROLI,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),115
+THANE,Other Named Crops,2804
+AKOLA,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),8667
+AHMADNAGAR,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),5540
+JALNA,Watermelon,1750
+OSMANABAD,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),4534
+LATUR,Sorghum (Jowar/Great Millet),1985
+NASIK,Brinjal,5864
+AMRAVATI,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),7714
+PUNE,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),1469
+BHANDARA,Wheat,473
+BULDANA,Brinjal,4126
+BULDANA,Pomegranate,1244
+AHMADNAGAR,Pigeon pea (red gram/arhar/tur),4259
+HINGOLI,Wheat,2325
+NAGPUR,Pigeon pea (red gram/arhar/tur),2388
+CHANDRAPUR,Pigeon pea (red gram/arhar/tur),1547
+BULDANA,Tomato,1532
+NANDED,Pigeon pea (red gram/arhar/tur),10222
+SATARA,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),977
+CHANDRAPUR,Turmeric,105
+NANDED,Tomato,2594
+LATUR,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),5791
+AURANGABAD,Turmeric,992
+MUMBAI,Onion,47
+JALGAON,Sorghum (Jowar/Great Millet),1830
+NASIK,Maize (Makka),5280
+LATUR,Mango,1911
+NANDED,Chillies,4561
+BEED,Groundnut (pea nut/mung phalli),2198
+SATARA,Bhindi(Okra/Ladysfinger),839
+AURANGABAD,Sugarcane (Noble Cane),5106
+AMRAVATI,Turmeric,455
+OSMANABAD,Cotton (Kapas),5895
+THANE,Mango,477
+WASHIM,Groundnut (pea nut/mung phalli),3533
+LATUR,Bhindi(Okra/Ladysfinger),1508
+PUNE,Tomato,4457
+SANGLI,Tomato,1566
+PUNE,Mango,1820
+SATARA,Mango,1386
+PARBHANI,Bhindi(Okra/Ladysfinger),1987
+LATUR,Cotton (Kapas),3917
+JALNA,Turmeric,716
+HINGOLI,Bhindi(Okra/Ladysfinger),1149
+BHANDARA,Sorghum (Jowar/Great Millet),34
+GADCHIROLI,Other Named Crops,2732
+WARDHA,Sorghum (Jowar/Great Millet),114
+AURANGABAD,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),3081
+SANGLI,Onion,1064
+OSMANABAD,Brinjal,2885
+PARBHANI,Brinjal,3331
+AURANGABAD,Watermelon,1782
+AURANGABAD,Sorghum (Jowar/Great Millet),899
+SANGLI,Chillies,1957
+NANDURBAR,Tomato,146
+JALNA,Pomegranate,3561
+HINGOLI,Tomato,987
+SANGLI,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),1307
+PARBHANI,Mango,1227
+RAIGARH,Brinjal,96
+HINGOLI,Pomegranate,548
+BULDANA,Wheat,4612
+AMRAVATI,Brinjal,2172
+GONDIYA,Pigeon pea (red gram/arhar/tur),256
+SANGLI,Watermelon,461
+AMRAVATI,Onion,3605
+NANDURBAR,Chillies,455
+CHANDRAPUR,Tomato,603
+BHANDARA,Pigeon pea (red gram/arhar/tur),464
+WARDHA,Brinjal,1049
+SATARA,Onion,3744
+SATARA,Maize (Makka),985
+NASIK,Wheat,3480
+DHULE,Bhindi(Okra/Ladysfinger),1109
+BULDANA,Sugarcane (Noble Cane),1977
+JALGAON,Watermelon,1277
+KOLHAPUR,Wheat,620
+GONDIYA,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),380
+JALGAON,Tomato,1080
+AHMADNAGAR,Bhindi(Okra/Ladysfinger),4154
+SATARA,Wheat,1816
+CHANDRAPUR,Chillies,1585
+KOLHAPUR,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),650
+JALNA,Pigeon pea (red gram/arhar/tur),5011
+OSMANABAD,Mango,2221
+OSMANABAD,Turmeric,404
+SANGLI,Pigeon pea (red gram/arhar/tur),631
+AHMADNAGAR,Tomato,8075
+PUNE,Bhindi(Okra/Ladysfinger),1875
+OSMANABAD,Bhindi(Okra/Ladysfinger),1909
+JALGAON,Wheat,2511
+AKOLA,Brinjal,2566
+YEVATMAL,Groundnut (pea nut/mung phalli),5867
+JALGAON,Pomegranate,972
+0,Onion,241
+PARBHANI,Turmeric,6376
+HINGOLI,Mango,654
+0,Brinjal,126
+LATUR,Turmeric,493
+AKOLA,Watermelon,627
+NASIK,Sugarcane (Noble Cane),2808
+JALGAON,Mango,519
+NAGPUR,Brinjal,1625
+RAIGARH,Mango,440
+0,Chillies,125
+AMRAVATI,Pomegranate,464
+WASHIM,Bhindi(Okra/Ladysfinger),1276
+OSMANABAD,Pomegranate,1014
+AURANGABAD,Brinjal,3918
+PARBHANI,Tomato,1510
+WARDHA,Tomato,475
+JALGAON,Sugarcane (Noble Cane),1951
+GONDIYA,Bhindi(Okra/Ladysfinger),288
+BHANDARA,Brinjal,689
+PARBHANI,Sorghum (Jowar/Great Millet),2256
+NANDURBAR,Maize (Makka),261
+CHANDRAPUR,Bhindi(Okra/Ladysfinger),670
+WASHIM,Pomegranate,806
+OSMANABAD,Tomato,1677
+YEVATMAL,Watermelon,737
+CHANDRAPUR,Onion,422
+AKOLA,Chillies,1577
+HINGOLI,Onion,1499
+NAGPUR,Groundnut (pea nut/mung phalli),705
+0,Groundnut (pea nut/mung phalli),101
+JALGAON,Soybean (bhat),2566
+DHULE,Pigeon pea (red gram/arhar/tur),663
+PUNE,Chillies,2940
+SATARA,Tomato,1721
+KOLHAPUR,Turmeric,150
+WARDHA,Groundnut (pea nut/mung phalli),1024
+0,Pomegranate,74
+WARDHA,Turmeric,144
+SOLAPUR,Mango,2648
+RATNAGIRI,Other Named Crops,1205
+PUNE,Soybean (bhat),1330
+0,Other Named Crops,779
+AMRAVATI,Tomato,814
+NASIK,Groundnut (pea nut/mung phalli),1864
+YEVATMAL,Bhindi(Okra/Ladysfinger),1340
+NANDURBAR,Pomegranate,101
+DHULE,Sorghum (Jowar/Great Millet),438
+AMRAVATI,Watermelon,486
+SINDHUDURG,Mango,351
+DHULE,Wheat,1272
+SANGLI,Sorghum (Jowar/Great Millet),1049
+NANDED,Mango,989
+LATUR,Pomegranate,463
+SANGLI,Wheat,1656
+OSMANABAD,Maize (Makka),1038
+RAIGARH,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),43
+JALNA,Maize (Makka),3111
+LATUR,Wheat,1389
+JALGAON,Bhindi(Okra/Ladysfinger),2821
+SATARA,Soybean (bhat),1902
+BEED,Turmeric,909
+DHULE,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),1697
+CHANDRAPUR,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),1572
+SATARA,Sorghum (Jowar/Great Millet),877
+OSMANABAD,Wheat,1571
+BHANDARA,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),673
+CHANDRAPUR,Wheat,672
+RATNAGIRI,Mango,644
+SINDHUDURG,Watermelon,67
+DHULE,Chillies,1416
+NANDED,Maize (Makka),1172
+NAGPUR,Wheat,1378
+YEVATMAL,Tomato,1457
+GADCHIROLI,Maize (Makka),213
+NAGPUR,Onion,454
+GADCHIROLI,Cotton (Kapas),708
+BHANDARA,Pomegranate,114
+PUNE,Turmeric,145
+MUMBAI,Other Named Crops,986
+AMRAVATI,Sorghum (Jowar/Great Millet),402
+WASHIM,Sugarcane (Noble Cane),988
+KOLHAPUR,Bhindi(Okra/Ladysfinger),596
+AKOLA,Sorghum (Jowar/Great Millet),479
+NANDURBAR,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),366
+WASHIM,Sorghum (Jowar/Great Millet),428
+AURANGABAD,Groundnut (pea nut/mung phalli),1330
+WARDHA,Maize (Makka),130
+BHANDARA,Soybean (bhat),387
+PUNE,Pigeon pea (red gram/arhar/tur),601
+RAIGARH,Onion,140
+YEVATMAL,Onion,1540
+PARBHANI,Pomegranate,631
+SATARA,Turmeric,786
+BHANDARA,Cotton (Kapas),966
+PUNE,Cotton (Kapas),1688
+SANGLI,Turmeric,786
+SATARA,Cotton (Kapas),903
+NASIK,Watermelon,1053
+KOLHAPUR,Pigeon pea (red gram/arhar/tur),267
+YEVATMAL,Sorghum (Jowar/Great Millet),1286
+SANGLI,Cotton (Kapas),1238
+KOLHAPUR,Onion,505
+DHULE,Brinjal,1219
+YEVATMAL,Mango,449
+PALGHAR,Other Named Crops,364
+HINGOLI,Maize (Makka),346
+THANE,Maize (Makka),23
+GADCHIROLI,Brinjal,311
+THANE,Chillies,302
+NANDURBAR,Bhindi(Okra/Ladysfinger),177
+BHANDARA,Bhindi(Okra/Ladysfinger),792
+NAGPUR,Bhindi(Okra/Ladysfinger),881
+NAGPUR,Tomato,810
+THANE,Brinjal,291
+YEVATMAL,Pomegranate,366
+WARDHA,Sugarcane (Noble Cane),356
+SATARA,Pigeon pea (red gram/arhar/tur),274
+THANE,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),65
+SATARA,Watermelon,383
+GADCHIROLI,Bhindi(Okra/Ladysfinger),128
+DHULE,Mango,308
+GONDIYA,Tomato,151
+NASIK,Turmeric,144
+0,Tomato,96
+OSMANABAD,Groundnut (pea nut/mung phalli),1540
+LATUR,Groundnut (pea nut/mung phalli),1652
+GONDIYA,Onion,148
+HINGOLI,Watermelon,961
+0,Cotton (Kapas),576
+GONDIYA,Sugarcane (Noble Cane),174
+DHULE,Pomegranate,1271
+BHANDARA,Groundnut (pea nut/mung phalli),173
+MUMBAI,Tomato,32
+GADCHIROLI,Pigeon pea (red gram/arhar/tur),162
+PARBHANI,Maize (Makka),737
+AKOLA,Maize (Makka),627
+0,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),171
+SINDHUDURG,Sorghum (Jowar/Great Millet),5
+WARDHA,Chillies,875
+SINDHUDURG,Cotton (Kapas),55
+AMRAVATI,Mango,392
+KOLHAPUR,Watermelon,749
+THANE,Turmeric,27
+KOLHAPUR,Pomegranate,178
+AKOLA,Pomegranate,531
+BULDANA,Watermelon,1306
+SINDHUDURG,Groundnut (pea nut/mung phalli),45
+BHANDARA,Onion,306
+GADCHIROLI,Watermelon,107
+NANDURBAR,Watermelon,150
+NANDURBAR,Pigeon pea (red gram/arhar/tur),171
+RATNAGIRI,Brinjal,94
+GONDIYA,Watermelon,97
+GADCHIROLI,Groundnut (pea nut/mung phalli),70
+GADCHIROLI,Soybean (bhat),127
+9999,Other Named Crops,553
+GONDIYA,Wheat,269
+AMRAVATI,Maize (Makka),548
+CHANDRAPUR,Watermelon,109
+9999,Soybean (bhat),81
+9999,Turmeric,10
+RAIGARH,Bhindi(Okra/Ladysfinger),99
+GONDIYA,Cotton (Kapas),323
+SANGLI,Mango,1243
+WARDHA,Bhindi(Okra/Ladysfinger),556
+GONDIYA,Mango,124
+KOLHAPUR,Maize (Makka),560
+NASIK,Sorghum (Jowar/Great Millet),365
+CHANDRAPUR,Sugarcane (Noble Cane),214
+0,Pigeon pea (red gram/arhar/tur),184
+THANE,Cotton (Kapas),129
+NAGPUR,Watermelon,128
+0,Sugarcane (Noble Cane),192
+9999,Onion,132
+9999,Cotton (Kapas),138
+JALGAON,Turmeric,181
+BHANDARA,Mango,139
+AKOLA,Turmeric,479
+THANE,Onion,97
+WARDHA,Pomegranate,136
+NAGPUR,Mango,314
+GONDIYA,Brinjal,445
+THANE,Pigeon pea (red gram/arhar/tur),75
+KOLHAPUR,Cotton (Kapas),729
+MUMBAI,Cotton (Kapas),63
+0,Mango,65
+RAIGARH,Chillies,126
+MUMBAI,Soybean (bhat),29
+PALGHAR,Brinjal,43
+WASHIM,Maize (Makka),348
+NANDURBAR,Wheat,340
+PUNE,Sorghum (Jowar/Great Millet),604
+PALGHAR,Chillies,57
+NAGPUR,Sorghum (Jowar/Great Millet),98
+RATNAGIRI,Bhindi(Okra/Ladysfinger),43
+NAGPUR,Pomegranate,239
+RAIGARH,Watermelon,35
+0,Soybean (bhat),207
+GONDIYA,Groundnut (pea nut/mung phalli),102
+9999,Brinjal,70
+THANE,Watermelon,56
+AHMADNAGAR,Turmeric,273
+NANDURBAR,Sugarcane (Noble Cane),359
+0,Wheat,87
+CHANDRAPUR,Sorghum (Jowar/Great Millet),92
+MUMBAI,Maize (Makka),35
+GONDIYA,Soybean (bhat),120
+CHANDRAPUR,Mango,212
+MUMBAI,Sugarcane (Noble Cane),52
+GONDIYA,Chillies,267
+CHANDRAPUR,Groundnut (pea nut/mung phalli),265
+THANE,Pomegranate,40
+SOLAPUR,Turmeric,172
+NANDURBAR,Brinjal,259
+RATNAGIRI,Turmeric,34
+9999,Groundnut (pea nut/mung phalli),75
+RATNAGIRI,Cotton (Kapas),55
+GONDIYA,Maize (Makka),120
+NAGPUR,Maize (Makka),214
+MUMBAI,Pomegranate,24
+NANDURBAR,Soybean (bhat),230
+0,Maize (Makka),75
+GONDIYA,Sorghum (Jowar/Great Millet),30
+NAGPUR,Turmeric,141
+PALGHAR,Mango,33
+MUMBAI,Chillies,42
+9999,Pomegranate,119
+Mumbai Suburban,Other Named Crops,91
+9999,Chillies,49
+9999,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),39
+Mumbai Suburban,Cotton (Kapas),6
+9999,Bhindi(Okra/Ladysfinger),32
+RATNAGIRI,Watermelon,59
+CHANDRAPUR,Pomegranate,118
+GADCHIROLI,Onion,92
+RATNAGIRI,Sugarcane (Noble Cane),31
+BHANDARA,Watermelon,123
+PALGHAR,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),9
+RAIGARH,Groundnut (pea nut/mung phalli),31
+RAIGARH,Pomegranate,20
+RAIGARH,Sugarcane (Noble Cane),38
+WARDHA,Watermelon,124
+MUMBAI,Pigeon pea (red gram/arhar/tur),20
+SINDHUDURG,Chillies,85
+GADCHIROLI,Pomegranate,30
+BHANDARA,Turmeric,81
+WARDHA,Mango,114
+RAIGARH,Turmeric,14
+THANE,Tomato,102
+GADCHIROLI,Wheat,73
+THANE,Sugarcane (Noble Cane),77
+RAIGARH,Pigeon pea (red gram/arhar/tur),23
+RAIGARH,Cotton (Kapas),55
+RAIGARH,Maize (Makka),22
+RAIGARH,Wheat,24
+MUMBAI,Brinjal,48
+GADCHIROLI,Sugarcane (Noble Cane),61
+9999,Sugarcane (Noble Cane),128
+9999,Wheat,40
+9999,Maize (Makka),17
+MUMBAI,Wheat,107
+GONDIYA,Pomegranate,29
+SINDHUDURG,Bhindi(Okra/Ladysfinger),37
+SINDHUDURG,Sugarcane (Noble Cane),58
+9999,Watermelon,22
+MUMBAI,Mango,112
+MUMBAI,Turmeric,13
+GADCHIROLI,Tomato,62
+DHULE,Turmeric,91
+SINDHUDURG,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),16
+CHANDRAPUR,Maize (Makka),192
+BHANDARA,Maize (Makka),79
+PALGHAR,Turmeric,4
+NANDURBAR,Sorghum (Jowar/Great Millet),69
+PALGHAR,Onion,22
+SINDHUDURG,Tomato,19
+MUMBAI,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),15
+SINDHUDURG,Brinjal,56
+PALGHAR,Maize (Makka),7
+Mumbai Suburban,Pomegranate,3
+RATNAGIRI,Maize (Makka),8
+RATNAGIRI,Onion,21
+Mumbai Suburban,Brinjal,7
+PALGHAR,Tomato,16
+0,Turmeric,66
+THANE,Soybean (bhat),73
+RATNAGIRI,Soybean (bhat),31
+Mumbai Suburban,Chillies,4
+RAIGARH,Tomato,39
+RATNAGIRI,Groundnut (pea nut/mung phalli),29
+SINDHUDURG,Maize (Makka),13
+PALGHAR,Bhindi(Okra/Ladysfinger),21
+NANDURBAR,Turmeric,31
+0,Sorghum (Jowar/Great Millet),21
+SINDHUDURG,Pomegranate,18
+9999,Sorghum (Jowar/Great Millet),5
+RATNAGIRI,Chillies,54
+RATNAGIRI,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),15
+RAIGARH,Soybean (bhat),27
+SINDHUDURG,Onion,28
+GADCHIROLI,Mango,53
+THANE,Wheat,42
+MUMBAI,Bhindi(Okra/Ladysfinger),21
+0,Bhindi(Okra/Ladysfinger),69
+RATNAGIRI,Pigeon pea (red gram/arhar/tur),16
+Mumbai Suburban,Watermelon,2
+0,Watermelon,40
+RATNAGIRI,Tomato,24
+GONDIYA,Turmeric,46
+THANE,Groundnut (pea nut/mung phalli),51
+GADCHIROLI,Turmeric,20
+SINDHUDURG,Wheat,14
+9999,Pigeon pea (red gram/arhar/tur),17
+MUMBAI,Sorghum (Jowar/Great Millet),8
+SINDHUDURG,Soybean (bhat),25
+RATNAGIRI,Pomegranate,11
+RATNAGIRI,Sorghum (Jowar/Great Millet),2
+THANE,Sorghum (Jowar/Great Millet),10
+9999,Tomato,41
+SINDHUDURG,Turmeric,17
+RATNAGIRI,Wheat,14
+MUMBAI,Watermelon,11
+GADCHIROLI,Sorghum (Jowar/Great Millet),16
+9999,Mango,24
+MUMBAI,Groundnut (pea nut/mung phalli),18
+null,Other Named Crops,11
+PALGHAR,Pigeon pea (red gram/arhar/tur),8
+PALGHAR,Watermelon,11
+PALGHAR,Groundnut (pea nut/mung phalli),4
+Mumbai Suburban,Mango,7
+Mumbai Suburban,Sugarcane (Noble Cane),3
+PALGHAR,Cotton (Kapas),3
+Mumbai Suburban,Onion,1
+PALGHAR,Sorghum (Jowar/Great Millet),1
+RAIGARH,Sorghum (Jowar/Great Millet),3
+null,Soybean (bhat),1
+PALGHAR,Wheat,5
+Mumbai Suburban,Turmeric,1
+PALGHAR,Sugarcane (Noble Cane),2
+Mumbai Suburban,Tomato,1
+Mumbai Suburban,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),4
+Mumbai Suburban,Maize (Makka),4
+Mumbai Suburban,Wheat,3
+null,Tomato,1
+null,Chillies,1
+null,Cotton (Kapas),2
+null,Maize (Makka),1
+Mumbai Suburban,Groundnut (pea nut/mung phalli),4
+null,Sugarcane (Noble Cane),1
+Mumbai Suburban,Soybean (bhat),2
+null,Pigeon pea (red gram/arhar/tur),1
+null,Bengal Gram (Gram/Chick Pea/Kabuli/Chana),1
+Mumbai Suburban,Bhindi(Okra/Ladysfinger),1

@@ -1,0 +1,575 @@
+crop,season,concern,count
+Soybean (bhat),Rabi,Market & Price Information,18843
+Onion,Rabi,"Pest, Disease & Weed Mgmt",54590
+Other Named Crops,Rabi,Cultural Practices & Mechanization,18304
+Other Named Crops,Rabi,"Pest, Disease & Weed Mgmt",87001
+Onion,Rabi,Nutrient & Soil Management,31090
+Other Named Crops,Rabi,Market & Price Information,16396
+Onion,Rabi,Market & Price Information,20909
+Cotton (Kapas),Rabi,Market & Price Information,46704
+Turmeric,Rabi,Market & Price Information,3224
+Sugarcane (Noble Cane),Rabi,"Pest, Disease & Weed Mgmt",22599
+Cotton (Kapas),Kharif,Water Management/Irrigation,3636
+Other Named Crops,Kharif,Seeds & Varieties,16830
+Soybean (bhat),Kharif,Seeds & Varieties,9175
+Soybean (bhat),Kharif,Market & Price Information,8581
+Cotton (Kapas),Kharif,"Pest, Disease & Weed Mgmt",173115
+Pigeon pea (red gram/arhar/tur),Kharif,Seeds & Varieties,2655
+Cotton (Kapas),Kharif,Seeds & Varieties,12252
+Maize (Makka),Kharif,Seeds & Varieties,2928
+Turmeric,Kharif,Market & Price Information,2033
+Sugarcane (Noble Cane),Rabi,Nutrient & Soil Management,26372
+Other Named Crops,Rabi,Nutrient & Soil Management,45087
+Other Named Crops,Rabi,Seeds & Varieties,31765
+Chillies,Rabi,"Pest, Disease & Weed Mgmt",21477
+Tomato,Rabi,Nutrient & Soil Management,3602
+Sorghum (Jowar/Great Millet),Rabi,Water Management/Irrigation,333
+Chillies,Rabi,Nutrient & Soil Management,3998
+Bhindi(Okra/Ladysfinger),Rabi,Nutrient & Soil Management,2901
+Pomegranate,Rabi,"Pest, Disease & Weed Mgmt",16038
+Bhindi(Okra/Ladysfinger),Rabi,Market & Price Information,438
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,Market & Price Information,7305
+Sorghum (Jowar/Great Millet),Rabi,"Pest, Disease & Weed Mgmt",10475
+Groundnut (pea nut/mung phalli),Rabi,"Pest, Disease & Weed Mgmt",11130
+Brinjal,Rabi,"Pest, Disease & Weed Mgmt",25708
+Cotton (Kapas),Rabi,Cultural Practices & Mechanization,3050
+Onion,Rabi,Weather & Climate Advisory,759
+Onion,Rabi,Cultural Practices & Mechanization,4843
+Bhindi(Okra/Ladysfinger),Rabi,"Pest, Disease & Weed Mgmt",13919
+Tomato,Rabi,"Pest, Disease & Weed Mgmt",15004
+Sorghum (Jowar/Great Millet),Rabi,Market & Price Information,1107
+Turmeric,Rabi,Nutrient & Soil Management,1907
+Mango,Rabi,"Pest, Disease & Weed Mgmt",10721
+Wheat,Rabi,Market & Price Information,1413
+Soybean (bhat),Kharif,"Pest, Disease & Weed Mgmt",64983
+Soybean (bhat),Kharif,Weather & Climate Advisory,8701
+Cotton (Kapas),Kharif,Nutrient & Soil Management,79354
+Chillies,Kharif,Nutrient & Soil Management,3753
+Wheat,Rabi,Nutrient & Soil Management,14181
+Maize (Makka),Rabi,"Pest, Disease & Weed Mgmt",10609
+Wheat,Rabi,"Pest, Disease & Weed Mgmt",23509
+Sugarcane (Noble Cane),Kharif,Nutrient & Soil Management,12668
+Soybean (bhat),Kharif,Nutrient & Soil Management,22615
+Chillies,Kharif,"Pest, Disease & Weed Mgmt",20302
+Sugarcane (Noble Cane),Kharif,"Pest, Disease & Weed Mgmt",13207
+Sugarcane (Noble Cane),Kharif,Weather & Climate Advisory,1166
+Other Named Crops,Kharif,Nutrient & Soil Management,30373
+Onion,Kharif,Nutrient & Soil Management,8911
+Other Named Crops,Kharif,"Pest, Disease & Weed Mgmt",68338
+Maize (Makka),Kharif,"Pest, Disease & Weed Mgmt",9665
+Mango,Kharif,"Pest, Disease & Weed Mgmt",2466
+Pigeon pea (red gram/arhar/tur),Kharif,"Pest, Disease & Weed Mgmt",22545
+Wheat,Rabi,Cultural Practices & Mechanization,3336
+Other Named Crops,Rabi,Weather & Climate Advisory,7559
+Turmeric,Kharif,"Pest, Disease & Weed Mgmt",13720
+Brinjal,Kharif,"Pest, Disease & Weed Mgmt",15833
+Soybean (bhat),Rabi,"Pest, Disease & Weed Mgmt",2066
+Groundnut (pea nut/mung phalli),Rabi,Nutrient & Soil Management,7612
+Pomegranate,Rabi,Nutrient & Soil Management,7841
+Pomegranate,Kharif,Nutrient & Soil Management,5826
+Tomato,Kharif,"Pest, Disease & Weed Mgmt",15310
+Groundnut (pea nut/mung phalli),Kharif,"Pest, Disease & Weed Mgmt",2329
+Soybean (bhat),Kharif,Cultural Practices & Mechanization,11918
+Maize (Makka),Rabi,Market & Price Information,2910
+Sugarcane (Noble Cane),Rabi,Weather & Climate Advisory,1066
+Pigeon pea (red gram/arhar/tur),Rabi,Market & Price Information,14676
+Tomato,Rabi,Seeds & Varieties,2297
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,Water Management/Irrigation,3596
+Bhindi(Okra/Ladysfinger),Rabi,Cultural Practices & Mechanization,1068
+Cotton (Kapas),Rabi,Weather & Climate Advisory,2526
+Pomegranate,Rabi,Cultural Practices & Mechanization,1587
+Brinjal,Rabi,Seeds & Varieties,1924
+Brinjal,Rabi,Nutrient & Soil Management,4617
+Soybean (bhat),Rabi,Seeds & Varieties,1026
+Watermelon,Rabi,"Pest, Disease & Weed Mgmt",8038
+Mango,Rabi,Seeds & Varieties,314
+Pigeon pea (red gram/arhar/tur),Rabi,Cultural Practices & Mechanization,2942
+Soybean (bhat),Rabi,"Govt Schemes, Insurance & Policy",438
+Cotton (Kapas),Rabi,Nutrient & Soil Management,8833
+Other Named Crops,Rabi,"Govt Schemes, Insurance & Policy",3669
+Chillies,Rabi,Seeds & Varieties,4368
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,Nutrient & Soil Management,20053
+Sugarcane (Noble Cane),Rabi,Seeds & Varieties,3487
+Watermelon,Rabi,Nutrient & Soil Management,3815
+Tomato,Kharif,Cultural Practices & Mechanization,683
+Cotton (Kapas),Kharif,"Govt Schemes, Insurance & Policy",1041
+Sugarcane (Noble Cane),Rabi,Cultural Practices & Mechanization,6315
+Other Named Crops,Kharif,Other Advisory,6313
+Maize (Makka),Kharif,Market & Price Information,1186
+Mango,Rabi,Nutrient & Soil Management,3759
+Soybean (bhat),Rabi,Nutrient & Soil Management,829
+Groundnut (pea nut/mung phalli),Rabi,Water Management/Irrigation,417
+Cotton (Kapas),Rabi,"Govt Schemes, Insurance & Policy",636
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,Weather & Climate Advisory,2149
+Watermelon,Rabi,Cultural Practices & Mechanization,1175
+Other Named Crops,Rabi,Water Management/Irrigation,2478
+Watermelon,Rabi,Market & Price Information,706
+Wheat,Rabi,Weather & Climate Advisory,1672
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,"Pest, Disease & Weed Mgmt",48518
+Pigeon pea (red gram/arhar/tur),Rabi,"Pest, Disease & Weed Mgmt",31457
+Wheat,Rabi,Seeds & Varieties,6457
+Turmeric,Rabi,"Pest, Disease & Weed Mgmt",4673
+Pigeon pea (red gram/arhar/tur),Rabi,Nutrient & Soil Management,9720
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,Seeds & Varieties,4594
+Groundnut (pea nut/mung phalli),Rabi,Seeds & Varieties,7905
+Watermelon,Rabi,Seeds & Varieties,3538
+Groundnut (pea nut/mung phalli),Rabi,Market & Price Information,392
+Brinjal,Rabi,Cultural Practices & Mechanization,1122
+Pomegranate,Rabi,Market & Price Information,2533
+Other Named Crops,Kharif,Weather & Climate Advisory,9706
+Groundnut (pea nut/mung phalli),Kharif,Seeds & Varieties,950
+Turmeric,Kharif,Nutrient & Soil Management,7449
+Onion,Kharif,Market & Price Information,10198
+Other Named Crops,Kharif,Cultural Practices & Mechanization,12090
+Tomato,Kharif,Nutrient & Soil Management,4259
+Pigeon pea (red gram/arhar/tur),Kharif,Market & Price Information,2049
+Bhindi(Okra/Ladysfinger),Kharif,Nutrient & Soil Management,1530
+Other Named Crops,Kharif,Market & Price Information,10584
+Other Named Crops,Kharif,"Govt Schemes, Insurance & Policy",3504
+Watermelon,Kharif,Nutrient & Soil Management,99
+Groundnut (pea nut/mung phalli),Rabi,Cultural Practices & Mechanization,2568
+Chillies,Rabi,Cultural Practices & Mechanization,1326
+Bhindi(Okra/Ladysfinger),Rabi,Water Management/Irrigation,51
+Wheat,Rabi,"Govt Schemes, Insurance & Policy",256
+Other Named Crops,Rabi,Other Advisory,6542
+Other Named Crops,Kharif,Animal Husbandry,2541
+Onion,Kharif,Seeds & Varieties,2980
+Pigeon pea (red gram/arhar/tur),Kharif,Nutrient & Soil Management,9692
+Bhindi(Okra/Ladysfinger),Kharif,"Pest, Disease & Weed Mgmt",7415
+Sorghum (Jowar/Great Millet),Kharif,Seeds & Varieties,2159
+Bhindi(Okra/Ladysfinger),Kharif,Seeds & Varieties,974
+Tomato,Rabi,Weather & Climate Advisory,107
+Cotton (Kapas),Rabi,"Pest, Disease & Weed Mgmt",21696
+Cotton (Kapas),Kharif,Market & Price Information,4805
+Maize (Makka),Rabi,Seeds & Varieties,3607
+Brinjal,Rabi,Market & Price Information,889
+Mango,Rabi,"Govt Schemes, Insurance & Policy",166
+Pomegranate,Kharif,"Pest, Disease & Weed Mgmt",12775
+Bhindi(Okra/Ladysfinger),Rabi,Seeds & Varieties,3031
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,Cultural Practices & Mechanization,4975
+Pigeon pea (red gram/arhar/tur),Rabi,Seeds & Varieties,515
+Onion,Rabi,Seeds & Varieties,2322
+Turmeric,Rabi,Cultural Practices & Mechanization,533
+Pigeon pea (red gram/arhar/tur),Kharif,Cultural Practices & Mechanization,2474
+Pomegranate,Kharif,Market & Price Information,2011
+Turmeric,Kharif,Cultural Practices & Mechanization,1020
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,Market & Price Information,2080
+Turmeric,Kharif,Seeds & Varieties,619
+Sugarcane (Noble Cane),Kharif,Seeds & Varieties,1529
+Onion,Kharif,Cultural Practices & Mechanization,2737
+Cotton (Kapas),Kharif,Cultural Practices & Mechanization,15417
+Pomegranate,Kharif,"Govt Schemes, Insurance & Policy",280
+Mango,Kharif,Cultural Practices & Mechanization,423
+Tomato,Kharif,Market & Price Information,1142
+Groundnut (pea nut/mung phalli),Kharif,Market & Price Information,629
+Brinjal,Kharif,Nutrient & Soil Management,2452
+Chillies,Kharif,Seeds & Varieties,1848
+Mango,Kharif,Nutrient & Soil Management,1270
+Mango,Kharif,Other Advisory,49
+Sugarcane (Noble Cane),Kharif,Unspecified,3882
+Sugarcane (Noble Cane),Kharif,Cultural Practices & Mechanization,3467
+Sorghum (Jowar/Great Millet),Kharif,"Pest, Disease & Weed Mgmt",3306
+Other Named Crops,Kharif,Unspecified,49883
+Maize (Makka),Rabi,Nutrient & Soil Management,4679
+Cotton (Kapas),Kharif,Weather & Climate Advisory,12254
+Onion,Kharif,"Pest, Disease & Weed Mgmt",21277
+Soybean (bhat),Kharif,Water Management/Irrigation,3362
+Bhindi(Okra/Ladysfinger),Rabi,Weather & Climate Advisory,414
+Tomato,Rabi,Cultural Practices & Mechanization,919
+Turmeric,Rabi,Seeds & Varieties,428
+Pomegranate,Rabi,Weather & Climate Advisory,193
+Other Named Crops,Rabi,Animal Husbandry,3851
+Mango,Kharif,Seeds & Varieties,459
+Mango,Rabi,Other Advisory,80
+Cotton (Kapas),Rabi,Seeds & Varieties,502
+Tomato,Rabi,Market & Price Information,1334
+Chillies,Rabi,Market & Price Information,828
+Brinjal,Rabi,Weather & Climate Advisory,230
+Onion,Rabi,Other Advisory,522
+Groundnut (pea nut/mung phalli),Rabi,Weather & Climate Advisory,1070
+Maize (Makka),Kharif,Nutrient & Soil Management,3457
+Pomegranate,Rabi,"Govt Schemes, Insurance & Policy",304
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,"Govt Schemes, Insurance & Policy",431
+Cotton (Kapas),Kharif,Unspecified,51282
+Soybean (bhat),Kharif,Unspecified,16917
+Mango,Kharif,Unspecified,563
+Pomegranate,Kharif,Unspecified,3854
+Maize (Makka),Rabi,Weather & Climate Advisory,465
+Onion,Rabi,Water Management/Irrigation,728
+Maize (Makka),Rabi,Cultural Practices & Mechanization,1130
+Sorghum (Jowar/Great Millet),Rabi,Seeds & Varieties,1820
+Onion,Rabi,"Govt Schemes, Insurance & Policy",350
+Sorghum (Jowar/Great Millet),Rabi,Cultural Practices & Mechanization,955
+Pigeon pea (red gram/arhar/tur),Rabi,Water Management/Irrigation,749
+Turmeric,Rabi,Weather & Climate Advisory,68
+Soybean (bhat),Kharif,"Govt Schemes, Insurance & Policy",1028
+Onion,Kharif,Other Advisory,317
+Chillies,Zaid,Other Advisory,57
+Other Named Crops,Zaid,Nutrient & Soil Management,13544
+Other Named Crops,Zaid,"Pest, Disease & Weed Mgmt",31066
+Pigeon pea (red gram/arhar/tur),Zaid,"Govt Schemes, Insurance & Policy",32
+Other Named Crops,Zaid,Weather & Climate Advisory,2449
+Groundnut (pea nut/mung phalli),Kharif,Cultural Practices & Mechanization,501
+Pigeon pea (red gram/arhar/tur),Rabi,"Govt Schemes, Insurance & Policy",185
+Sugarcane (Noble Cane),Rabi,Water Management/Irrigation,520
+Sugarcane (Noble Cane),Rabi,"Govt Schemes, Insurance & Policy",608
+Sorghum (Jowar/Great Millet),Rabi,Nutrient & Soil Management,2178
+Wheat,Rabi,Water Management/Irrigation,1466
+Mango,Rabi,Cultural Practices & Mechanization,691
+Soybean (bhat),Rabi,Weather & Climate Advisory,621
+Sorghum (Jowar/Great Millet),Rabi,Weather & Climate Advisory,514
+Soybean (bhat),Rabi,Cultural Practices & Mechanization,602
+Chillies,Zaid,Seeds & Varieties,2438
+Brinjal,Kharif,Market & Price Information,304
+Chillies,Kharif,Cultural Practices & Mechanization,884
+Maize (Makka),Zaid,"Pest, Disease & Weed Mgmt",946
+Sugarcane (Noble Cane),Zaid,Nutrient & Soil Management,10280
+Mango,Zaid,Cultural Practices & Mechanization,498
+Mango,Kharif,"Govt Schemes, Insurance & Policy",133
+Brinjal,Kharif,Cultural Practices & Mechanization,584
+Sorghum (Jowar/Great Millet),Kharif,Market & Price Information,321
+Pigeon pea (red gram/arhar/tur),Rabi,Weather & Climate Advisory,839
+Pomegranate,Kharif,Seeds & Varieties,1039
+Wheat,Rabi,Other Advisory,206
+Wheat,Kharif,Weather & Climate Advisory,348
+Pomegranate,Rabi,Seeds & Varieties,1189
+Sugarcane (Noble Cane),Rabi,Market & Price Information,196
+Cotton (Kapas),Kharif,Other Advisory,224
+Tomato,Rabi,Other Advisory,70
+Bhindi(Okra/Ladysfinger),Rabi,Other Advisory,117
+Onion,Kharif,Weather & Climate Advisory,581
+Watermelon,Rabi,Weather & Climate Advisory,78
+Brinjal,Rabi,Other Advisory,149
+Maize (Makka),Rabi,"Govt Schemes, Insurance & Policy",128
+Brinjal,Kharif,Weather & Climate Advisory,653
+Brinjal,Rabi,"Govt Schemes, Insurance & Policy",80
+Groundnut (pea nut/mung phalli),Kharif,Nutrient & Soil Management,1079
+Tomato,Kharif,Unspecified,3266
+Wheat,Kharif,Cultural Practices & Mechanization,488
+Chillies,Kharif,Unspecified,3210
+Chillies,Kharif,Market & Price Information,713
+Bhindi(Okra/Ladysfinger),Kharif,Weather & Climate Advisory,601
+Turmeric,Kharif,Unspecified,1177
+Onion,Kharif,Unspecified,5878
+Bhindi(Okra/Ladysfinger),Kharif,Unspecified,703
+Pomegranate,Kharif,Other Advisory,84
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,"Pest, Disease & Weed Mgmt",3467
+Groundnut (pea nut/mung phalli),Kharif,Weather & Climate Advisory,612
+Sorghum (Jowar/Great Millet),Kharif,Unspecified,452
+Wheat,Kharif,Market & Price Information,245
+Sugarcane (Noble Cane),Kharif,"Govt Schemes, Insurance & Policy",336
+Brinjal,Kharif,Unspecified,1716
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,Unspecified,869
+Brinjal,Kharif,Seeds & Varieties,771
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,Cultural Practices & Mechanization,1336
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,Seeds & Varieties,6365
+Pigeon pea (red gram/arhar/tur),Kharif,Unspecified,1752
+Watermelon,Kharif,"Pest, Disease & Weed Mgmt",297
+Maize (Makka),Kharif,Cultural Practices & Mechanization,1549
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,Nutrient & Soil Management,1495
+Watermelon,Kharif,Market & Price Information,87
+Sorghum (Jowar/Great Millet),Kharif,Cultural Practices & Mechanization,642
+Pomegranate,Kharif,Cultural Practices & Mechanization,1250
+Maize (Makka),Rabi,Water Management/Irrigation,228
+Wheat,Kharif,Unspecified,780
+Watermelon,Kharif,Unspecified,154
+Chillies,Kharif,"Govt Schemes, Insurance & Policy",31
+Wheat,Kharif,"Pest, Disease & Weed Mgmt",534
+Groundnut (pea nut/mung phalli),Kharif,Unspecified,916
+Other Named Crops,Kharif,Water Management/Irrigation,1222
+Other Named Crops,Rabi,Unspecified,94746
+Pigeon pea (red gram/arhar/tur),Rabi,Unspecified,6581
+Onion,Rabi,Unspecified,18437
+Wheat,Rabi,Unspecified,11318
+Watermelon,Rabi,Unspecified,5334
+Groundnut (pea nut/mung phalli),Rabi,Unspecified,8376
+Bhindi(Okra/Ladysfinger),Rabi,Unspecified,2953
+Tomato,Rabi,Unspecified,4746
+Brinjal,Rabi,Unspecified,6498
+Mango,Rabi,Unspecified,3442
+Cotton (Kapas),Rabi,Unspecified,16470
+Soybean (bhat),Rabi,Unspecified,5946
+Pomegranate,Rabi,Unspecified,8361
+Cotton (Kapas),Rabi,Water Management/Irrigation,229
+Chillies,Rabi,Unspecified,5781
+Mango,Rabi,Water Management/Irrigation,137
+Chillies,Rabi,Weather & Climate Advisory,85
+Pigeon pea (red gram/arhar/tur),Kharif,Weather & Climate Advisory,907
+Watermelon,Kharif,Seeds & Varieties,301
+Maize (Makka),Kharif,Unspecified,1288
+Turmeric,Kharif,Other Advisory,83
+Chillies,Rabi,Other Advisory,114
+Soybean (bhat),Zaid,Seeds & Varieties,4631
+Bhindi(Okra/Ladysfinger),Zaid,Seeds & Varieties,688
+Sugarcane (Noble Cane),Zaid,"Pest, Disease & Weed Mgmt",9273
+Other Named Crops,Zaid,Cultural Practices & Mechanization,7485
+Other Named Crops,Zaid,Market & Price Information,5957
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Zaid,Market & Price Information,4175
+Groundnut (pea nut/mung phalli),Zaid,Weather & Climate Advisory,497
+Brinjal,Zaid,Weather & Climate Advisory,211
+Cotton (Kapas),Zaid,Market & Price Information,9816
+Brinjal,Zaid,Nutrient & Soil Management,1540
+Mango,Zaid,Seeds & Varieties,504
+Other Named Crops,Zaid,Seeds & Varieties,10140
+Mango,Zaid,"Pest, Disease & Weed Mgmt",3190
+Wheat,Zaid,Seeds & Varieties,54
+Brinjal,Zaid,"Pest, Disease & Weed Mgmt",12385
+Groundnut (pea nut/mung phalli),Zaid,Nutrient & Soil Management,2623
+Maize (Makka),Zaid,Weather & Climate Advisory,270
+Cotton (Kapas),Zaid,Weather & Climate Advisory,1021
+Sugarcane (Noble Cane),Zaid,Cultural Practices & Mechanization,2861
+Bhindi(Okra/Ladysfinger),Zaid,"Pest, Disease & Weed Mgmt",6784
+Chillies,Zaid,"Pest, Disease & Weed Mgmt",9596
+Groundnut (pea nut/mung phalli),Zaid,Water Management/Irrigation,202
+Turmeric,Zaid,Seeds & Varieties,1211
+Onion,Zaid,Other Advisory,640
+Onion,Zaid,Market & Price Information,9432
+Tomato,Zaid,"Pest, Disease & Weed Mgmt",5981
+Chillies,Zaid,Nutrient & Soil Management,1709
+Maize (Makka),Zaid,Seeds & Varieties,829
+Pigeon pea (red gram/arhar/tur),Zaid,Market & Price Information,3777
+Groundnut (pea nut/mung phalli),Zaid,Seeds & Varieties,542
+Onion,Zaid,Weather & Climate Advisory,449
+Turmeric,Zaid,Weather & Climate Advisory,154
+Groundnut (pea nut/mung phalli),Zaid,Market & Price Information,1152
+Pomegranate,Zaid,"Pest, Disease & Weed Mgmt",8000
+Soybean (bhat),Zaid,Market & Price Information,7260
+Soybean (bhat),Zaid,Nutrient & Soil Management,1541
+Tomato,Zaid,Seeds & Varieties,1473
+Cotton (Kapas),Zaid,Seeds & Varieties,13359
+Pomegranate,Kharif,Weather & Climate Advisory,187
+Turmeric,Zaid,Market & Price Information,4256
+Cotton (Kapas),Zaid,Cultural Practices & Mechanization,3614
+Sugarcane (Noble Cane),Zaid,"Govt Schemes, Insurance & Policy",296
+Onion,Zaid,Seeds & Varieties,963
+Chillies,Zaid,Cultural Practices & Mechanization,771
+Watermelon,Zaid,"Pest, Disease & Weed Mgmt",1807
+Other Named Crops,Zaid,Other Advisory,3107
+Soybean (bhat),Zaid,Cultural Practices & Mechanization,1309
+Groundnut (pea nut/mung phalli),Zaid,"Pest, Disease & Weed Mgmt",4174
+Mango,Zaid,Nutrient & Soil Management,1139
+Brinjal,Zaid,Other Advisory,138
+Onion,Zaid,Nutrient & Soil Management,1251
+Sorghum (Jowar/Great Millet),Kharif,Nutrient & Soil Management,858
+Wheat,Zaid,Market & Price Information,790
+Soybean (bhat),Zaid,"Govt Schemes, Insurance & Policy",172
+Soybean (bhat),Zaid,"Pest, Disease & Weed Mgmt",902
+Tomato,Kharif,Seeds & Varieties,1075
+Bhindi(Okra/Ladysfinger),Kharif,Market & Price Information,261
+Maize (Makka),Kharif,Water Management/Irrigation,572
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,Other Advisory,170
+Maize (Makka),Kharif,Other Advisory,165
+Other Named Crops,Zaid,Unspecified,23448
+Chillies,Zaid,Water Management/Irrigation,48
+Mango,Rabi,Market & Price Information,60
+Turmeric,Rabi,Other Advisory,127
+Wheat,Kharif,Seeds & Varieties,2633
+Onion,Zaid,Unspecified,2873
+Tomato,Zaid,Unspecified,1920
+Cotton (Kapas),Zaid,Unspecified,9306
+Wheat,Zaid,Unspecified,403
+Watermelon,Zaid,Unspecified,617
+Cotton (Kapas),Zaid,Nutrient & Soil Management,2032
+Soybean (bhat),Zaid,Unspecified,4322
+Wheat,Kharif,Nutrient & Soil Management,397
+Bhindi(Okra/Ladysfinger),Kharif,Cultural Practices & Mechanization,501
+Watermelon,Zaid,Nutrient & Soil Management,814
+Turmeric,Kharif,Weather & Climate Advisory,249
+Maize (Makka),Kharif,Weather & Climate Advisory,1023
+Watermelon,Kharif,Cultural Practices & Mechanization,101
+Pomegranate,Zaid,Market & Price Information,1180
+Tomato,Kharif,Other Advisory,76
+Other Named Crops,Zaid,"Govt Schemes, Insurance & Policy",2590
+Pomegranate,Zaid,Nutrient & Soil Management,3798
+Pigeon pea (red gram/arhar/tur),Zaid,Seeds & Varieties,1233
+Chillies,Zaid,"Govt Schemes, Insurance & Policy",30
+Sorghum (Jowar/Great Millet),Zaid,Market & Price Information,535
+Turmeric,Zaid,Nutrient & Soil Management,432
+Turmeric,Zaid,"Pest, Disease & Weed Mgmt",707
+Bhindi(Okra/Ladysfinger),Zaid,Nutrient & Soil Management,1058
+Mango,Zaid,Market & Price Information,169
+Soybean (bhat),Zaid,Weather & Climate Advisory,429
+Tomato,Zaid,Nutrient & Soil Management,1468
+Maize (Makka),Zaid,Cultural Practices & Mechanization,565
+Brinjal,Zaid,Cultural Practices & Mechanization,520
+Other Named Crops,Zaid,Animal Husbandry,2178
+Turmeric,Zaid,Cultural Practices & Mechanization,721
+Onion,Kharif,"Govt Schemes, Insurance & Policy",158
+Brinjal,Rabi,Water Management/Irrigation,55
+Onion,Zaid,"Pest, Disease & Weed Mgmt",2548
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,Unspecified,8475
+Maize (Makka),Rabi,Unspecified,1256
+Sorghum (Jowar/Great Millet),Rabi,Unspecified,872
+Tomato,Rabi,"Govt Schemes, Insurance & Policy",39
+Sorghum (Jowar/Great Millet),Kharif,"Govt Schemes, Insurance & Policy",49
+Groundnut (pea nut/mung phalli),Rabi,"Govt Schemes, Insurance & Policy",114
+Pomegranate,Rabi,Water Management/Irrigation,276
+Sorghum (Jowar/Great Millet),Rabi,"Govt Schemes, Insurance & Policy",89
+Mango,Kharif,Weather & Climate Advisory,44
+Other Named Crops,Zaid,Water Management/Irrigation,867
+Soybean (bhat),Rabi,Other Advisory,58
+Brinjal,Zaid,Seeds & Varieties,624
+Sugarcane (Noble Cane),Zaid,Water Management/Irrigation,410
+Watermelon,Rabi,Water Management/Irrigation,118
+Sorghum (Jowar/Great Millet),Zaid,Weather & Climate Advisory,175
+Turmeric,Rabi,Unspecified,1078
+Sorghum (Jowar/Great Millet),Zaid,"Pest, Disease & Weed Mgmt",383
+Onion,Zaid,Water Management/Irrigation,76
+Watermelon,Zaid,"Govt Schemes, Insurance & Policy",11
+Onion,Zaid,Cultural Practices & Mechanization,1480
+Tomato,Zaid,Cultural Practices & Mechanization,483
+Maize (Makka),Zaid,Market & Price Information,615
+Mango,Rabi,Weather & Climate Advisory,64
+Groundnut (pea nut/mung phalli),Zaid,"Govt Schemes, Insurance & Policy",58
+Turmeric,Zaid,Other Advisory,196
+Turmeric,Rabi,Water Management/Irrigation,137
+Tomato,Rabi,Water Management/Irrigation,44
+Sorghum (Jowar/Great Millet),Rabi,Other Advisory,82
+Bhindi(Okra/Ladysfinger),Zaid,Cultural Practices & Mechanization,360
+Pomegranate,Zaid,Seeds & Varieties,1319
+Watermelon,Zaid,Market & Price Information,486
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,Weather & Climate Advisory,1288
+Groundnut (pea nut/mung phalli),Kharif,"Govt Schemes, Insurance & Policy",69
+Pigeon pea (red gram/arhar/tur),Kharif,"Govt Schemes, Insurance & Policy",126
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,Water Management/Irrigation,89
+Bhindi(Okra/Ladysfinger),Zaid,Market & Price Information,233
+Sugarcane (Noble Cane),Zaid,Weather & Climate Advisory,828
+Pomegranate,Zaid,"Govt Schemes, Insurance & Policy",295
+Sorghum (Jowar/Great Millet),Kharif,Weather & Climate Advisory,387
+Turmeric,Kharif,"Govt Schemes, Insurance & Policy",37
+Maize (Makka),Zaid,Nutrient & Soil Management,528
+Cotton (Kapas),Zaid,"Pest, Disease & Weed Mgmt",1621
+Soybean (bhat),Rabi,Water Management/Irrigation,41
+Sorghum (Jowar/Great Millet),Zaid,Nutrient & Soil Management,125
+Bhindi(Okra/Ladysfinger),Kharif,"Govt Schemes, Insurance & Policy",34
+Pigeon pea (red gram/arhar/tur),Zaid,Unspecified,567
+Pigeon pea (red gram/arhar/tur),Zaid,Nutrient & Soil Management,106
+Brinjal,Zaid,Market & Price Information,318
+Sugarcane (Noble Cane),Rabi,Unspecified,6975
+Sugarcane (Noble Cane),Zaid,Seeds & Varieties,921
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Zaid,Cultural Practices & Mechanization,168
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Zaid,"Govt Schemes, Insurance & Policy",75
+Pigeon pea (red gram/arhar/tur),Zaid,Weather & Climate Advisory,165
+Sugarcane (Noble Cane),Kharif,Water Management/Irrigation,306
+Chillies,Kharif,Other Advisory,91
+Wheat,Kharif,Other Advisory,31
+Pigeon pea (red gram/arhar/tur),Zaid,"Pest, Disease & Weed Mgmt",416
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Zaid,"Pest, Disease & Weed Mgmt",442
+Watermelon,Kharif,Other Advisory,9
+Onion,Kharif,Water Management/Irrigation,550
+Pomegranate,Zaid,Unspecified,3437
+Mango,Zaid,Unspecified,1204
+Chillies,Zaid,Unspecified,2650
+Pomegranate,Zaid,Cultural Practices & Mechanization,1104
+Pomegranate,Zaid,Water Management/Irrigation,234
+Bhindi(Okra/Ladysfinger),Zaid,Weather & Climate Advisory,468
+Mango,Zaid,"Govt Schemes, Insurance & Policy",174
+Tomato,Zaid,Market & Price Information,648
+Pigeon pea (red gram/arhar/tur),Zaid,Cultural Practices & Mechanization,267
+Chillies,Rabi,Water Management/Irrigation,36
+Groundnut (pea nut/mung phalli),Zaid,Unspecified,2439
+Sorghum (Jowar/Great Millet),Zaid,Seeds & Varieties,125
+Brinjal,Zaid,Water Management/Irrigation,29
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Zaid,Seeds & Varieties,62
+Cotton (Kapas),Zaid,Water Management/Irrigation,64
+Cotton (Kapas),Zaid,"Govt Schemes, Insurance & Policy",444
+Mango,Zaid,Other Advisory,144
+Soybean (bhat),Zaid,Water Management/Irrigation,12
+Cotton (Kapas),Rabi,Other Advisory,102
+Watermelon,Zaid,Seeds & Varieties,167
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,"Govt Schemes, Insurance & Policy",103
+Tomato,Zaid,"Govt Schemes, Insurance & Policy",27
+Sorghum (Jowar/Great Millet),Zaid,"Govt Schemes, Insurance & Policy",19
+Chillies,Zaid,Market & Price Information,262
+Tomato,Kharif,Weather & Climate Advisory,259
+Bhindi(Okra/Ladysfinger),Zaid,Unspecified,1106
+Brinjal,Zaid,Unspecified,2423
+Pomegranate,Kharif,Water Management/Irrigation,54
+Turmeric,Zaid,Unspecified,815
+Mango,Zaid,Water Management/Irrigation,59
+Sugarcane (Noble Cane),Zaid,Unspecified,4240
+Tomato,Zaid,Water Management/Irrigation,24
+Chillies,Zaid,Weather & Climate Advisory,103
+Watermelon,Rabi,Other Advisory,68
+Wheat,Zaid,Cultural Practices & Mechanization,285
+Turmeric,Zaid,"Govt Schemes, Insurance & Policy",45
+Bhindi(Okra/Ladysfinger),Zaid,Water Management/Irrigation,35
+Groundnut (pea nut/mung phalli),Zaid,Cultural Practices & Mechanization,1078
+Watermelon,Zaid,Cultural Practices & Mechanization,144
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Zaid,Unspecified,444
+Watermelon,Zaid,Other Advisory,25
+Sorghum (Jowar/Great Millet),Zaid,Water Management/Irrigation,31
+Maize (Makka),Zaid,Unspecified,538
+Wheat,Zaid,Nutrient & Soil Management,50
+Sorghum (Jowar/Great Millet),Zaid,Cultural Practices & Mechanization,487
+Watermelon,Zaid,Water Management/Irrigation,33
+Wheat,Zaid,Other Advisory,73
+Brinjal,Zaid,"Govt Schemes, Insurance & Policy",51
+Onion,Zaid,"Govt Schemes, Insurance & Policy",160
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Zaid,Other Advisory,39
+Pomegranate,Zaid,Other Advisory,67
+Bhindi(Okra/Ladysfinger),Zaid,Other Advisory,66
+Pomegranate,Zaid,Weather & Climate Advisory,73
+Tomato,Kharif,"Govt Schemes, Insurance & Policy",35
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Zaid,Nutrient & Soil Management,137
+Sugarcane (Noble Cane),Zaid,Market & Price Information,58
+Brinjal,Kharif,Other Advisory,86
+Sugarcane (Noble Cane),Rabi,Other Advisory,71
+Watermelon,Rabi,"Govt Schemes, Insurance & Policy",46
+Bhindi(Okra/Ladysfinger),Rabi,"Govt Schemes, Insurance & Policy",46
+Pomegranate,Rabi,Other Advisory,84
+Wheat,Zaid,"Pest, Disease & Weed Mgmt",218
+Pigeon pea (red gram/arhar/tur),Kharif,Water Management/Irrigation,425
+Tomato,Zaid,Weather & Climate Advisory,65
+Soybean (bhat),Zaid,Other Advisory,22
+Sorghum (Jowar/Great Millet),Zaid,Unspecified,129
+Chillies,Kharif,Weather & Climate Advisory,163
+Maize (Makka),Zaid,"Govt Schemes, Insurance & Policy",25
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Zaid,Weather & Climate Advisory,155
+Maize (Makka),Zaid,Other Advisory,64
+Bhindi(Okra/Ladysfinger),Zaid,"Govt Schemes, Insurance & Policy",30
+Cotton (Kapas),Zaid,Other Advisory,39
+Wheat,Kharif,"Govt Schemes, Insurance & Policy",24
+Pigeon pea (red gram/arhar/tur),Rabi,Other Advisory,160
+Wheat,Zaid,"Govt Schemes, Insurance & Policy",23
+Groundnut (pea nut/mung phalli),Rabi,Other Advisory,23
+Maize (Makka),Rabi,Other Advisory,63
+Maize (Makka),Kharif,"Govt Schemes, Insurance & Policy",90
+Bhindi(Okra/Ladysfinger),Kharif,Other Advisory,57
+Sugarcane (Noble Cane),Kharif,Other Advisory,28
+Sorghum (Jowar/Great Millet),Kharif,Water Management/Irrigation,52
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,Other Advisory,33
+Soybean (bhat),Kharif,Other Advisory,1459
+Groundnut (pea nut/mung phalli),Kharif,Other Advisory,31
+Mango,Kharif,Water Management/Irrigation,17
+Watermelon,Kharif,Weather & Climate Advisory,30
+Mango,Kharif,Market & Price Information,25
+Chillies,Rabi,"Govt Schemes, Insurance & Policy",37
+Turmeric,Kharif,Water Management/Irrigation,168
+Sorghum (Jowar/Great Millet),Kharif,Other Advisory,18
+Turmeric,Rabi,"Govt Schemes, Insurance & Policy",43
+Wheat,Zaid,Water Management/Irrigation,19
+Sorghum (Jowar/Great Millet),Zaid,Other Advisory,112
+Brinjal,Kharif,"Govt Schemes, Insurance & Policy",30
+Wheat,Kharif,Water Management/Irrigation,19
+Mango,Zaid,Weather & Climate Advisory,38
+Pigeon pea (red gram/arhar/tur),Kharif,Other Advisory,25
+Tomato,Zaid,Other Advisory,42
+Groundnut (pea nut/mung phalli),Kharif,Water Management/Irrigation,44
+Sugarcane (Noble Cane),Kharif,Market & Price Information,43
+Tomato,Kharif,Water Management/Irrigation,29
+Bhindi(Okra/Ladysfinger),Kharif,Water Management/Irrigation,34
+Wheat,Zaid,Weather & Climate Advisory,138
+Groundnut (pea nut/mung phalli),Zaid,Other Advisory,133
+Sugarcane (Noble Cane),Zaid,Other Advisory,21
+Chillies,Kharif,Water Management/Irrigation,40
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Zaid,Water Management/Irrigation,3
+Watermelon,Zaid,Weather & Climate Advisory,14
+Brinjal,Kharif,Water Management/Irrigation,19
+Watermelon,Kharif,Water Management/Irrigation,2
+Turmeric,Zaid,Water Management/Irrigation,7
+Maize (Makka),Zaid,Water Management/Irrigation,37
+Pigeon pea (red gram/arhar/tur),Zaid,Other Advisory,8
+Watermelon,Kharif,"Govt Schemes, Insurance & Policy",3
+Pigeon pea (red gram/arhar/tur),Zaid,Water Management/Irrigation,5
+Pomegranate,Zaid,Animal Husbandry,1

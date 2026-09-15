@@ -1,0 +1,876 @@
+crop,season,year,count
+Soybean (bhat),Rabi,2023,1021
+Onion,Rabi,2023,3380
+Other Named Crops,Rabi,2023,6113
+Cotton (Kapas),Rabi,2023,1803
+Turmeric,Rabi,2023,273
+Sugarcane (Noble Cane),Rabi,2023,1913
+Cotton (Kapas),Kharif,2023,10484
+Other Named Crops,Kharif,2023,4927
+Soybean (bhat),Kharif,2023,6556
+Pigeon pea (red gram/arhar/tur),Kharif,2023,1634
+Maize (Makka),Kharif,2023,768
+Turmeric,Kharif,2023,728
+Chillies,Rabi,2023,916
+Tomato,Rabi,2023,448
+Sorghum (Jowar/Great Millet),Rabi,2023,963
+Bhindi(Okra/Ladysfinger),Rabi,2023,379
+Pomegranate,Rabi,2023,359
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,2023,3930
+Groundnut (pea nut/mung phalli),Rabi,2023,797
+Brinjal,Rabi,2023,571
+Mango,Rabi,2023,536
+Wheat,Rabi,2023,2490
+Chillies,Kharif,2023,943
+Maize (Makka),Rabi,2023,1186
+Sugarcane (Noble Cane),Kharif,2023,1073
+Onion,Kharif,2023,1085
+Mango,Kharif,2023,244
+Brinjal,Kharif,2023,484
+Pomegranate,Kharif,2023,220
+Tomato,Kharif,2023,568
+Groundnut (pea nut/mung phalli),Kharif,2023,182
+Pigeon pea (red gram/arhar/tur),Rabi,2023,1768
+Watermelon,Rabi,2023,336
+Other Named Crops,Rabi,2022,8193
+Chillies,Rabi,2022,948
+Watermelon,Rabi,2022,660
+Sugarcane (Noble Cane),Rabi,2022,2417
+Mango,Rabi,2022,799
+Wheat,Rabi,2022,2628
+Onion,Rabi,2022,5765
+Sorghum (Jowar/Great Millet),Rabi,2022,675
+Soybean (bhat),Rabi,2022,2171
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,2022,5955
+Pigeon pea (red gram/arhar/tur),Rabi,2022,1626
+Groundnut (pea nut/mung phalli),Rabi,2022,1154
+Pomegranate,Rabi,2022,369
+Maize (Makka),Rabi,2022,1415
+Cotton (Kapas),Rabi,2022,2131
+Maize (Makka),Rabi,2015,2654
+Sorghum (Jowar/Great Millet),Rabi,2015,2332
+Tomato,Rabi,2015,5748
+Sugarcane (Noble Cane),Rabi,2015,10523
+Other Named Crops,Rabi,2015,36592
+Onion,Rabi,2015,21942
+Wheat,Rabi,2015,4609
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,2015,11077
+Pigeon pea (red gram/arhar/tur),Rabi,2015,9664
+Mango,Rabi,2015,2838
+Chillies,Rabi,2015,7407
+Watermelon,Rabi,2015,3492
+Turmeric,Rabi,2015,1597
+Brinjal,Rabi,2015,9211
+Cotton (Kapas),Rabi,2015,9526
+Groundnut (pea nut/mung phalli),Rabi,2015,3777
+Pomegranate,Rabi,2015,7300
+Bhindi(Okra/Ladysfinger),Rabi,2015,5760
+Other Named Crops,Kharif,2019,22142
+Groundnut (pea nut/mung phalli),Kharif,2019,611
+Pigeon pea (red gram/arhar/tur),Kharif,2019,2809
+Turmeric,Kharif,2019,3997
+Sugarcane (Noble Cane),Kharif,2019,2342
+Onion,Kharif,2019,4418
+Cotton (Kapas),Kharif,2019,39185
+Soybean (bhat),Kharif,2019,10913
+Tomato,Kharif,2019,2512
+Brinjal,Kharif,2019,1909
+Chillies,Kharif,2019,2740
+Maize (Makka),Kharif,2019,4738
+Bhindi(Okra/Ladysfinger),Kharif,2019,1250
+Watermelon,Kharif,2019,75
+Pomegranate,Kharif,2019,1422
+Mango,Kharif,2019,585
+Wheat,Rabi,2016,6569
+Brinjal,Rabi,2016,6907
+Sugarcane (Noble Cane),Rabi,2016,7268
+Onion,Rabi,2016,20937
+Groundnut (pea nut/mung phalli),Rabi,2016,5135
+Other Named Crops,Rabi,2016,31381
+Chillies,Rabi,2016,5263
+Tomato,Rabi,2016,5127
+Bhindi(Okra/Ladysfinger),Rabi,2016,4620
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,2016,11200
+Watermelon,Rabi,2016,2579
+Pomegranate,Rabi,2016,6217
+Soybean (bhat),Rabi,2016,4175
+Turmeric,Rabi,2016,2222
+Sorghum (Jowar/Great Millet),Rabi,2016,1920
+Bhindi(Okra/Ladysfinger),Kharif,2023,386
+Sorghum (Jowar/Great Millet),Kharif,2023,312
+Soybean (bhat),Rabi,2015,2461
+Maize (Makka),Rabi,2017,2197
+Other Named Crops,Rabi,2017,20580
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,2017,12922
+Chillies,Rabi,2017,3260
+Groundnut (pea nut/mung phalli),Rabi,2017,5660
+Brinjal,Rabi,2017,3039
+Pigeon pea (red gram/arhar/tur),Rabi,2017,6927
+Soybean (bhat),Rabi,2017,2730
+Cotton (Kapas),Rabi,2017,18870
+Bhindi(Okra/Ladysfinger),Rabi,2017,2270
+Pomegranate,Rabi,2017,4234
+Wheat,Rabi,2017,4669
+Sugarcane (Noble Cane),Rabi,2017,8252
+Onion,Rabi,2017,10008
+Tomato,Rabi,2017,2334
+Watermelon,Rabi,2017,1862
+Mango,Rabi,2017,1777
+Turmeric,Rabi,2017,1277
+Sorghum (Jowar/Great Millet),Rabi,2017,1484
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,2019,1001
+Sorghum (Jowar/Great Millet),Kharif,2019,1150
+Onion,Rabi,2018,7499
+Other Named Crops,Rabi,2018,13812
+Watermelon,Rabi,2018,1312
+Wheat,Rabi,2018,2025
+Maize (Makka),Rabi,2018,1324
+Cotton (Kapas),Rabi,2018,6643
+Sugarcane (Noble Cane),Rabi,2018,4561
+Sorghum (Jowar/Great Millet),Rabi,2018,829
+Tomato,Rabi,2018,1645
+Brinjal,Rabi,2018,2254
+Chillies,Rabi,2018,2488
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,2018,5888
+Turmeric,Rabi,2018,857
+Soybean (bhat),Rabi,2018,1981
+Pigeon pea (red gram/arhar/tur),Rabi,2018,2267
+Groundnut (pea nut/mung phalli),Rabi,2018,1387
+Pomegranate,Rabi,2018,1411
+Mango,Rabi,2018,1047
+Cotton (Kapas),Rabi,2016,16881
+Pigeon pea (red gram/arhar/tur),Rabi,2016,16649
+Mango,Rabi,2016,2728
+Maize (Makka),Rabi,2016,2669
+Other Named Crops,Kharif,2013,19115
+Cotton (Kapas),Kharif,2013,45488
+Soybean (bhat),Kharif,2013,19197
+Pomegranate,Kharif,2013,5180
+Chillies,Kharif,2013,4030
+Groundnut (pea nut/mung phalli),Kharif,2013,1052
+Mango,Kharif,2013,812
+Onion,Kharif,2013,5755
+Onion,Rabi,2020,8465
+Other Named Crops,Rabi,2020,17016
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,2020,8455
+Sorghum (Jowar/Great Millet),Rabi,2020,1836
+Sugarcane (Noble Cane),Rabi,2020,4221
+Chillies,Rabi,2020,2092
+Wheat,Rabi,2020,6800
+Cotton (Kapas),Rabi,2020,2228
+Mango,Rabi,2020,869
+Pigeon pea (red gram/arhar/tur),Rabi,2020,2175
+Brinjal,Rabi,2020,1987
+Soybean (bhat),Rabi,2020,1245
+Brinjal,Rabi,2022,739
+Turmeric,Rabi,2022,371
+Tomato,Rabi,2022,451
+Bhindi(Okra/Ladysfinger),Rabi,2020,1453
+Bhindi(Okra/Ladysfinger),Rabi,2022,660
+Chillies,Zaid,2022,287
+Other Named Crops,Zaid,2022,1973
+Pigeon pea (red gram/arhar/tur),Zaid,2022,98
+Watermelon,Rabi,2020,1486
+Maize (Makka),Rabi,2020,3682
+Groundnut (pea nut/mung phalli),Rabi,2020,2764
+Pomegranate,Rabi,2020,761
+Tomato,Rabi,2020,1174
+Turmeric,Rabi,2020,501
+Maize (Makka),Zaid,2022,151
+Sugarcane (Noble Cane),Zaid,2022,632
+Mango,Zaid,2022,183
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,2023,484
+Wheat,Kharif,2023,191
+Cotton (Kapas),Kharif,2017,36507
+Soybean (bhat),Kharif,2017,9544
+Other Named Crops,Kharif,2017,14275
+Sugarcane (Noble Cane),Kharif,2017,4244
+Pomegranate,Kharif,2017,3099
+Pigeon pea (red gram/arhar/tur),Kharif,2017,3721
+Bhindi(Okra/Ladysfinger),Kharif,2017,1235
+Chillies,Kharif,2017,2686
+Maize (Makka),Kharif,2017,1396
+Tomato,Kharif,2017,2343
+Brinjal,Kharif,2017,2397
+Groundnut (pea nut/mung phalli),Kharif,2017,773
+Bhindi(Okra/Ladysfinger),Rabi,2018,1499
+Turmeric,Kharif,2017,2903
+Mango,Kharif,2017,417
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,2017,3369
+Onion,Kharif,2017,4121
+Tomato,Kharif,2013,2876
+Wheat,Kharif,2013,685
+Sugarcane (Noble Cane),Kharif,2013,6858
+Sorghum (Jowar/Great Millet),Kharif,2017,739
+Turmeric,Kharif,2013,1555
+Bhindi(Okra/Ladysfinger),Kharif,2013,804
+Brinjal,Kharif,2013,2308
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,2013,1929
+Sorghum (Jowar/Great Millet),Kharif,2013,1090
+Wheat,Kharif,2017,453
+Pigeon pea (red gram/arhar/tur),Kharif,2013,2410
+Maize (Makka),Kharif,2013,2702
+Watermelon,Kharif,2017,107
+Other Named Crops,Kharif,2011,4344
+Cotton (Kapas),Kharif,2011,5784
+Wheat,Kharif,2011,49
+Onion,Kharif,2011,366
+Soybean (bhat),Kharif,2011,1389
+Pigeon pea (red gram/arhar/tur),Kharif,2011,89
+Watermelon,Kharif,2013,102
+Other Named Crops,Rabi,2013,62767
+Pigeon pea (red gram/arhar/tur),Rabi,2013,5183
+Mango,Rabi,2013,2463
+Onion,Rabi,2013,12749
+Wheat,Rabi,2013,7975
+Watermelon,Rabi,2013,3921
+Groundnut (pea nut/mung phalli),Rabi,2013,6033
+Bhindi(Okra/Ladysfinger),Rabi,2013,1966
+Tomato,Rabi,2013,3307
+Brinjal,Rabi,2013,4942
+Cotton (Kapas),Rabi,2013,11065
+Soybean (bhat),Rabi,2013,3955
+Pomegranate,Rabi,2013,6417
+Chillies,Rabi,2013,3581
+Turmeric,Rabi,2013,706
+Tomato,Kharif,2011,138
+Turmeric,Kharif,2011,167
+Soybean (bhat),Zaid,2022,662
+Bhindi(Okra/Ladysfinger),Zaid,2022,167
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Zaid,2022,138
+Groundnut (pea nut/mung phalli),Zaid,2022,256
+Brinjal,Zaid,2022,241
+Cotton (Kapas),Zaid,2022,391
+Wheat,Zaid,2022,53
+Turmeric,Zaid,2022,133
+Onion,Zaid,2022,433
+Tomato,Zaid,2022,187
+Pomegranate,Zaid,2022,103
+Watermelon,Zaid,2022,116
+Other Named Crops,Kharif,2020,3669
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,2020,528
+Other Named Crops,Rabi,2009,6653
+Onion,Rabi,2009,1446
+Wheat,Rabi,2009,1210
+Tomato,Rabi,2009,169
+Maize (Makka),Kharif,2020,212
+Cotton (Kapas),Kharif,2020,3616
+Soybean (bhat),Kharif,2020,864
+Sorghum (Jowar/Great Millet),Kharif,2020,190
+Other Named Crops,Rabi,2010,7989
+Onion,Rabi,2010,1956
+Soybean (bhat),Rabi,2010,598
+Watermelon,Rabi,2010,274
+Wheat,Rabi,2010,1047
+Groundnut (pea nut/mung phalli),Rabi,2010,550
+Cotton (Kapas),Rabi,2010,705
+Other Named Crops,Zaid,2009,3258
+Onion,Zaid,2009,544
+Tomato,Zaid,2009,278
+Cotton (Kapas),Zaid,2009,845
+Wheat,Zaid,2009,62
+Watermelon,Zaid,2009,57
+Soybean (bhat),Zaid,2009,165
+Cotton (Kapas),Kharif,2009,8147
+Other Named Crops,Kharif,2009,5985
+Other Named Crops,Zaid,2018,4670
+Pigeon pea (red gram/arhar/tur),Zaid,2018,332
+Cotton (Kapas),Zaid,2018,2172
+Groundnut (pea nut/mung phalli),Zaid,2018,315
+Sugarcane (Noble Cane),Zaid,2018,1697
+Tomato,Zaid,2018,520
+Chillies,Zaid,2018,1029
+Mango,Zaid,2018,296
+Pomegranate,Zaid,2018,711
+Onion,Zaid,2018,1267
+Turmeric,Zaid,2018,704
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Zaid,2018,494
+Soybean (bhat),Zaid,2018,659
+Brinjal,Zaid,2018,724
+Sorghum (Jowar/Great Millet),Zaid,2018,80
+Bhindi(Okra/Ladysfinger),Zaid,2018,607
+Pomegranate,Kharif,2012,632
+Cotton (Kapas),Kharif,2012,16749
+Other Named Crops,Kharif,2012,13787
+Soybean (bhat),Kharif,2012,4276
+Onion,Kharif,2012,572
+Wheat,Kharif,2012,257
+Tomato,Kharif,2012,598
+Pigeon pea (red gram/arhar/tur),Kharif,2012,430
+Brinjal,Kharif,2012,112
+Maize (Makka),Zaid,2018,165
+Groundnut (pea nut/mung phalli),Kharif,2012,198
+Turmeric,Kharif,2012,220
+Onion,Kharif,2009,1066
+Onion,Rabi,2008,21
+Other Named Crops,Rabi,2008,66
+Chillies,Rabi,2008,2
+Wheat,Rabi,2008,18
+Pigeon pea (red gram/arhar/tur),Rabi,2008,3
+Tomato,Kharif,2009,784
+Wheat,Kharif,2009,88
+Soybean (bhat),Kharif,2009,1297
+Mango,Kharif,2020,106
+Sugarcane (Noble Cane),Kharif,2020,579
+Groundnut (pea nut/mung phalli),Kharif,2020,117
+Chillies,Kharif,2020,703
+Onion,Kharif,2020,1817
+Pomegranate,Kharif,2020,127
+Pigeon pea (red gram/arhar/tur),Kharif,2020,1262
+Bhindi(Okra/Ladysfinger),Kharif,2020,104
+Cotton (Kapas),Rabi,2009,405
+Onion,Rabi,2021,8493
+Groundnut (pea nut/mung phalli),Rabi,2021,2930
+Turmeric,Rabi,2021,697
+Pigeon pea (red gram/arhar/tur),Rabi,2021,2853
+Cotton (Kapas),Rabi,2021,1826
+Watermelon,Rabi,2021,1056
+Sugarcane (Noble Cane),Rabi,2021,3466
+Other Named Crops,Rabi,2021,13546
+Mango,Rabi,2021,1060
+Wheat,Rabi,2021,2437
+Chillies,Rabi,2021,2064
+Bhindi(Okra/Ladysfinger),Rabi,2021,931
+Sorghum (Jowar/Great Millet),Rabi,2021,1093
+Pomegranate,Rabi,2021,612
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,2021,7170
+Tomato,Rabi,2021,946
+Soybean (bhat),Rabi,2021,1919
+Brinjal,Rabi,2021,1296
+Maize (Makka),Rabi,2021,1479
+Sorghum (Jowar/Great Millet),Zaid,2022,41
+Cotton (Kapas),Kharif,2010,5546
+Other Named Crops,Kharif,2010,5959
+Soybean (bhat),Kharif,2010,1694
+Turmeric,Kharif,2020,647
+Onion,Kharif,2010,937
+Groundnut (pea nut/mung phalli),Kharif,2010,73
+Other Named Crops,Zaid,2021,1462
+Chillies,Zaid,2021,232
+Sorghum (Jowar/Great Millet),Zaid,2021,46
+Sugarcane (Noble Cane),Zaid,2021,441
+Brinjal,Zaid,2021,160
+Mango,Zaid,2021,98
+Pigeon pea (red gram/arhar/tur),Zaid,2021,87
+Groundnut (pea nut/mung phalli),Zaid,2021,301
+Turmeric,Zaid,2021,106
+Onion,Zaid,2021,322
+Bhindi(Okra/Ladysfinger),Zaid,2021,179
+Cotton (Kapas),Zaid,2021,54
+Tomato,Zaid,2021,104
+Watermelon,Zaid,2021,132
+Maize (Makka),Zaid,2021,97
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Zaid,2021,127
+Soybean (bhat),Zaid,2021,144
+Pomegranate,Zaid,2021,90
+Wheat,Zaid,2021,27
+Cotton (Kapas),Kharif,2014,34210
+Other Named Crops,Kharif,2014,16620
+Chillies,Kharif,2014,3976
+Groundnut (pea nut/mung phalli),Kharif,2014,1019
+Soybean (bhat),Kharif,2014,12680
+Bhindi(Okra/Ladysfinger),Kharif,2014,1334
+Maize (Makka),Kharif,2014,1334
+Pomegranate,Kharif,2014,4955
+Sugarcane (Noble Cane),Kharif,2014,5104
+Pigeon pea (red gram/arhar/tur),Kharif,2014,1743
+Mango,Kharif,2014,531
+Tomato,Kharif,2014,2914
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,2014,854
+Onion,Kharif,2014,5124
+Turmeric,Zaid,2016,928
+Pigeon pea (red gram/arhar/tur),Zaid,2016,1617
+Sugarcane (Noble Cane),Zaid,2016,1215
+Chillies,Zaid,2016,1771
+Other Named Crops,Zaid,2016,6855
+Mango,Zaid,2016,452
+Cotton (Kapas),Zaid,2016,2925
+Brinjal,Zaid,2016,1964
+Bhindi(Okra/Ladysfinger),Zaid,2016,1665
+Pomegranate,Zaid,2016,1308
+Soybean (bhat),Zaid,2016,1579
+Watermelon,Zaid,2016,354
+Onion,Zaid,2016,2307
+Groundnut (pea nut/mung phalli),Zaid,2016,871
+Brinjal,Kharif,2014,2739
+Turmeric,Kharif,2014,1262
+Wheat,Kharif,2022,214
+Soybean (bhat),Kharif,2022,7469
+Pigeon pea (red gram/arhar/tur),Kharif,2022,1234
+Cotton (Kapas),Kharif,2022,10518
+Other Named Crops,Kharif,2022,6091
+Chillies,Kharif,2022,818
+Brinjal,Kharif,2022,577
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,2022,729
+Onion,Kharif,2022,1183
+Sorghum (Jowar/Great Millet),Kharif,2022,202
+Turmeric,Kharif,2022,1048
+Tomato,Kharif,2022,793
+Maize (Makka),Kharif,2022,722
+Groundnut (pea nut/mung phalli),Kharif,2022,187
+Sugarcane (Noble Cane),Kharif,2022,1230
+Bhindi(Okra/Ladysfinger),Kharif,2022,314
+Pomegranate,Kharif,2022,254
+Tomato,Zaid,2023,156
+Maize (Makka),Zaid,2023,221
+Other Named Crops,Zaid,2023,1433
+Brinjal,Zaid,2023,185
+Sugarcane (Noble Cane),Zaid,2023,732
+Onion,Zaid,2023,242
+Turmeric,Zaid,2023,93
+Cotton (Kapas),Zaid,2023,766
+Soybean (bhat),Zaid,2023,432
+Groundnut (pea nut/mung phalli),Zaid,2023,136
+Chillies,Zaid,2023,189
+Watermelon,Rabi,2009,253
+Sorghum (Jowar/Great Millet),Kharif,2014,808
+Mango,Zaid,2023,128
+Bhindi(Okra/Ladysfinger),Zaid,2023,174
+Pigeon pea (red gram/arhar/tur),Zaid,2023,124
+Pomegranate,Zaid,2023,106
+Watermelon,Kharif,2022,43
+Cotton (Kapas),Zaid,2012,898
+Pigeon pea (red gram/arhar/tur),Zaid,2012,15
+Wheat,Zaid,2012,6
+Other Named Crops,Zaid,2012,1179
+Pigeon pea (red gram/arhar/tur),Rabi,2019,5406
+Sugarcane (Noble Cane),Rabi,2019,3536
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,2019,6979
+Onion,Rabi,2019,8337
+Other Named Crops,Rabi,2019,16357
+Brinjal,Rabi,2019,2341
+Wheat,Rabi,2019,5203
+Cotton (Kapas),Rabi,2019,5602
+Maize (Makka),Rabi,2019,2762
+Sorghum (Jowar/Great Millet),Rabi,2019,2247
+Turmeric,Rabi,2019,1657
+Wheat,Kharif,2014,509
+Tomato,Zaid,2012,49
+Chillies,Rabi,2019,1670
+Wheat,Kharif,2019,287
+Watermelon,Zaid,2018,186
+Wheat,Zaid,2018,54
+Other Named Crops,Rabi,2014,35455
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,2014,10435
+Tomato,Rabi,2014,3962
+Wheat,Rabi,2014,7186
+Groundnut (pea nut/mung phalli),Rabi,2014,5816
+Chillies,Rabi,2014,6816
+Pigeon pea (red gram/arhar/tur),Rabi,2014,5994
+Sugarcane (Noble Cane),Rabi,2014,13880
+Watermelon,Rabi,2014,3046
+Onion,Rabi,2014,13149
+Bhindi(Okra/Ladysfinger),Rabi,2014,3215
+Brinjal,Rabi,2014,6642
+Bhindi(Okra/Ladysfinger),Rabi,2019,1462
+Soybean (bhat),Rabi,2019,2130
+Tomato,Rabi,2019,1505
+Mango,Rabi,2019,1314
+Pomegranate,Rabi,2014,8301
+Soybean (bhat),Rabi,2014,3723
+Cotton (Kapas),Rabi,2014,15529
+Mango,Rabi,2014,2504
+Sorghum (Jowar/Great Millet),Zaid,2023,62
+Wheat,Zaid,2023,52
+Other Named Crops,Zaid,2015,17456
+Sugarcane (Noble Cane),Zaid,2015,6894
+Bhindi(Okra/Ladysfinger),Zaid,2015,3132
+Cotton (Kapas),Zaid,2015,5284
+Tomato,Zaid,2015,3672
+Chillies,Zaid,2015,4968
+Maize (Makka),Zaid,2015,660
+Pomegranate,Zaid,2015,4686
+Turmeric,Zaid,2015,1450
+Soybean (bhat),Zaid,2015,3106
+Pigeon pea (red gram/arhar/tur),Zaid,2015,900
+Brinjal,Zaid,2015,5629
+Mango,Zaid,2015,1276
+Onion,Zaid,2015,3217
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Zaid,2015,677
+Watermelon,Zaid,2015,904
+Mango,Kharif,2022,306
+Pomegranate,Zaid,2012,30
+Soybean (bhat),Zaid,2012,161
+Mango,Zaid,2012,42
+Chillies,Zaid,2012,35
+Onion,Zaid,2012,56
+Turmeric,Zaid,2012,21
+Other Named Crops,Rabi,2012,23219
+Cotton (Kapas),Rabi,2012,3668
+Wheat,Rabi,2012,2178
+Onion,Rabi,2012,2169
+Groundnut (pea nut/mung phalli),Rabi,2012,641
+Groundnut (pea nut/mung phalli),Zaid,2015,1716
+Soybean (bhat),Rabi,2012,1059
+Groundnut (pea nut/mung phalli),Zaid,2012,29
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Zaid,2023,60
+Other Named Crops,Kharif,2016,22832
+Cotton (Kapas),Kharif,2016,45994
+Soybean (bhat),Kharif,2016,17865
+Pomegranate,Kharif,2016,3867
+Pigeon pea (red gram/arhar/tur),Kharif,2016,11247
+Maize (Makka),Kharif,2016,2507
+Turmeric,Kharif,2016,4011
+Tomato,Kharif,2016,4365
+Sorghum (Jowar/Great Millet),Kharif,2016,1167
+Onion,Kharif,2016,4854
+Sorghum (Jowar/Great Millet),Zaid,2015,325
+Wheat,Zaid,2015,209
+Cotton (Kapas),Kharif,2015,30146
+Bhindi(Okra/Ladysfinger),Kharif,2015,2997
+Other Named Crops,Kharif,2015,19023
+Turmeric,Kharif,2015,2805
+Chillies,Kharif,2015,4852
+Soybean (bhat),Kharif,2015,11183
+Sugarcane (Noble Cane),Kharif,2015,4691
+Sorghum (Jowar/Great Millet),Kharif,2015,1229
+Onion,Kharif,2015,8830
+Pomegranate,Kharif,2015,4677
+Mango,Kharif,2012,168
+Watermelon,Rabi,2019,1165
+Groundnut (pea nut/mung phalli),Rabi,2019,967
+Pomegranate,Rabi,2019,1074
+Groundnut (pea nut/mung phalli),Zaid,2019,200
+Other Named Crops,Zaid,2019,5162
+Soybean (bhat),Zaid,2019,717
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Zaid,2019,363
+Cotton (Kapas),Zaid,2019,1369
+Onion,Zaid,2019,725
+Pigeon pea (red gram/arhar/tur),Zaid,2019,374
+Mango,Zaid,2019,389
+Bhindi(Okra/Ladysfinger),Zaid,2019,652
+Brinjal,Zaid,2019,683
+Chillies,Zaid,2019,657
+Turmeric,Rabi,2014,1016
+Sugarcane (Noble Cane),Zaid,2019,1063
+Tomato,Zaid,2019,448
+Turmeric,Zaid,2019,772
+Pomegranate,Zaid,2019,410
+Sorghum (Jowar/Great Millet),Zaid,2019,77
+Watermelon,Zaid,2019,275
+Brinjal,Kharif,2015,4365
+Pigeon pea (red gram/arhar/tur),Kharif,2015,5731
+Maize (Makka),Kharif,2015,1183
+Tomato,Kharif,2015,3860
+Maize (Makka),Zaid,2019,207
+Maize (Makka),Rabi,2014,2303
+Sorghum (Jowar/Great Millet),Rabi,2014,2027
+Wheat,Zaid,2019,60
+Groundnut (pea nut/mung phalli),Kharif,2015,475
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,2015,1825
+Mango,Kharif,2015,549
+Chillies,Kharif,2011,58
+Groundnut (pea nut/mung phalli),Kharif,2011,108
+Wheat,Kharif,2015,510
+Other Named Crops,Zaid,2013,23303
+Turmeric,Zaid,2013,1113
+Mango,Zaid,2013,2027
+Pomegranate,Zaid,2013,4708
+Onion,Zaid,2013,2311
+Brinjal,Zaid,2013,3224
+Soybean (bhat),Zaid,2013,5302
+Tomato,Zaid,2013,2206
+Watermelon,Zaid,2013,733
+Cotton (Kapas),Zaid,2013,9528
+Chillies,Zaid,2013,3039
+Bhindi(Okra/Ladysfinger),Zaid,2013,1216
+Wheat,Zaid,2013,307
+Groundnut (pea nut/mung phalli),Zaid,2013,2571
+Pigeon pea (red gram/arhar/tur),Zaid,2013,734
+Sugarcane (Noble Cane),Zaid,2013,5136
+Maize (Makka),Zaid,2013,501
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Zaid,2013,514
+Sorghum (Jowar/Great Millet),Zaid,2013,139
+Chillies,Rabi,2012,216
+Watermelon,Rabi,2012,473
+Watermelon,Kharif,2014,152
+Tomato,Rabi,2012,365
+Sugarcane (Noble Cane),Kharif,2016,3115
+Brinjal,Kharif,2016,3798
+Chillies,Kharif,2016,5123
+Tomato,Zaid,2016,1043
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Zaid,2016,385
+Sorghum (Jowar/Great Millet),Zaid,2016,143
+Wheat,Zaid,2016,107
+Bhindi(Okra/Ladysfinger),Zaid,2012,7
+Maize (Makka),Zaid,2016,250
+Pigeon pea (red gram/arhar/tur),Rabi,2012,1680
+Pomegranate,Rabi,2012,877
+Mango,Rabi,2012,334
+Brinjal,Rabi,2012,497
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,2016,2061
+Mango,Kharif,2016,531
+Bhindi(Okra/Ladysfinger),Kharif,2016,1713
+Groundnut (pea nut/mung phalli),Kharif,2016,992
+Wheat,Kharif,2016,922
+Watermelon,Kharif,2009,26
+Turmeric,Rabi,2012,162
+Bhindi(Okra/Ladysfinger),Rabi,2012,130
+Watermelon,Kharif,2016,170
+Cotton (Kapas),Kharif,2018,25860
+Turmeric,Kharif,2018,3452
+Other Named Crops,Kharif,2018,29661
+Brinjal,Kharif,2018,2167
+Onion,Kharif,2018,5421
+Chillies,Kharif,2018,2635
+Pomegranate,Kharif,2018,2026
+Soybean (bhat),Kharif,2018,9625
+Sugarcane (Noble Cane),Kharif,2018,3533
+Pigeon pea (red gram/arhar/tur),Kharif,2018,2716
+Bhindi(Okra/Ladysfinger),Kharif,2018,1133
+Brinjal,Zaid,2014,3930
+Bhindi(Okra/Ladysfinger),Zaid,2014,1731
+Other Named Crops,Zaid,2014,16331
+Chillies,Zaid,2014,3390
+Groundnut (pea nut/mung phalli),Zaid,2014,3209
+Sugarcane (Noble Cane),Zaid,2014,7122
+Maize (Makka),Kharif,2018,1195
+Tomato,Kharif,2018,1924
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,2018,1569
+Wheat,Kharif,2018,389
+Soybean (bhat),Zaid,2014,4269
+Cotton (Kapas),Zaid,2014,9355
+Tomato,Zaid,2014,1931
+Turmeric,Zaid,2014,918
+Maize (Makka),Zaid,2014,867
+Mango,Zaid,2014,1271
+Pomegranate,Zaid,2014,5147
+Watermelon,Zaid,2014,655
+Pigeon pea (red gram/arhar/tur),Zaid,2014,603
+Onion,Zaid,2014,3235
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Zaid,2014,792
+Sorghum (Jowar/Great Millet),Zaid,2014,215
+Mango,Kharif,2018,481
+Sorghum (Jowar/Great Millet),Kharif,2018,461
+Watermelon,Zaid,2023,22
+Mango,Zaid,2024,203
+Other Named Crops,Zaid,2024,1716
+Turmeric,Zaid,2024,211
+Soybean (bhat),Zaid,2024,374
+Sugarcane (Noble Cane),Zaid,2024,505
+Tomato,Zaid,2024,150
+Chillies,Zaid,2024,296
+Cotton (Kapas),Zaid,2024,533
+Brinjal,Zaid,2024,180
+Maize (Makka),Zaid,2024,131
+Groundnut (pea nut/mung phalli),Zaid,2024,140
+Bhindi(Okra/Ladysfinger),Zaid,2024,106
+Pomegranate,Zaid,2024,107
+Watermelon,Zaid,2024,46
+Pigeon pea (red gram/arhar/tur),Zaid,2024,184
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Zaid,2024,68
+Sorghum (Jowar/Great Millet),Zaid,2024,72
+Onion,Zaid,2024,227
+Wheat,Zaid,2024,25
+Onion,Rabi,2024,4147
+Watermelon,Rabi,2024,353
+Groundnut (pea nut/mung phalli),Rabi,2024,823
+Other Named Crops,Rabi,2024,7177
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,2024,6213
+Maize (Makka),Rabi,2024,1392
+Sugarcane (Noble Cane),Rabi,2024,1894
+Sorghum (Jowar/Great Millet),Rabi,2024,1323
+Wheat,Rabi,2024,3704
+Mango,Rabi,2024,711
+Tomato,Rabi,2024,574
+Bhindi(Okra/Ladysfinger),Rabi,2024,358
+Pomegranate,Rabi,2024,301
+Chillies,Rabi,2024,710
+Brinjal,Rabi,2024,527
+Cotton (Kapas),Rabi,2024,1951
+Pigeon pea (red gram/arhar/tur),Rabi,2024,3858
+Soybean (bhat),Rabi,2024,680
+Turmeric,Rabi,2024,454
+Sugarcane (Noble Cane),Rabi,2013,4792
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,2013,7386
+Maize (Makka),Rabi,2013,1080
+Sorghum (Jowar/Great Millet),Rabi,2013,999
+Other Named Crops,Kharif,2021,4268
+Onion,Kharif,2021,2877
+Soybean (bhat),Kharif,2021,1701
+Chillies,Kharif,2021,537
+Cotton (Kapas),Kharif,2021,4450
+Pigeon pea (red gram/arhar/tur),Kharif,2021,1941
+Maize (Makka),Kharif,2021,249
+Tomato,Kharif,2021,334
+Turmeric,Kharif,2010,123
+Pigeon pea (red gram/arhar/tur),Kharif,2010,197
+Pigeon pea (red gram/arhar/tur),Rabi,2010,349
+Tomato,Kharif,2010,99
+Chillies,Kharif,2010,130
+Groundnut (pea nut/mung phalli),Kharif,2018,492
+Watermelon,Kharif,2018,80
+Chillies,Kharif,2012,176
+Wheat,Zaid,2014,485
+Turmeric,Rabi,2010,57
+Chillies,Rabi,2010,107
+Tomato,Rabi,2010,97
+Wheat,Kharif,2010,174
+Watermelon,Kharif,2010,17
+Soybean (bhat),Rabi,2009,237
+Brinjal,Kharif,2021,412
+Sugarcane (Noble Cane),Kharif,2021,666
+Turmeric,Kharif,2021,1195
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,2021,1050
+Sorghum (Jowar/Great Millet),Kharif,2021,218
+Bhindi(Okra/Ladysfinger),Kharif,2021,195
+Pomegranate,Kharif,2021,195
+Groundnut (pea nut/mung phalli),Kharif,2021,81
+Brinjal,Kharif,2020,353
+Tomato,Kharif,2020,430
+Mango,Kharif,2021,147
+Pigeon pea (red gram/arhar/tur),Rabi,2011,362
+Onion,Rabi,2011,1164
+Cotton (Kapas),Rabi,2011,1457
+Other Named Crops,Rabi,2011,5410
+Bhindi(Okra/Ladysfinger),Kharif,2012,24
+Watermelon,Kharif,2012,58
+Wheat,Kharif,2020,137
+Watermelon,Kharif,2020,39
+Soybean (bhat),Zaid,2010,819
+Other Named Crops,Zaid,2010,5230
+Cotton (Kapas),Zaid,2010,971
+Onion,Zaid,2010,799
+Cotton (Kapas),Zaid,2017,4268
+Other Named Crops,Zaid,2017,7178
+Tomato,Zaid,2017,975
+Onion,Zaid,2017,1730
+Groundnut (pea nut/mung phalli),Zaid,2017,1784
+Sugarcane (Noble Cane),Zaid,2017,2553
+Pigeon pea (red gram/arhar/tur),Zaid,2017,978
+Turmeric,Zaid,2017,1116
+Chillies,Zaid,2017,1375
+Brinjal,Zaid,2017,1162
+Soybean (bhat),Zaid,2017,1205
+Bhindi(Okra/Ladysfinger),Zaid,2017,994
+Maize (Makka),Zaid,2017,372
+Pomegranate,Zaid,2017,1951
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Zaid,2017,1759
+Mango,Zaid,2017,531
+Watermelon,Zaid,2017,465
+Sorghum (Jowar/Great Millet),Zaid,2017,164
+Wheat,Kharif,2021,158
+Other Named Crops,Zaid,2011,1909
+Turmeric,Zaid,2011,97
+Cotton (Kapas),Zaid,2011,944
+Soybean (bhat),Zaid,2011,212
+Tomato,Zaid,2011,73
+Wheat,Zaid,2011,13
+Pigeon pea (red gram/arhar/tur),Zaid,2011,26
+Groundnut (pea nut/mung phalli),Zaid,2011,119
+Onion,Zaid,2011,127
+Watermelon,Zaid,2011,34
+Chillies,Zaid,2011,32
+Watermelon,Kharif,2021,27
+Pigeon pea (red gram/arhar/tur),Rabi,2009,159
+Groundnut (pea nut/mung phalli),Rabi,2009,42
+Wheat,Zaid,2017,157
+Groundnut (pea nut/mung phalli),Rabi,2011,378
+Watermelon,Kharif,2015,109
+Tomato,Zaid,2010,64
+Pigeon pea (red gram/arhar/tur),Zaid,2010,128
+Turmeric,Zaid,2010,116
+Groundnut (pea nut/mung phalli),Zaid,2010,270
+Chillies,Zaid,2010,97
+Watermelon,Zaid,2010,64
+Wheat,Zaid,2010,62
+Other Named Crops,Rabi,2007,26
+Wheat,Rabi,2007,8
+Onion,Rabi,2007,10
+Pigeon pea (red gram/arhar/tur),Rabi,2007,2
+Cotton (Kapas),Rabi,2007,12
+Watermelon,Rabi,2007,4
+Wheat,Rabi,2011,806
+Tomato,Rabi,2011,76
+Watermelon,Rabi,2011,138
+Turmeric,Rabi,2011,114
+Chillies,Rabi,2011,70
+Soybean (bhat),Rabi,2011,118
+Other Named Crops,Kharif,2024,11077
+Mango,Kharif,2024,386
+Sugarcane (Noble Cane),Kharif,2024,1987
+Pomegranate,Kharif,2024,556
+Soybean (bhat),Kharif,2024,20331
+Pigeon pea (red gram/arhar/tur),Kharif,2024,4281
+Cotton (Kapas),Kharif,2024,20519
+Maize (Makka),Kharif,2024,2605
+Tomato,Kharif,2024,1190
+Chillies,Kharif,2024,1259
+Sorghum (Jowar/Great Millet),Kharif,2024,568
+Groundnut (pea nut/mung phalli),Kharif,2024,479
+Onion,Kharif,2024,4450
+Bhindi(Okra/Ladysfinger),Kharif,2024,380
+Brinjal,Kharif,2024,624
+Watermelon,Kharif,2024,53
+Turmeric,Kharif,2024,1547
+Wheat,Kharif,2024,459
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,2024,1638
+Turmeric,Rabi,2009,19
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Rabi,2025,2656
+Soybean (bhat),Rabi,2025,262
+Groundnut (pea nut/mung phalli),Rabi,2025,748
+Pigeon pea (red gram/arhar/tur),Rabi,2025,899
+Sorghum (Jowar/Great Millet),Rabi,2025,697
+Other Named Crops,Rabi,2025,5046
+Wheat,Rabi,2025,2252
+Watermelon,Rabi,2025,506
+Maize (Makka),Rabi,2025,932
+Mango,Rabi,2025,454
+Brinjal,Rabi,2025,319
+Onion,Rabi,2025,2913
+Cotton (Kapas),Rabi,2025,445
+Chillies,Rabi,2025,421
+Pomegranate,Rabi,2025,173
+Sugarcane (Noble Cane),Rabi,2025,1486
+Turmeric,Rabi,2025,237
+Tomato,Rabi,2025,234
+Bhindi(Okra/Ladysfinger),Rabi,2025,235
+Watermelon,Kharif,2011,6
+Chillies,Rabi,2009,19
+Wheat,Zaid,2025,374
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Zaid,2025,323
+Other Named Crops,Zaid,2025,3716
+Cotton (Kapas),Zaid,2025,1013
+Soybean (bhat),Zaid,2025,794
+Pigeon pea (red gram/arhar/tur),Zaid,2025,376
+Chillies,Zaid,2025,267
+Onion,Zaid,2025,2330
+Sugarcane (Noble Cane),Zaid,2025,1198
+Brinjal,Zaid,2025,148
+Sorghum (Jowar/Great Millet),Zaid,2025,757
+Groundnut (pea nut/mung phalli),Zaid,2025,981
+Watermelon,Zaid,2025,69
+Turmeric,Zaid,2025,766
+Bhindi(Okra/Ladysfinger),Zaid,2025,198
+Pomegranate,Zaid,2025,151
+Maize (Makka),Zaid,2025,795
+Tomato,Zaid,2025,275
+Mango,Zaid,2025,223
+Soybean (bhat),Kharif,2025,12155
+Cotton (Kapas),Kharif,2025,10177
+Sugarcane (Noble Cane),Kharif,2025,1210
+Pigeon pea (red gram/arhar/tur),Kharif,2025,1205
+Groundnut (pea nut/mung phalli),Kharif,2025,321
+Maize (Makka),Kharif,2025,2312
+Sorghum (Jowar/Great Millet),Kharif,2025,110
+Other Named Crops,Kharif,2025,7609
+Tomato,Kharif,2025,406
+Turmeric,Kharif,2025,895
+Onion,Kharif,2025,711
+Mango,Kharif,2025,186
+Brinjal,Kharif,2025,203
+Bhindi(Okra/Ladysfinger),Kharif,2025,241
+Chillies,Kharif,2025,369
+Pomegranate,Kharif,2025,150
+Watermelon,Kharif,2025,8
+Wheat,Kharif,2025,17
+Bengal Gram (Gram/Chick Pea/Kabuli/Chana),Kharif,2025,88
+Brinjal,Zaid,2012,9
+Watermelon,Zaid,2012,6
+Groundnut (pea nut/mung phalli),Rabi,2008,1
+Watermelon,Kharif,2023,11
+Groundnut (pea nut/mung phalli),Rabi,2007,4
+Soybean (bhat),Rabi,2008,4
+Soybean (bhat),Rabi,2007,1
+Turmeric,Rabi,2008,1
+Cotton (Kapas),Rabi,2008,1

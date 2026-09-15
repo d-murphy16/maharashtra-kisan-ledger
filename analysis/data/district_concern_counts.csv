@@ -1,0 +1,428 @@
+district,concern,count
+NASIK,Weather & Climate Advisory,115567
+AHMADNAGAR,Market & Price Information,16592
+JALNA,Weather & Climate Advisory,83108
+AMRAVATI,Weather & Climate Advisory,67477
+AMRAVATI,Market & Price Information,14146
+AKOLA,Weather & Climate Advisory,78163
+NAGPUR,Weather & Climate Advisory,36878
+LATUR,Weather & Climate Advisory,66155
+AHMADNAGAR,"Pest, Disease & Weed Mgmt",90272
+BULDANA,Weather & Climate Advisory,159042
+NANDED,Market & Price Information,22354
+YEVATMAL,Weather & Climate Advisory,119749
+BULDANA,Cultural Practices & Mechanization,10892
+KOLHAPUR,Weather & Climate Advisory,21168
+NANDED,Weather & Climate Advisory,145346
+WASHIM,Market & Price Information,16049
+WASHIM,Weather & Climate Advisory,108678
+BULDANA,Nutrient & Soil Management,25507
+AHMADNAGAR,"Govt Schemes, Insurance & Policy",31790
+HINGOLI,Weather & Climate Advisory,68974
+BEED,Weather & Climate Advisory,80762
+AURANGABAD,Market & Price Information,15383
+JALGAON,"Govt Schemes, Insurance & Policy",17225
+BEED,Market & Price Information,13077
+DHULE,Market & Price Information,7305
+YEVATMAL,Market & Price Information,15116
+AURANGABAD,Weather & Climate Advisory,95609
+CHANDRAPUR,Weather & Climate Advisory,24047
+DHULE,Weather & Climate Advisory,27489
+PARBHANI,Market & Price Information,14605
+GONDIYA,Weather & Climate Advisory,7308
+BEED,Water Management/Irrigation,1284
+WASHIM,Seeds & Varieties,6701
+PARBHANI,Weather & Climate Advisory,96843
+PARBHANI,Seeds & Varieties,9744
+SANGLI,Weather & Climate Advisory,35441
+JALGAON,Weather & Climate Advisory,74066
+SOLAPUR,Weather & Climate Advisory,111222
+PUNE,"Govt Schemes, Insurance & Policy",17170
+BHANDARA,Weather & Climate Advisory,13684
+LATUR,Market & Price Information,7065
+AHMADNAGAR,Weather & Climate Advisory,104506
+YEVATMAL,"Pest, Disease & Weed Mgmt",48204
+JALGAON,"Pest, Disease & Weed Mgmt",42117
+YEVATMAL,Seeds & Varieties,9171
+AMRAVATI,Seeds & Varieties,5916
+PUNE,Weather & Climate Advisory,36908
+OSMANABAD,Weather & Climate Advisory,57711
+SANGLI,Seeds & Varieties,4139
+WARDHA,Nutrient & Soil Management,7168
+WARDHA,Weather & Climate Advisory,26439
+AKOLA,Nutrient & Soil Management,16896
+SOLAPUR,Nutrient & Soil Management,39370
+YEVATMAL,"Govt Schemes, Insurance & Policy",24182
+SOLAPUR,Seeds & Varieties,14370
+GONDIYA,"Govt Schemes, Insurance & Policy",3413
+PUNE,"Pest, Disease & Weed Mgmt",34048
+SATARA,"Govt Schemes, Insurance & Policy",12334
+AKOLA,Cultural Practices & Mechanization,6283
+OSMANABAD,"Pest, Disease & Weed Mgmt",35556
+SOLAPUR,Water Management/Irrigation,1533
+NASIK,Market & Price Information,18514
+OSMANABAD,Nutrient & Soil Management,15519
+NAGPUR,Market & Price Information,7405
+AKOLA,"Pest, Disease & Weed Mgmt",38209
+AURANGABAD,Nutrient & Soil Management,27713
+NANDED,"Pest, Disease & Weed Mgmt",65961
+SOLAPUR,"Pest, Disease & Weed Mgmt",77542
+NASIK,Nutrient & Soil Management,25132
+WASHIM,Cultural Practices & Mechanization,6736
+BEED,Nutrient & Soil Management,24872
+SINDHUDURG,Nutrient & Soil Management,391
+NAGPUR,"Govt Schemes, Insurance & Policy",7749
+AHMADNAGAR,Nutrient & Soil Management,41997
+LATUR,"Pest, Disease & Weed Mgmt",29625
+WASHIM,"Pest, Disease & Weed Mgmt",36047
+SATARA,Weather & Climate Advisory,19871
+JALNA,Nutrient & Soil Management,23646
+AURANGABAD,"Govt Schemes, Insurance & Policy",32490
+HINGOLI,"Pest, Disease & Weed Mgmt",38921
+OSMANABAD,Market & Price Information,6560
+PARBHANI,"Pest, Disease & Weed Mgmt",52977
+SOLAPUR,Cultural Practices & Mechanization,12970
+HINGOLI,Nutrient & Soil Management,15671
+BULDANA,Market & Price Information,19930
+AHMADNAGAR,Cultural Practices & Mechanization,14851
+THANE,"Pest, Disease & Weed Mgmt",2386
+JALNA,Market & Price Information,16426
+NASIK,"Pest, Disease & Weed Mgmt",64571
+BHANDARA,"Govt Schemes, Insurance & Policy",3329
+BULDANA,"Govt Schemes, Insurance & Policy",23500
+NANDED,Nutrient & Soil Management,28418
+RAIGARH,Market & Price Information,121
+AURANGABAD,"Pest, Disease & Weed Mgmt",66179
+HINGOLI,"Govt Schemes, Insurance & Policy",13913
+SATARA,"Pest, Disease & Weed Mgmt",18532
+PARBHANI,Nutrient & Soil Management,20237
+NANDED,"Govt Schemes, Insurance & Policy",25763
+AHMADNAGAR,Seeds & Varieties,17139
+RAIGARH,"Pest, Disease & Weed Mgmt",1156
+SANGLI,Nutrient & Soil Management,12051
+SANGLI,"Govt Schemes, Insurance & Policy",11864
+SOLAPUR,"Govt Schemes, Insurance & Policy",30088
+GADCHIROLI,Weather & Climate Advisory,4789
+AURANGABAD,Cultural Practices & Mechanization,9547
+KOLHAPUR,"Pest, Disease & Weed Mgmt",15303
+JALNA,"Pest, Disease & Weed Mgmt",60728
+JALGAON,Market & Price Information,7514
+YEVATMAL,Nutrient & Soil Management,21556
+WASHIM,"Govt Schemes, Insurance & Policy",10747
+GADCHIROLI,"Pest, Disease & Weed Mgmt",2572
+BULDANA,"Pest, Disease & Weed Mgmt",64974
+LATUR,"Govt Schemes, Insurance & Policy",13059
+GONDIYA,"Pest, Disease & Weed Mgmt",4446
+AMRAVATI,"Pest, Disease & Weed Mgmt",36233
+DHULE,"Govt Schemes, Insurance & Policy",6875
+NANDURBAR,Nutrient & Soil Management,1794
+NAGPUR,"Pest, Disease & Weed Mgmt",15879
+SINDHUDURG,"Govt Schemes, Insurance & Policy",2076
+JALNA,"Govt Schemes, Insurance & Policy",20932
+KOLHAPUR,Nutrient & Soil Management,11046
+SATARA,Cultural Practices & Mechanization,3889
+SANGLI,Cultural Practices & Mechanization,4294
+PUNE,Nutrient & Soil Management,16973
+BEED,"Pest, Disease & Weed Mgmt",62002
+SANGLI,"Pest, Disease & Weed Mgmt",21069
+WARDHA,"Pest, Disease & Weed Mgmt",14366
+SANGLI,Market & Price Information,2838
+PUNE,Market & Price Information,8586
+JALNA,Seeds & Varieties,10476
+NAGPUR,Seeds & Varieties,3047
+NASIK,"Govt Schemes, Insurance & Policy",23180
+YEVATMAL,Water Management/Irrigation,2264
+KOLHAPUR,Seeds & Varieties,3301
+LATUR,Nutrient & Soil Management,13211
+BEED,"Govt Schemes, Insurance & Policy",21582
+BHANDARA,"Pest, Disease & Weed Mgmt",5995
+WARDHA,Market & Price Information,4001
+CHANDRAPUR,Market & Price Information,2413
+SOLAPUR,Market & Price Information,18053
+SINDHUDURG,Cultural Practices & Mechanization,232
+JALGAON,Nutrient & Soil Management,20029
+AMRAVATI,Nutrient & Soil Management,17440
+AMRAVATI,"Govt Schemes, Insurance & Policy",13950
+DHULE,Nutrient & Soil Management,7522
+CHANDRAPUR,Nutrient & Soil Management,4576
+BHANDARA,Nutrient & Soil Management,1974
+SATARA,Nutrient & Soil Management,11538
+JALGAON,Seeds & Varieties,8781
+CHANDRAPUR,"Pest, Disease & Weed Mgmt",12432
+RAIGARH,"Govt Schemes, Insurance & Policy",1907
+NANDURBAR,"Pest, Disease & Weed Mgmt",3315
+AKOLA,"Govt Schemes, Insurance & Policy",11847
+PARBHANI,"Govt Schemes, Insurance & Policy",19891
+THANE,"Govt Schemes, Insurance & Policy",2367
+KOLHAPUR,"Govt Schemes, Insurance & Policy",9067
+DHULE,"Pest, Disease & Weed Mgmt",16177
+SATARA,Market & Price Information,3363
+AMRAVATI,Cultural Practices & Mechanization,6086
+BEED,Cultural Practices & Mechanization,9058
+JALNA,Cultural Practices & Mechanization,8519
+NASIK,Other Advisory,1568
+CHANDRAPUR,"Govt Schemes, Insurance & Policy",4599
+HINGOLI,Water Management/Irrigation,879
+AKOLA,Market & Price Information,12494
+NANDURBAR,"Govt Schemes, Insurance & Policy",2070
+PARBHANI,Water Management/Irrigation,1331
+PALGHAR,Weather & Climate Advisory,317
+NASIK,Water Management/Irrigation,1140
+NASIK,Seeds & Varieties,9332
+THANE,Weather & Climate Advisory,2720
+SATARA,Seeds & Varieties,3994
+RATNAGIRI,Weather & Climate Advisory,810
+NASIK,Cultural Practices & Mechanization,9374
+JALGAON,Cultural Practices & Mechanization,6994
+THANE,Nutrient & Soil Management,868
+OSMANABAD,Cultural Practices & Mechanization,5961
+OSMANABAD,Seeds & Varieties,7295
+HINGOLI,Cultural Practices & Mechanization,5618
+WASHIM,Nutrient & Soil Management,14722
+WARDHA,"Govt Schemes, Insurance & Policy",4703
+OSMANABAD,"Govt Schemes, Insurance & Policy",12921
+AURANGABAD,Other Advisory,1296
+RATNAGIRI,Cultural Practices & Mechanization,254
+AURANGABAD,Seeds & Varieties,11084
+LATUR,Seeds & Varieties,6396
+PUNE,Water Management/Irrigation,661
+HINGOLI,Market & Price Information,10859
+GONDIYA,Cultural Practices & Mechanization,837
+JALNA,Other Advisory,1020
+AKOLA,Seeds & Varieties,6356
+NANDURBAR,Seeds & Varieties,957
+BULDANA,Seeds & Varieties,10601
+NANDURBAR,Weather & Climate Advisory,3358
+BHANDARA,Cultural Practices & Mechanization,1165
+WARDHA,Seeds & Varieties,2809
+KOLHAPUR,Other Advisory,564
+CHANDRAPUR,Seeds & Varieties,1807
+BEED,Seeds & Varieties,12007
+NANDED,Seeds & Varieties,13497
+HINGOLI,Seeds & Varieties,6604
+DHULE,Seeds & Varieties,3632
+SATARA,Other Advisory,588
+NANDED,Other Advisory,1388
+0,"Govt Schemes, Insurance & Policy",1171
+SOLAPUR,Animal Husbandry,598
+KOLHAPUR,Market & Price Information,1374
+NAGPUR,Nutrient & Soil Management,6995
+NANDED,Cultural Practices & Mechanization,10698
+GADCHIROLI,Market & Price Information,274
+THANE,Seeds & Varieties,339
+BHANDARA,Seeds & Varieties,889
+PUNE,Cultural Practices & Mechanization,5741
+PUNE,Seeds & Varieties,6022
+PARBHANI,Cultural Practices & Mechanization,7912
+NANDURBAR,Market & Price Information,551
+CHANDRAPUR,Cultural Practices & Mechanization,1932
+NAGPUR,Cultural Practices & Mechanization,2890
+MUMBAI,Nutrient & Soil Management,215
+GONDIYA,Seeds & Varieties,695
+GONDIYA,Nutrient & Soil Management,1334
+BHANDARA,Market & Price Information,656
+RATNAGIRI,"Govt Schemes, Insurance & Policy",2451
+THANE,Cultural Practices & Mechanization,488
+HINGOLI,Unspecified,16268
+OSMANABAD,Water Management/Irrigation,911
+NAGPUR,Animal Husbandry,196
+LATUR,Cultural Practices & Mechanization,5755
+GADCHIROLI,Seeds & Varieties,328
+CHANDRAPUR,Other Advisory,298
+AMRAVATI,Unspecified,20262
+BEED,Other Advisory,1242
+KOLHAPUR,Cultural Practices & Mechanization,3427
+AHMADNAGAR,Water Management/Irrigation,1767
+RAIGARH,Seeds & Varieties,226
+JALNA,Water Management/Irrigation,1189
+OSMANABAD,Other Advisory,791
+SANGLI,Animal Husbandry,173
+AKOLA,Water Management/Irrigation,1153
+SATARA,Animal Husbandry,269
+RAIGARH,Weather & Climate Advisory,845
+WARDHA,Animal Husbandry,93
+AURANGABAD,Animal Husbandry,500
+WASHIM,Animal Husbandry,203
+HINGOLI,Other Advisory,675
+0,Weather & Climate Advisory,2964
+0,"Pest, Disease & Weed Mgmt",1892
+YEVATMAL,Cultural Practices & Mechanization,8420
+PUNE,Animal Husbandry,389
+RAIGARH,Other Advisory,108
+WARDHA,Cultural Practices & Mechanization,2335
+LATUR,Animal Husbandry,311
+GONDIYA,Market & Price Information,213
+MUMBAI,Cultural Practices & Mechanization,256
+MUMBAI,"Govt Schemes, Insurance & Policy",1910
+AHMADNAGAR,Other Advisory,2285
+0,Cultural Practices & Mechanization,376
+GADCHIROLI,Nutrient & Soil Management,876
+0,Market & Price Information,282
+NANDED,Animal Husbandry,423
+SINDHUDURG,"Pest, Disease & Weed Mgmt",796
+RATNAGIRI,Market & Price Information,95
+0,Seeds & Varieties,354
+SOLAPUR,Other Advisory,1561
+BULDANA,Other Advisory,1338
+SINDHUDURG,Weather & Climate Advisory,655
+DHULE,Cultural Practices & Mechanization,2918
+CHANDRAPUR,Unspecified,5419
+NASIK,Unspecified,38301
+PUNE,Unspecified,19013
+BEED,Unspecified,26061
+BULDANA,Unspecified,31699
+JALGAON,Unspecified,23637
+NANDED,Unspecified,29186
+WARDHA,Unspecified,7461
+AURANGABAD,Unspecified,31936
+AHMADNAGAR,Unspecified,49357
+OSMANABAD,Unspecified,17684
+YEVATMAL,Other Advisory,985
+AURANGABAD,Water Management/Irrigation,1258
+LATUR,Water Management/Irrigation,994
+WARDHA,Water Management/Irrigation,419
+AKOLA,Other Advisory,791
+WASHIM,Water Management/Irrigation,1724
+BULDANA,Water Management/Irrigation,1876
+GADCHIROLI,"Govt Schemes, Insurance & Policy",1221
+RATNAGIRI,Nutrient & Soil Management,430
+PALGHAR,Nutrient & Soil Management,121
+JALGAON,Water Management/Irrigation,858
+NANDED,Water Management/Irrigation,2225
+AMRAVATI,Water Management/Irrigation,1148
+RAIGARH,Nutrient & Soil Management,531
+PALGHAR,Cultural Practices & Mechanization,69
+MUMBAI,Seeds & Varieties,120
+MUMBAI,Weather & Climate Advisory,780
+MUMBAI,Other Advisory,89
+PUNE,Other Advisory,1006
+JALGAON,Other Advisory,825
+KOLHAPUR,Water Management/Irrigation,394
+AHMADNAGAR,Animal Husbandry,879
+RATNAGIRI,"Pest, Disease & Weed Mgmt",872
+WASHIM,Other Advisory,905
+PALGHAR,"Pest, Disease & Weed Mgmt",290
+PALGHAR,"Govt Schemes, Insurance & Policy",817
+PARBHANI,Other Advisory,1019
+AMRAVATI,Other Advisory,673
+BULDANA,Animal Husbandry,407
+JALNA,Animal Husbandry,432
+BEED,Animal Husbandry,535
+NASIK,Animal Husbandry,544
+JALNA,Unspecified,26469
+SOLAPUR,Unspecified,30242
+BHANDARA,Unspecified,4726
+LATUR,Unspecified,15231
+0,Nutrient & Soil Management,722
+NAGPUR,Unspecified,10183
+YEVATMAL,Unspecified,22421
+PARBHANI,Unspecified,23181
+GONDIYA,Unspecified,2373
+WASHIM,Unspecified,16732
+SANGLI,Unspecified,12870
+MUMBAI,Market & Price Information,251
+DHULE,Unspecified,8598
+SATARA,Unspecified,11589
+AKOLA,Unspecified,18081
+KOLHAPUR,Unspecified,9248
+NANDURBAR,Unspecified,2195
+NAGPUR,Other Advisory,530
+LATUR,Other Advisory,849
+SINDHUDURG,Unspecified,870
+RAIGARH,Unspecified,946
+THANE,Unspecified,2021
+GADCHIROLI,Unspecified,1316
+MUMBAI,"Pest, Disease & Weed Mgmt",526
+MUMBAI,Unspecified,802
+RATNAGIRI,Unspecified,876
+NAGPUR,Water Management/Irrigation,539
+THANE,Market & Price Information,247
+SATARA,Water Management/Irrigation,442
+SANGLI,Other Advisory,568
+YEVATMAL,Animal Husbandry,230
+THANE,Water Management/Irrigation,27
+9999,Unspecified,1706
+CHANDRAPUR,Animal Husbandry,105
+9999,Market & Price Information,90
+9999,"Pest, Disease & Weed Mgmt",276
+THANE,Animal Husbandry,73
+SINDHUDURG,Seeds & Varieties,200
+NANDURBAR,Cultural Practices & Mechanization,666
+HINGOLI,Animal Husbandry,230
+DHULE,Animal Husbandry,183
+SINDHUDURG,Market & Price Information,67
+JALGAON,Animal Husbandry,380
+PARBHANI,Animal Husbandry,321
+RAIGARH,Cultural Practices & Mechanization,271
+PALGHAR,Seeds & Varieties,89
+Mumbai Suburban,"Govt Schemes, Insurance & Policy",103
+Mumbai Suburban,Nutrient & Soil Management,28
+RATNAGIRI,Seeds & Varieties,191
+DHULE,Other Advisory,405
+WARDHA,Other Advisory,294
+DHULE,Water Management/Irrigation,375
+SANGLI,Water Management/Irrigation,542
+CHANDRAPUR,Water Management/Irrigation,400
+BHANDARA,Other Advisory,205
+NANDURBAR,Other Advisory,93
+AMRAVATI,Animal Husbandry,193
+GONDIYA,Animal Husbandry,39
+BHANDARA,Water Management/Irrigation,197
+PALGHAR,Other Advisory,31
+OSMANABAD,Animal Husbandry,294
+KOLHAPUR,Animal Husbandry,223
+GADCHIROLI,Cultural Practices & Mechanization,386
+GADCHIROLI,Other Advisory,74
+9999,Weather & Climate Advisory,291
+Mumbai Suburban,Unspecified,43
+THANE,Other Advisory,121
+Mumbai Suburban,Weather & Climate Advisory,70
+9999,Cultural Practices & Mechanization,51
+Mumbai Suburban,"Pest, Disease & Weed Mgmt",45
+AKOLA,Animal Husbandry,200
+RATNAGIRI,Animal Husbandry,32
+PALGHAR,Water Management/Irrigation,9
+GADCHIROLI,Water Management/Irrigation,77
+9999,Other Advisory,18
+BHANDARA,Animal Husbandry,74
+9999,Nutrient & Soil Management,148
+GONDIYA,Other Advisory,140
+9999,Water Management/Irrigation,10
+9999,"Govt Schemes, Insurance & Policy",73
+9999,Seeds & Varieties,85
+GONDIYA,Water Management/Irrigation,93
+0,Unspecified,43
+RATNAGIRI,Other Advisory,84
+RAIGARH,Animal Husbandry,46
+SINDHUDURG,Other Advisory,71
+NANDURBAR,Animal Husbandry,19
+Mumbai Suburban,Cultural Practices & Mechanization,25
+GADCHIROLI,Animal Husbandry,27
+0,Other Advisory,28
+NANDURBAR,Water Management/Irrigation,89
+null,Weather & Climate Advisory,29
+SINDHUDURG,Animal Husbandry,25
+RATNAGIRI,Water Management/Irrigation,17
+Mumbai Suburban,Market & Price Information,8
+Mumbai Suburban,Seeds & Varieties,11
+0,Animal Husbandry,14
+PALGHAR,Unspecified,14
+SINDHUDURG,Water Management/Irrigation,14
+PALGHAR,Market & Price Information,42
+MUMBAI,Water Management/Irrigation,20
+RAIGARH,Water Management/Irrigation,25
+null,"Govt Schemes, Insurance & Policy",5
+MUMBAI,Animal Husbandry,29
+PALGHAR,Animal Husbandry,3
+0,Water Management/Irrigation,11
+9999,Animal Husbandry,6
+Mumbai Suburban,Other Advisory,8
+Mumbai Suburban,Water Management/Irrigation,4
+null,Nutrient & Soil Management,2
+null,Seeds & Varieties,1
+Mumbai Suburban,Animal Husbandry,2
+null,"Pest, Disease & Weed Mgmt",9
+null,Animal Husbandry,1
+null,Unspecified,3
+null,Market & Price Information,2
+BHAVNAGAR,"Govt Schemes, Insurance & Policy",1
